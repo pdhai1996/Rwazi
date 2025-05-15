@@ -2,6 +2,8 @@ import { Router } from 'express';
 
 import Paths from '@src/common/constants/Paths';
 import UserRoutes from './UserRoutes';
+import { UserController } from '@src/controllers/UserController';
+import { authRouter } from './AuthRoutes';
 
 
 /******************************************************************************
@@ -17,13 +19,15 @@ const apiRouter = Router();
 const userRouter = Router();
 
 // Get all users
-userRouter.get(Paths.Users.Get, UserRoutes.getAll);
+// userRouter.get(Paths.Users.Get, UserRoutes.getAll);
 userRouter.post(Paths.Users.Add, UserRoutes.add);
-userRouter.put(Paths.Users.Update, UserRoutes.update);
-userRouter.delete(Paths.Users.Delete, UserRoutes.delete);
+// userRouter.put(Paths.Users.Update, UserRoutes.update);
+// userRouter.delete(Paths.Users.Delete, UserRoutes.delete);
 
 // Add UserRouter
 apiRouter.use(Paths.Users.Base, userRouter);
+
+apiRouter.use("/auth", authRouter);
 
 
 /******************************************************************************

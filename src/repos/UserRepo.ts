@@ -1,4 +1,6 @@
 import { BaseRepo } from "./BaseRepo";
 import { User } from "@Prisma/generated/prisma";
 
-export class UserRepo extends BaseRepo<User> {}
+class UserRepo extends BaseRepo<User> {}
+
+export const userRepo = new UserRepo('user');

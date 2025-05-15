@@ -3,21 +3,22 @@ import { transform } from 'jet-validators/utils';
 
 import HttpStatusCodes from '@src/common/constants/HttpStatusCodes';
 import UserService from '@src/services/UserService';
-import User from '@src/models/User';
+// import User from '@src/models/User';
 
 import { IReq, IRes } from './common/types';
 import { parseReq } from './common/util';
+import { UserController } from '@src/controllers/UserController';
 
 
 /******************************************************************************
                                 Constants
 ******************************************************************************/
 
-const Validators = {
-  add: parseReq({ user: User.test }),
-  update: parseReq({ user: User.test }),
-  delete: parseReq({ id: transform(Number, isNumber) }),
-} as const;
+// const Validators = {
+//   add: parseReq({ user: User.test }),
+//   update: parseReq({ user: User.test }),
+//   delete: parseReq({ id: transform(Number, isNumber) }),
+// } as const;
 
 
 /******************************************************************************
@@ -36,8 +37,10 @@ async function getAll(_: IReq, res: IRes) {
  * Add one user.
  */
 async function add(req: IReq, res: IRes) {
-  const { user } = Validators.add(req.body);
-  await UserService.addOne(user);
+  // const { user } = Validators.add(req.body);
+  await UserController.add();
+  console.log('User added');
+  console.log(req, res);
   res.status(HttpStatusCodes.CREATED).end();
 }
 
@@ -45,8 +48,8 @@ async function add(req: IReq, res: IRes) {
  * Update one user.
  */
 async function update(req: IReq, res: IRes) {
-  const { user } = Validators.update(req.body);
-  await UserService.updateOne(user);
+  // const { user } = Validators.update(req.body);
+  // await UserService.updateOne(user);
   res.status(HttpStatusCodes.OK).end();
 }
 
@@ -54,8 +57,8 @@ async function update(req: IReq, res: IRes) {
  * Delete one user.
  */
 async function delete_(req: IReq, res: IRes) {
-  const { id } = Validators.delete(req.params);
-  await UserService.delete(id);
+  // const { id } = Validators.delete(req.params);
+  // await UserService.delete(id);
   res.status(HttpStatusCodes.OK).end();
 }
 

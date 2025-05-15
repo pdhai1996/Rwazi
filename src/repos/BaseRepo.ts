@@ -26,7 +26,7 @@ export class BaseRepo<T extends object, K extends string | number = number> {
   async findOne(where: any, options: { select?: any; include?: any } = {}): Promise<T | null> {
     return this.model.findFirst({
       where,
-      ...options
+      ...options,
     });
   }
 
