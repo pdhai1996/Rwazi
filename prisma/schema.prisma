@@ -37,6 +37,7 @@ model Place {
   name      String
   service_id Int
   service   Service @relation("ServiceToPlace", fields: [service_id], references: [id])
+  location  Unsupported("Point")
   longitude Float
   latitude  Float
   Favorites Favorite[]

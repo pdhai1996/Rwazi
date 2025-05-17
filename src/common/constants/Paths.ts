@@ -8,4 +8,8 @@ export default {
     Update: '/update',
     Delete: '/delete/:id',
   },
+  Places: {
+    Base: '/places',
+    Search: '/search',
+  },
 } as const;

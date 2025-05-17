@@ -4,6 +4,7 @@ import Paths from '@src/common/constants/Paths';
 import UserRoutes from './UserRoutes';
 import { UserController } from '@src/controllers/UserController';
 import { authRouter } from './AuthRoutes';
+import { placeRouter } from './PlaceRoutes';
 
 
 /******************************************************************************
@@ -28,6 +29,9 @@ userRouter.post(Paths.Users.Add, UserRoutes.add);
 apiRouter.use(Paths.Users.Base, userRouter);
 
 apiRouter.use("/auth", authRouter);
+
+// Add PlaceRouter
+apiRouter.use(Paths.Places.Base, placeRouter);
 
 
 /******************************************************************************

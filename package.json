@@ -12,6 +12,9 @@
     "test:run": "NODE_ENV=test vitest run",
     "migrate:test": "dotenv -e ./config/.env.test -- npx prisma migrate deploy",
     "migrate:dev": "dotenv -e ./config/.env.development -- npx prisma migrate deploy",
+    "db:seed": "npx prisma db seed",
+    "db:seed:dev": "dotenv -e ./config/.env.development -- npx prisma db seed",
+    "db:seed:test": "dotenv -e ./config/.env.test -- npx prisma db seed",
     "type-check": "tsc --noEmit"
   },
   "engines": {
@@ -35,6 +38,9 @@
     "jsonwebtoken": "^9.0.2",
     "module-alias": "^2.2.3",
     "morgan": "^1.10.0"
+  },
+  "prisma": {
+    "seed": "ts-node ./prisma/seed.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.26.0",
