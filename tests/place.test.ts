@@ -44,7 +44,7 @@ describe('PlaceService - searchPlaces', () => {
     
     it('should include service filter when serviceId is provided', async () => {
         const mockQueryRaw = vi.spyOn(prisma, '$queryRawUnsafe');
-        mockQueryRaw.mockImplementation(() => Promise.resolve([]));
+        mockQueryRaw.mockImplementation(() => Promise.resolve([]) as any);
         
         await placeService.searchPlaces({ lat: 40.7, lng: -74.0 }, 1000, 2);
         
@@ -57,7 +57,7 @@ describe('PlaceService - searchPlaces', () => {
     
     it('should include keyword filter when keyword is provided', async () => {
         const mockQueryRaw = vi.spyOn(prisma, '$queryRawUnsafe');
-        mockQueryRaw.mockImplementation(() => Promise.resolve([]));
+        mockQueryRaw.mockImplementation(() => Promise.resolve([]) as any);
         
         await placeService.searchPlaces({ lat: 40.7, lng: -74.0 }, 1000, undefined, 'hotel');
         
@@ -70,7 +70,7 @@ describe('PlaceService - searchPlaces', () => {
     
     it('should combine filters when all parameters are provided', async () => {
         const mockQueryRaw = vi.spyOn(prisma, '$queryRawUnsafe');
-        mockQueryRaw.mockImplementation(() => Promise.resolve([]));
+        mockQueryRaw.mockImplementation(() => Promise.resolve([]) as any);
         
         await placeService.searchPlaces({ lat: 40.7, lng: -74.0 }, 1000, 1, 'luxury');
         

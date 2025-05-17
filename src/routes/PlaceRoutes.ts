@@ -11,7 +11,7 @@ placeRouter.get(
   Paths.Places.Search,
   placeValidators.search,     // Apply validation rules
   validateRequest,            // Validation middleware
-  (req, res) => placeController.searchPlaces(req, res)  // Controller
+placeController.searchPlaces  // Controller
 );
 
 export { placeRouter };
