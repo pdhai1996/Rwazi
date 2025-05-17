@@ -6,12 +6,11 @@ import { validateRequest } from '@src/middlewares/ValidationMiddleware';
 
 const placeRouter = Router();
 
-// Search places endpoint with validation
 placeRouter.get(
   Paths.Places.Search,
   placeValidators.search,     // Apply validation rules
   validateRequest,            // Validation middleware
-placeController.searchPlaces  // Controller
+  placeController.searchPlaces  // Controller
 );
 
 export { placeRouter };
