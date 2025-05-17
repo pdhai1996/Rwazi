@@ -2,7 +2,7 @@ import { isNumber } from 'jet-validators';
 import { transform } from 'jet-validators/utils';
 
 import HttpStatusCodes from '@src/common/constants/HttpStatusCodes';
-import UserService from '@src/services/UserService';
+// import UserService from '@src/services/UserService';
 // import User from '@src/models/User';
 
 import { IReq, IRes } from './common/types';
@@ -29,8 +29,8 @@ import { UserController } from '@src/controllers/UserController';
  * Get all users.
  */
 async function getAll(_: IReq, res: IRes) {
-  const users = await UserService.getAll();
-  res.status(HttpStatusCodes.OK).json({ users });
+  // const users = await UserService.getAll();
+  // res.status(HttpStatusCodes.OK).json({ users });
 }
 
 /**
@@ -38,10 +38,10 @@ async function getAll(_: IReq, res: IRes) {
  */
 async function add(req: IReq, res: IRes) {
   // const { user } = Validators.add(req.body);
-  await UserController.add();
-  console.log('User added');
-  console.log(req, res);
-  res.status(HttpStatusCodes.CREATED).end();
+  // await UserController.add();
+  // console.log('User added');
+  // console.log(req, res);
+  // res.status(HttpStatusCodes.CREATED).end();
 }
 
 /**
@@ -50,7 +50,7 @@ async function add(req: IReq, res: IRes) {
 async function update(req: IReq, res: IRes) {
   // const { user } = Validators.update(req.body);
   // await UserService.updateOne(user);
-  res.status(HttpStatusCodes.OK).end();
+  // res.status(HttpStatusCodes.OK).end();
 }
 
 /**
@@ -59,7 +59,7 @@ async function update(req: IReq, res: IRes) {
 async function delete_(req: IReq, res: IRes) {
   // const { id } = Validators.delete(req.params);
   // await UserService.delete(id);
-  res.status(HttpStatusCodes.OK).end();
+  // res.status(HttpStatusCodes.OK).end();
 }
 
 

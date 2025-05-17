@@ -13,18 +13,19 @@ services:
     # volumes:
     #   - mysql_data:/var/lib/mysql
 
-  nodejs:
-    image: node:20
-    container_name: nodejs
+  mysql-test:
+    image: mysql:8.0
+    container_name: mysql-test
     restart: always
-    working_dir: /usr/src/app
-    volumes:
-      - .:/usr/src/app
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: locationsearch
+      MYSQL_USER: localtionsearch
+      MYSQL_PASSWORD: password
     ports:
-      - "3000:3000"
-    command: ["npm", "start"]
-    depends_on:
-      - mysql
+      - "3307:3306"
+    # volumes:
+    #   - mysql_data:/var/lib/mysql
 
 volumes:
   mysql_data:

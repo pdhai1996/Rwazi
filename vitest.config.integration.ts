@@ -5,9 +5,12 @@ const config = defineConfig({
   test: {
     globals: true,
     environment: 'node',
+    include: [
+      'tests/**/*.integration.test.ts',
+    ],
     setupFiles: [
       'config.ts', 
-      './tests/setup/database.ts'
+      './tests/support/setup.ts'
     ],
     isolate: true,
   },
@@ -15,7 +18,6 @@ const config = defineConfig({
     alias: {
       '@src': path.resolve(__dirname, './src'),
       '@prisma': path.resolve(__dirname, './prisma'),
-
     },
   },
 });

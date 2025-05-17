@@ -1,4 +1,4 @@
-import { User } from "@Prisma/generated/prisma";
+import { User } from "@prisma/generated/prisma";
 import { userRepo } from "../repos/UserRepo";
 import { createHash } from "crypto";
 export const UserController = {

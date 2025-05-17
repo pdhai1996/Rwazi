@@ -10,7 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "paths": {
       "@src/*": ["src/*"],
-      "@Prisma/*": ["prisma/*"],
+      "@prisma/*": ["prisma/*"],
     },
     "useUnknownInCatchVariables": false,
     "types": ["vitest/globals"],

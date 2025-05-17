@@ -1,0 +1,14 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-test
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: locationsearch
+      MYSQL_USER: localtionsearch
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3307"
+    # volumes:
+    #   - mysql_data:/var/lib/mysql

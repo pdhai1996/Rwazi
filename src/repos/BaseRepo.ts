@@ -52,4 +52,9 @@ export class BaseRepo<T extends object, K extends string | number = number> {
   async count(where: any = {}): Promise<number> {
     return this.model.count({ where });
   }
+
+  async deleteMany(where: any = {}): Promise<number> {
+    const result = await this.model.deleteMany({ where });
+    return result.count;
+  }
 }
