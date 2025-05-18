@@ -1,55 +1,17 @@
-version: '3.8'
-
 services:
   # Database setup for development
-  db-setup-dev:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: builder
-    container_name: locationsearch-db-setup-dev
-    restart: "no"
+   mysql-test:
+    image: mysql:8.0
+    container_name: mysql-test
+    restart: always
     environment:
-      - NODE_ENV=development
-      - DATABASE_URL=mysql://localtionsearch:password@mysql:3306/locationsearch
-    volumes:
-      - ./config:/app/config
-      - ./prisma:/app/prisma
-      - ./resources:/app/resources
-      - ./scripts:/app/scripts
-    depends_on:
-      - mysql
-    command: >
-      sh -c "
-        ./scripts/wait-for-it.sh mysql 3306 &&
-        echo 'Running database migrations...' &&
-        npx dotenv -e ./config/.env.development -- npx prisma migrate deploy &&
-        echo 'Seeding database...' &&
-        npx dotenv -e ./config/.env.development -- npx prisma db seed
-      "
-
-  api:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: builder # Use the builder stage from Dockerfile
-    command: npm run dev:hot
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: locationsearch
+      MYSQL_USER: localtionsearch
+      MYSQL_PASSWORD: password
     ports:
-      - "3000:3000"
-    environment:
-      - NODE_ENV=development
-      - PORT=3000
-      - DATABASE_URL=mysql://localtionsearch:password@mysql:3306/locationsearch
-    volumes:
-      - ./src:/app/src
-      - ./config:/app/config
-      - ./prisma:/app/prisma
-      - ./resources:/app/resources
-    depends_on:
-      - mysql
-      - db-setup-dev
-
-  mysql:
+      - "3307:3306"   
+   mysql:
     image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: root
@@ -58,11 +20,6 @@ services:
       MYSQL_PASSWORD: password
     ports:
       - "3306:3306"
-    volumes:
-      - mysql_dev_data:/var/lib/mysql
-
-volumes:
-  mysql_dev_data:
 
 networks:
   default:

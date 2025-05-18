@@ -7,7 +7,7 @@
     "dev": "NODE_ENV=development ts-node ./src",
     "dev:hot": "nodemon --exec \"npm run dev\" --watch ./src --ext .ts",
     "lint": "eslint .",
-    "start": "NODE_ENV=production dotenv -e ./dist/config/.env.production -- node -r ./config.js ./dist",
+    "start": "NODE_ENV=production node -r ./config.js ./dist",
     "test": "NODE_ENV=test vitest",
     "test:run": "NODE_ENV=test vitest run",
     "test:sequential": "NODE_ENV=test vitest",
@@ -16,9 +16,11 @@
     "test:integration:watch": "NODE_ENV=test vitest --config ./vitest.config.integration.ts",
     "migrate:test": "dotenv -e ./config/.env.test -- npx prisma migrate deploy",
     "migrate:dev": "dotenv -e ./config/.env.development -- npx prisma migrate deploy",
+    "migrate:production": "dotenv -e ./config/.env.production -- npx prisma migrate deploy",
     "db:seed": "npx prisma db seed",
     "db:seed:dev": "dotenv -e ./config/.env.development -- npx prisma db seed",
     "db:seed:test": "dotenv -e ./config/.env.test -- npx prisma db seed",
+    "db:seed:production": "dotenv -e ./config/.env.production -- npx prisma db seed",
     "type-check": "tsc --noEmit"
   },
   "engines": {

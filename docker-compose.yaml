@@ -3,27 +3,24 @@ services:
   db-setup:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.db-setup
     container_name: locationsearch-db-setup
     restart: "no"
     environment:
       - NODE_ENV=production
-      - DATABASE_URL=mysql://localtionsearch:password@mysql:3306/locationsearch
     volumes:
-      - ./config/.env.production:/app/dist/config/.env.production
-      - ./prisma:/app/prisma
-      - ./resources:/app/resources
+      - ./config/.env.production:/app/config/.env.production
     networks:
       - locationsearch-network
     depends_on:
       - mysql
+    # Adding a healthcheck for MySQL before proceeding
     command: >
       sh -c "
-        ./scripts/wait-for-it.sh mysql 3306 &&
-        echo 'Running database migrations...' &&
-        npx dotenv -e ./dist/config/.env.production -- npx prisma migrate deploy &&
-        echo 'Seeding database...' &&
-        npx dotenv -e ./dist/config/.env.production -- npx prisma db seed
+        echo 'Waiting for MySQL...' &&
+        for i in {1..30}; do nc -z mysql 3306 && break || sleep 1; done &&
+        echo 'Running database migrations and seeding...' &&
+        npm run migrate:production && npm run db:seed:production
       "
 
   api:
@@ -41,7 +38,7 @@ services:
       - mysql
       - db-setup
     volumes:
-      - ./config/.env.production:/app/dist/config/.env.production
+      - ./config/.env.production:/app/config/.env.production
     networks:
       - locationsearch-network
 

@@ -1,0 +1,23 @@
+# Build stage for DB setup operations
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy package files and install dependencies
+COPY package*.json ./
+RUN npm ci
+# Install dotenv-cli globally to ensure it's available
+RUN npm install -g dotenv-cli
+
+# Copy the source code
+COPY . .
+
+# Create necessary config directories and env files if they don't exist
+RUN mkdir -p ./config
+RUN touch ./config/.env.production ./config/.env.development ./config/.env.test
+
+# Generate Prisma client with production environment
+RUN npx prisma generate
+
+# Set the default command to run migrations and seed the database
+CMD npm run migrate:production && npm run db:seed:production

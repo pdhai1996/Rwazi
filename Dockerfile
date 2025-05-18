@@ -6,6 +6,7 @@ WORKDIR /app
 # Copy package files and install dependencies
 COPY package*.json ./
 RUN npm ci
+RUN npm install -g dotenv-cli
 
 # Copy the source code
 COPY . .
@@ -15,11 +16,8 @@ RUN mkdir -p ./config
 RUN touch ./config/.env.production ./config/.env.development ./config/.env.test
 
 # Generate Prisma client with production environment
-RUN if [ -f "./config/.env.production" ]; then \
-      npx dotenv -e ./config/.env.production -- prisma generate; \
-    else \
-      npx prisma generate; \
-    fi
+RUN npx prisma generate
+
 
 # Build the application
 RUN npm run build
@@ -40,6 +38,7 @@ COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/config.js ./config.js
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/src ./src
 
 # Copy Prisma files needed for runtime
 COPY --from=builder /app/prisma ./prisma
