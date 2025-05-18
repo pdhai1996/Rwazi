@@ -12,11 +12,8 @@ class PlaceController {
             const page = req.query.page ? Number(req.query.page) : undefined;
             const pageSize = req.query.pageSize ? Number(req.query.pageSize) : undefined;
             
-            // Include user information from authentication middleware
-            const userId = req.user?.id;
-            
-            // Log search request with user ID if available
-            console.log(`Search places request from user ${userId || 'unknown'}: location(${lat},${lng}), radius: ${radius}m`);
+            // Log search request with generic information only
+            console.log(`Search places request: location(${lat},${lng}), radius: ${radius}m`);
             
             const results = await placeService.searchPlaces(
                 location, 
@@ -24,8 +21,7 @@ class PlaceController {
                 serviceId, 
                 keyword, 
                 page, 
-                pageSize,
-                userId
+                pageSize
             );
             res.status(200).json(results);
         } catch (error) {

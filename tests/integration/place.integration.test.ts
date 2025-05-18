@@ -146,12 +146,6 @@ describe('Place Search API - Integration Tests', () => {
     expect(response.body).toHaveProperty('data');
     expect(response.body.data).toBeInstanceOf(Array);
     expect(response.body).toHaveProperty('pagination');
-    
-    // Check that all places have isFavorited property when user is authenticated
-    response.body.data.forEach((place: any) => {
-      expect(place).toHaveProperty('isFavorited');
-      expect(typeof place.isFavorited).toBe('boolean');
-    });
 
     // Count places that should be within 5km radius
     // In our test data, places with IDs 1, 2, 4, 5, 7, 8, 9 are within 5km of NYC center
@@ -259,38 +253,6 @@ describe('Place Search API - Integration Tests', () => {
     expect(response.status).toBe(422);
     expect(response.body.errors).toBeInstanceOf(Array);
     expect(response.body.errors.length).toBeGreaterThan(0);
-  });
-
-  it('should mark favorited places in search results', async () => {
-    // First add a place to favorites
-    const testPlaceId = testPlaces[0].id;
-    await supertest(app)
-      .post('/api/favorites/add')
-      .set('Authorization', `Bearer ${authToken}`)
-      .send({ placeId: testPlaceId });
-      
-    // Then search for places
-    const response = await supertest(app)
-      .get('/api/places/search')
-      .set('Authorization', `Bearer ${authToken}`)
-      .query({
-        lat: nycCenter.latitude,
-        lng: nycCenter.longitude,
-        radius: 20 // 20km radius to include all test places
-      });
-      
-    expect(response.status).toBe(200);
-    
-    // Find the place we just favorited in the results
-    const favoritedPlace = response.body.data.find((place: any) => place.id === testPlaceId);
-    expect(favoritedPlace).toBeDefined();
-    expect(favoritedPlace.isFavorited).toBe(true);
-    
-    // Check that other places are not marked as favorited
-    const nonFavoritedPlaces = response.body.data.filter((place: any) => place.id !== testPlaceId);
-    nonFavoritedPlaces.forEach((place: any) => {
-      expect(place.isFavorited).toBe(false);
-    });
   });
 
   it('should support pagination', async () => {
