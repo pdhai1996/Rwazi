@@ -1,3 +1,4 @@
+// filepath: /var/www/LocationSearch/src/services/FavoriteService.ts
 import { PrismaClient } from '@prisma/generated/prisma';
 import prisma from '../../prisma/client';
 
@@ -49,12 +50,25 @@ class FavoriteService {
   }
 
   /**
-   * Get all favorites for a user
+   * Get favorites for a user with pagination
    * @param userId User ID
-   * @returns Array of favorite places
+   * @param page Page number (starts from 1)
+   * @param pageSize Number of items per page
+   * @returns Object containing paged favorites and pagination metadata
    */
-  async getUserFavorites(userId: number) {
+  async getUserFavorites(userId: number, page: number = 1, pageSize: number = 10) {
     try {
+      // Calculate skip value for pagination
+      const skip = (page - 1) * pageSize;
+      
+      // Get total count for pagination metadata
+      const totalCount = await prisma.favorite.count({
+        where: {
+          user_id: userId
+        }
+      });
+      
+      // Get paginated favorites
       const favorites = await prisma.favorite.findMany({
         where: {
           user_id: userId
@@ -65,10 +79,15 @@ class FavoriteService {
               service: true
             }
           }
+        },
+        skip,
+        take: pageSize,
+        orderBy: {
+          createdAt: 'desc' // Most recently added first
         }
       });
 
-      return favorites.map(fav => ({
+      const mappedFavorites = favorites.map(fav => ({
         id: fav.id,
         place_id: fav.place_id,
         place: {
@@ -77,6 +96,21 @@ class FavoriteService {
         },
         createdAt: fav.createdAt
       }));
+      
+      // Calculate pagination metadata
+      const totalPages = Math.ceil(totalCount / pageSize);
+      
+      return {
+        data: mappedFavorites,
+        pagination: {
+          page,
+          pageSize,
+          totalRecords: totalCount,
+          totalPages,
+          hasNextPage: page < totalPages,
+          hasPreviousPage: page > 1
+        }
+      };
     } catch (error) {
       throw error;
     }

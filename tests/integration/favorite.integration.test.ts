@@ -26,7 +26,7 @@ describe('Favorite Places API - Integration Tests', () => {
   it('should require authentication', async () => {
     // Attempt to add favorite without auth token
     const response = await supertest(app)
-      .post('/api/favorites/add')
+      .post('/api/favorites')
       .send({ placeId: testPlaceId });
       
     expect(response.status).toBe(401);
@@ -36,7 +36,7 @@ describe('Favorite Places API - Integration Tests', () => {
   it('should validate place ID when adding to favorites', async () => {
     // Invalid place ID (non-numeric)
     const invalidResponse = await supertest(app)
-      .post('/api/favorites/add')
+      .post('/api/favorites')
       .set('Authorization', `Bearer ${authToken}`)
       .send({ placeId: 'abc' });
     
@@ -47,7 +47,7 @@ describe('Favorite Places API - Integration Tests', () => {
 
   it('should add a place to favorites', async () => {
     const response = await supertest(app)
-      .post('/api/favorites/add')
+      .post('/api/favorites')
       .set('Authorization', `Bearer ${authToken}`)
       .send({ placeId: testPlaceId });
     
@@ -60,22 +60,22 @@ describe('Favorite Places API - Integration Tests', () => {
   it('should retrieve user favorites', async () => {
     // First add a place to favorites
     await supertest(app)
-      .post('/api/favorites/add')
+      .post('/api/favorites')
       .set('Authorization', `Bearer ${authToken}`)
       .send({ placeId: testPlaceId });
     
     // Then retrieve favorites
     const response = await supertest(app)
-      .get('/api/favorites/all')
+      .get('/api/favorites')
       .set('Authorization', `Bearer ${authToken}`);
     
     expect(response.status).toBe(200);
-    expect(response.body).toHaveProperty('favorites');
-    expect(response.body.favorites).toBeInstanceOf(Array);
-    expect(response.body.favorites.length).toBeGreaterThan(0);
+    expect(response.body).toHaveProperty('data');
+    expect(response.body.data).toBeInstanceOf(Array);
+    expect(response.body.data.length).toBeGreaterThan(0);
     
     // Check the first favorite (which we just added)
-    const firstFavorite = response.body.favorites[0];
+    const firstFavorite = response.body.data[0];
     expect(firstFavorite).toHaveProperty('place');
     expect(firstFavorite.place.id).toBe(testPlaceId);
   });
@@ -83,7 +83,7 @@ describe('Favorite Places API - Integration Tests', () => {
   it('should remove a place from favorites', async () => {
     // First add a place to favorites
     const addResponse = await supertest(app)
-      .post('/api/favorites/add')
+      .post('/api/favorites')
       .set('Authorization', `Bearer ${authToken}`)
       .send({ placeId: testPlaceId });
     
@@ -100,11 +100,11 @@ describe('Favorite Places API - Integration Tests', () => {
     
     // Verify it's removed by getting all favorites
     const listResponse = await supertest(app)
-      .get('/api/favorites/all')
+      .get('/api/favorites')
       .set('Authorization', `Bearer ${authToken}`);
     
     // Make sure the removed favorite is not in the list
-    const favorites = listResponse.body.favorites;
+    const favorites = listResponse.body.data;
     const favIds = favorites.map((f: any) => f.id);
     expect(favIds).not.toContain(favoriteId);
   });
@@ -122,7 +122,7 @@ describe('Favorite Places API - Integration Tests', () => {
   it('should check if a place is favorited', async () => {
     // First add a place to favorites
     await supertest(app)
-      .post('/api/favorites/add')
+      .post('/api/favorites')
       .set('Authorization', `Bearer ${authToken}`)
       .send({ placeId: testPlaceId });
     

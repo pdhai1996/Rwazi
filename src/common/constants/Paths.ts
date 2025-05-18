@@ -1,4 +1,4 @@
-
+// filepath: /var/www/LocationSearch/src/common/constants/Paths.ts
 export default {
   Base: '/api',
   Users: {
@@ -14,8 +14,8 @@ export default {
   },
   Favorites: {
     Base: '/favorites',
-    Add: '/add',
-    Get: '/all',
+    Add: '', // Changed from '/add' to '' for POST /api/favorites
+    Get: '', // Changed from '/all' to '' for GET /api/favorites
     Remove: '/:favoriteId',
     Check: '/check/:placeId',
   },

@@ -10,7 +10,7 @@ const favoriteRouter = Router();
 // All favorite routes require authentication
 favoriteRouter.use(AuthMiddleware);
 
-// Add place to favorites
+// Add place to favorites (POST /api/favorites)
 favoriteRouter.post(
   Paths.Favorites.Add,
   favoriteValidators.addFavorite,
@@ -18,9 +18,11 @@ favoriteRouter.post(
   favoriteController.addFavorite
 );
 
-// Get all user favorites
+// Get user favorites with pagination (GET /api/favorites)
 favoriteRouter.get(
   Paths.Favorites.Get,
+  favoriteValidators.getUserFavorites,
+  validateRequest,
   favoriteController.getUserFavorites
 );
 
