@@ -1,65 +1,135 @@
-## About
+# LocationSearch API
 
-This project was created with [express-generator-typescript](https://github.com/seanpmaxwell/express-generator-typescript).
+A location-based search service that helps users find places by coordinates, radius, service types, and keywords with spatial querying capabilities.
 
-**IMPORTANT** for demo purposes I had to disable `helmet` in production. In any real world app you should change these 3 lines of code in `src/server.ts`:
-```ts
-// eslint-disable-next-line n/no-process-env
-if (!process.env.DISABLE_HELMET) {
-  app.use(helmet());
-}
+## Features
+
+- Search for places by geographical location (latitude/longitude)
+- Filter by distance radius (meters)
+- Filter by service type
+- Search by keywords
+- Paginated results with distance calculations
+- Spatial indexing for fast geo-queries
+
+
+## Getting Started with Docker Compose
+
+The simplest way to run this application is using Docker Compose, which will set up the entire environment including the database, migrations, and API server.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- Node.js version 20
+- npx and dotenv (for development and test modes)
+
+### Installation
+
+To install the application and its dependencies:
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd LocationSearch
 ```
 
-To just this:
-```ts
-app.use(helmet());
+2. Install dependencies:
+```bash
+npm install
 ```
 
+3. Install npx globally (if not already installed):
+```bash
+npm install -g npx
+```
 
-## Available Scripts
+4. If you're developing locally (outside Docker), install additional development dependencies:
+```bash
+npm install -D dotenv-cli
+```
 
-### `npm run clean-install`
+### Configuration
 
-Remove the existing `node_modules/` folder, `package-lock.json`, and reinstall all library modules.
+The application uses environment variables for configuration. Sample configuration files are provided in the `config` directory:
 
+1. Copy the sample environment file for production:
 
-### `npm run dev` or `npm run dev:hot` (hot reloading)
+```bash
+cp config/.env.example config/.env.production
+```
 
-Run the server in development mode.<br/>
+2. Edit the file with your specific settings if needed.
 
-**IMPORTANT** development mode uses `swc` for performance reasons which DOES NOT check for typescript errors. Run `npm run type-check` to check for type errors. NOTE: you should use your IDE to prevent most type errors.
+### Running the Application
 
+#### Production Mode
 
-### `npm test` or `npm run test:hot` (hot reloading)
+To start the application in production mode:
 
-Run all unit-tests.
+```bash
+docker-compose up -d
+```
 
+This command:
+1. Builds the API image
+2. Starts a MySQL database container
+3. Runs database migrations and seeds initial data
+4. Starts the API server on port 8081
 
-### `npm test -- "name of test file" (i.e. users).`
+#### Development Mode
 
-Run a single unit-test.
+For development with a separate database:
 
+```bash
+docker-compose -f docker-compose.dev.yaml up -d
+```
 
-### `npm run lint`
-
-Check for linting errors.
-
-
-### `npm run build`
-
-Build the project for production.
-
-
-### `npm start`
-
-Run the production build (Must be built first).
-
-
-### `npm run type-check`
-
-Check for typescript errors.
+This starts just the MySQL databases (development and test) without the API, allowing you to run the app locally using your Node.js installation.
 
 
-## Additional Notes
 
-- If `npm run dev` gives you issues with bcrypt on MacOS you may need to run: `npm rebuild bcrypt --build-from-source`. 
+### Accessing the Application
+
+After starting the containers:
+
+- API Endpoints: http://localhost:8081/api
+- Swagger Documentation: http://localhost:8081/api/docs
+
+### Stopping the Application
+
+To stop all running containers:
+
+```bash
+docker-compose down
+```
+
+To stop and remove volumes (this will delete all data):
+
+```bash
+docker-compose down -v
+```
+
+## API Reference
+
+The LocationSearch API provides the following endpoints:
+
+### Authentication
+
+- **POST /api/login**: Authenticate users and receive an access token
+
+### Places
+
+- **GET /api/places/search**: Search for places by location (latitude/longitude), radius, service type, and keywords
+  - Required parameters: `lat`, `lng`, `radius`
+  - Optional parameters: `serviceId`, `keyword`, `page`, `pageSize`
+  - Returns places with distance calculation from search point and pagination
+
+### Favorites
+
+- **POST /api/favorites**: Add a place to user's favorites
+- **GET /api/favorites**: Get user's favorited places with pagination
+- **DELETE /api/favorites/:favoriteId**: Remove a place from favorites
+
+All API endpoints are documented with Swagger UI, accessible at http://localhost:8081/api/docs when the application is running.
