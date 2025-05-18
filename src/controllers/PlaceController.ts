@@ -11,7 +11,7 @@ class PlaceController {
             const keyword = req.query.keyword ? String(req.query.keyword) : undefined;
             const page = req.query.page ? Number(req.query.page) : undefined;
             const pageSize = req.query.pageSize ? Number(req.query.pageSize) : undefined;
-            
+            // const userId = req.user?.id;
             const results = await placeService.searchPlaces(location, radius, serviceId, keyword, page, pageSize);
             res.status(200).json(results);
         } catch (error) {

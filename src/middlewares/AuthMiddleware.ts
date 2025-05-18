@@ -1,21 +1,29 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
+import { ParamsDictionary } from 'express-serve-static-core';
+import { ParsedQs } from 'qs';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret';
 
-export interface AuthenticatedRequest extends Request {
+export interface AuthenticatedRequest<
+    P = ParamsDictionary,
+    ResBody = any,
+    ReqBody = any, 
+    ReqQuery = ParsedQs
+> extends Request<P, ResBody, ReqBody, ReqQuery> {
     user?: any;
 }
 
 export const AuthMiddleware = (
-    req: AuthenticatedRequest,
+    req: AuthenticatedRequest<any, any, any, any>,
     res: Response,
     next: NextFunction
-) => {
+): void => {
     const authHeader = req.headers.authorization;
 
     if (!authHeader || !authHeader.startsWith('Bearer ')) {
-        return res.status(401).json({ message: 'No token provided' });
+        res.status(401).json({ message: 'No token provided' });
+        return;
     }
 
     const token = authHeader.split(' ')[1];
@@ -25,6 +33,7 @@ export const AuthMiddleware = (
         req.user = decoded;
         next();
     } catch (err) {
-        return res.status(401).json({ message: 'Invalid token' });
+        res.status(401).json({ message: 'Invalid token' });
+        return;
     }
 };

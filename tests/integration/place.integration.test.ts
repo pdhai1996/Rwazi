@@ -1,22 +1,42 @@
-import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vitest';
 import supertest from 'supertest';
 import app from '@src/server';
 import prisma from '../../prisma/client';
-import { loadTestData, clearTestData, nycCenter, testPlaces } from '../helpers/test-data';
+import { loadTestData, clearTestData, nycCenter, testPlaces, generateTestToken } from '../helpers/test-data';
 
 describe('Place Search API - Integration Tests', () => {
+  let authToken: string;
+
   beforeAll(async () => {
     await loadTestData(prisma);
+  });
+
+  beforeEach(() => {
+    // Generate fresh auth token before each test
+    authToken = generateTestToken();
   });
 
   afterAll(async () => {
     await clearTestData(prisma);
   });
 
+  it('should require authentication', async () => {
+    const response = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lat: nycCenter.latitude,
+        lng: nycCenter.longitude,
+        radius: 5
+      });
+    expect(response.status).toBe(401);
+    expect(response.body.message).toBe('No token provided');
+  });
+
   it('should validate required latitude and longitude parameters', async () => {
     // Missing latitude
     const missingLat = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lng: nycCenter.longitude,
         radius: 5
@@ -28,6 +48,7 @@ describe('Place Search API - Integration Tests', () => {
     // Missing longitude
     const missingLng = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         radius: 5
@@ -41,6 +62,7 @@ describe('Place Search API - Integration Tests', () => {
     // Invalid latitude (out of range)
     const invalidLat = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: 100, // Out of range
         lng: nycCenter.longitude,
@@ -51,6 +73,7 @@ describe('Place Search API - Integration Tests', () => {
     // Invalid longitude (out of range)
     const invalidLng = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: 200, // Out of range
@@ -63,6 +86,7 @@ describe('Place Search API - Integration Tests', () => {
     // Negative radius
     const negativeRadius = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -73,6 +97,7 @@ describe('Place Search API - Integration Tests', () => {
     // Invalid page number
     const invalidPage = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -84,6 +109,7 @@ describe('Place Search API - Integration Tests', () => {
     // Invalid pageSize
     const invalidPageSize = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -96,6 +122,7 @@ describe('Place Search API - Integration Tests', () => {
   it('should return nearby places within 5km radius', async () => {
     const response = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -133,6 +160,7 @@ describe('Place Search API - Integration Tests', () => {
   it('should filter places by service type', async () => {
     const response = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -154,6 +182,7 @@ describe('Place Search API - Integration Tests', () => {
   it('should filter places by keyword', async () => {
     const response = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -174,6 +203,7 @@ describe('Place Search API - Integration Tests', () => {
   it('should combine service type and keyword filters', async () => {
     const response = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -199,6 +229,7 @@ describe('Place Search API - Integration Tests', () => {
   it('should return validation error for invalid coordinates', async () => {
     const response = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: 'invalid',
         lng: nycCenter.longitude,
@@ -214,6 +245,7 @@ describe('Place Search API - Integration Tests', () => {
     // First page (2 items)
     const firstPageResponse = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
@@ -235,6 +267,7 @@ describe('Place Search API - Integration Tests', () => {
     // Second page (should have different items)
     const secondPageResponse = await supertest(app)
       .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,

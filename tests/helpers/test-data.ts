@@ -1,4 +1,6 @@
 import { PrismaClient } from "@prisma/generated/prisma";
+import jwt from 'jsonwebtoken';
+import { createHash } from 'crypto';
 
 // Define service types
 export const testServices = [
@@ -6,6 +8,14 @@ export const testServices = [
   { id: 2, name: 'Gas Stations' },
   { id: 3, name: 'Coffee' },
 ];
+
+// Define test user
+export const testUser = {
+  id: 999,
+  username: 'placeTester',
+  name: 'Place Test User',
+  password: createHash('sha256').update('password123').digest('hex'),
+};
 
 // Define test locations
 // Central coordinate for reference: New York City (40.7128, -74.0060)
@@ -103,6 +113,15 @@ export const nycCenter = {
   longitude: -74.0060
 };
 
+// Generate a test JWT token for authentication
+export const generateTestToken = () => {
+  return jwt.sign(
+    { id: testUser.id, username: testUser.username },
+    process.env.JWT_SECRET || 'test-secret',
+    { expiresIn: '1h' }
+  );
+};
+
 // Function to load test data into the database
 export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
   // Insert service types
@@ -110,6 +129,26 @@ export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
     data: testServices,
     skipDuplicates: true,
   });
+  
+  // Insert test user if not exists
+  try {
+    await prisma.user.upsert({
+      where: { id: testUser.id },
+      update: {
+        username: testUser.username,
+        name: testUser.name,
+        password: testUser.password
+      },
+      create: {
+        id: testUser.id,
+        username: testUser.username,
+        name: testUser.name,
+        password: testUser.password
+      }
+    });
+  } catch (error) {
+    console.log('User already exists or could not be created:', error);
+  }
 
   // Insert places
   for (const place of testPlaces) {
@@ -155,6 +194,12 @@ export const clearTestData = async (prisma: PrismaClient): Promise<void> => {
       id: {
         in: serviceIds,
       },
+    },
+  });
+
+  await prisma.user.deleteMany({
+    where: {
+      id: testUser.id,
     },
   });
 };

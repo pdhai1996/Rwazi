@@ -106,7 +106,6 @@ describe('POST /login', () => {
     });
 
     it('should respond with a token for valid credentials', async () => {
-        console.log("Test login");
         const response = await supertest(app).post('/api/auth/login').send({
             username: testUserName,
             password: testPassword

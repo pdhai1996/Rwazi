@@ -11,9 +11,7 @@ export const UserController = {
             username: 'rwazi',
             password: createHash('sha256').update('password').digest('hex'),
         };
-        console.log('fakeUser', fakeUser);
         await userRepo.create(fakeUser);
-        console.log('Finish created user');
     },
     
     // update: async (req, res) => {
