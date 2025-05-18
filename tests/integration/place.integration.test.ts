@@ -57,6 +57,20 @@ describe('Place Search API - Integration Tests', () => {
     expect(missingLng.body.errors).toBeInstanceOf(Array);
     expect(missingLng.body.errors.some((e: any) => e.path === 'lng')).toBe(true);
   });
+  
+  it('should validate required radius parameter', async () => {
+    // Missing radius
+    const missingRadius = await supertest(app)
+      .get('/api/places/search')
+      .set('Authorization', `Bearer ${authToken}`)
+      .query({
+        lat: nycCenter.latitude,
+        lng: nycCenter.longitude
+      });
+    expect(missingRadius.status).toBe(422);
+    expect(missingRadius.body.errors).toBeInstanceOf(Array);
+    expect(missingRadius.body.errors.some((e: any) => e.path === 'radius')).toBe(true);
+  });
 
   it('should validate latitude and longitude ranges', async () => {
     // Invalid latitude (out of range)
