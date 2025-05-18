@@ -2,9 +2,10 @@ import { Router } from 'express';
 
 import Paths from '@src/common/constants/Paths';
 import UserRoutes from './UserRoutes';
-import { UserController } from '@src/controllers/UserController';
+// import { UserController } from '@src/controllers/UserController';
 import { authRouter } from './AuthRoutes';
 import { placeRouter } from './PlaceRoutes';
+import { favoriteRouter } from './FavoriteRoutes';
 
 
 /******************************************************************************
@@ -34,7 +35,6 @@ apiRouter.use("/auth", authRouter);
 apiRouter.use(Paths.Places.Base, placeRouter);
 
 // Import FavoriteRouter
-import { favoriteRouter } from './FavoriteRoutes';
 
 // Add FavoriteRouter
 apiRouter.use(Paths.Favorites.Base, favoriteRouter);

@@ -1,9 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach, beforeAll, afterAll } from 'vitest';
 import { placeService } from '@src/services/PlaceService';
 import prisma from '@prisma/client';
-import supertest from 'supertest';
-import app from '@src/server';
-import { loadTestData, clearTestData } from './helpers/test-data';
 
 describe('PlaceService - searchPlaces', () => {
     it('should search places by location and radius', async () => {

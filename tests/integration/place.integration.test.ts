@@ -1,23 +1,22 @@
-import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vitest';
+import { describe, it, expect, beforeAll, beforeEach } from 'vitest';
 import supertest from 'supertest';
 import app from '@src/server';
 import prisma from '../../prisma/client';
-import { loadTestData, clearTestData, nycCenter, testPlaces, generateTestToken } from '../helpers/test-data';
+import { nycCenter, testPlaces, generateTestToken } from '../helpers/test-data';
+import { ensureTestData } from '../helpers/test-setup';
 
 describe('Place Search API - Integration Tests', () => {
   let authToken: string;
 
   beforeAll(async () => {
-    await loadTestData(prisma);
+    // This will be a no-op if data is already loaded by global setup
+    await ensureTestData();
+    console.log('Place integration tests setup complete');
   });
 
   beforeEach(() => {
     // Generate fresh auth token before each test
     authToken = generateTestToken();
-  });
-
-  afterAll(async () => {
-    await clearTestData(prisma);
   });
 
   it('should require authentication', async () => {

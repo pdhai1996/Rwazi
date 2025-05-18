@@ -12,6 +12,8 @@
     "test:run": "NODE_ENV=test vitest run",
     "test:sequential": "NODE_ENV=test vitest",
     "test:run:sequential": "NODE_ENV=test vitest run",
+    "test:integration": "NODE_ENV=test ts-node ./scripts/run-integration.ts",
+    "test:integration:watch": "NODE_ENV=test vitest --config ./vitest.config.integration.ts",
     "migrate:test": "dotenv -e ./config/.env.test -- npx prisma migrate deploy",
     "migrate:dev": "dotenv -e ./config/.env.development -- npx prisma migrate deploy",
     "db:seed": "npx prisma db seed",

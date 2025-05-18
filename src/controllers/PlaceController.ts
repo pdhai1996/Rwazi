@@ -13,7 +13,7 @@ class PlaceController {
             const pageSize = req.query.pageSize ? Number(req.query.pageSize) : undefined;
             
             // Log search request with generic information only
-            console.log(`Search places request: location(${lat},${lng}), radius: ${radius}m`);
+            // console.log(`Search places request: location(${lat},${lng}), radius: ${radius}m`);
             
             const results = await placeService.searchPlaces(
                 location, 

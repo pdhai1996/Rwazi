@@ -13,9 +13,9 @@ class FavoriteController {
         return;
       }
 
-      const { placeId } = req.body;
+      const { place_id } = req.body;
       
-      const favorite = await favoriteService.addFavorite(userId, Number(placeId));
+      const favorite = await favoriteService.addFavorite(userId, Number(place_id));
       res.status(200).json({ 
         message: 'Place added to favorites', 
         favorite 
@@ -41,6 +41,11 @@ class FavoriteController {
       }
 
       const { placeId } = req.params;
+      
+      if (!placeId) {
+        res.status(422).json({ message: 'Place ID is required' });
+        return;
+      }
       
       const isFavorited = await favoriteService.isFavorited(userId, Number(placeId));
       res.status(200).json({ isFavorited });

@@ -2,7 +2,7 @@ import { body, param, query } from 'express-validator';
 
 export const favoriteValidators = {
     addFavorite: [
-        body('placeId')
+        body('place_id')
             .exists().withMessage('Place ID is required')
             .isInt({ min: 1 }).withMessage('Place ID must be a valid positive integer')
     ],

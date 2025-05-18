@@ -9,15 +9,26 @@ const config = defineConfig({
       'tests/**/*.integration.test.ts',
     ],
     setupFiles: [
-      'config.ts', 
-        './tests/setup/database.ts'
+      'config.ts'  // Only load the core config
     ],
-    isolate: true,
+    globalSetup: ['./tests/setup/global-setup.ts'], // Use only the global setup
+    sequence: {
+      // setupFiles: 'sequential',
+      // hooks: 'sequential',
+      // testFiles: 'sequential',
+    },
+    // Set isolate to false to share global state between tests
+    isolate: false,
+    // Run tests sequentially in a single thread to avoid race conditions
+    // singleThread: true,
     poolOptions: {
       threads: {
         singleThread: true,
+        isolate: false
       }
-    }
+    },
+    // Longer timeout for integration tests that interact with a database
+    testTimeout: 30000
   },
   resolve: {
     alias: {
