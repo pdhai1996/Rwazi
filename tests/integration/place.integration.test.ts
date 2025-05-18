@@ -25,7 +25,7 @@ describe('Place Search API - Integration Tests', () => {
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
-        radius: 5
+        radius: 5,
       });
     expect(response.status).toBe(401);
     expect(response.body.message).toBe('No token provided');
@@ -38,7 +38,7 @@ describe('Place Search API - Integration Tests', () => {
       .set('Authorization', `Bearer ${authToken}`)
       .query({
         lng: nycCenter.longitude,
-        radius: 5
+        radius: 5,
       });
     expect(missingLat.status).toBe(422);
     expect(missingLat.body.errors).toBeInstanceOf(Array);
@@ -50,7 +50,7 @@ describe('Place Search API - Integration Tests', () => {
       .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
-        radius: 5
+        radius: 5,
       });
     expect(missingLng.status).toBe(422);
     expect(missingLng.body.errors).toBeInstanceOf(Array);
@@ -64,7 +64,7 @@ describe('Place Search API - Integration Tests', () => {
       .set('Authorization', `Bearer ${authToken}`)
       .query({
         lat: nycCenter.latitude,
-        lng: nycCenter.longitude
+        lng: nycCenter.longitude,
       });
     expect(missingRadius.status).toBe(422);
     expect(missingRadius.body.errors).toBeInstanceOf(Array);
@@ -79,7 +79,7 @@ describe('Place Search API - Integration Tests', () => {
       .query({
         lat: 100, // Out of range
         lng: nycCenter.longitude,
-        radius: 5
+        radius: 5,
       });
     expect(invalidLat.status).toBe(422);
     
@@ -90,7 +90,7 @@ describe('Place Search API - Integration Tests', () => {
       .query({
         lat: nycCenter.latitude,
         lng: 200, // Out of range
-        radius: 5
+        radius: 5,
       });
     expect(invalidLng.status).toBe(422);
   });
@@ -103,7 +103,7 @@ describe('Place Search API - Integration Tests', () => {
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
-        radius: -5
+        radius: -5,
       });
     expect(negativeRadius.status).toBe(422);
     
@@ -115,7 +115,7 @@ describe('Place Search API - Integration Tests', () => {
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
         radius: 5,
-        page: 0
+        page: 0,
       });
     expect(invalidPage.status).toBe(422);
     
@@ -127,7 +127,7 @@ describe('Place Search API - Integration Tests', () => {
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
         radius: 5,
-        pageSize: 0
+        pageSize: 0,
       });
     expect(invalidPageSize.status).toBe(422);
   });
@@ -139,7 +139,7 @@ describe('Place Search API - Integration Tests', () => {
       .query({
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
-        radius: 5 // 5km radius
+        radius: 5, // 5km radius
       });
     expect(response.status).toBe(200);
     expect(response.body).toHaveProperty('data');
@@ -178,7 +178,7 @@ describe('Place Search API - Integration Tests', () => {
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
         radius: 10, // 10km radius
-        serviceId: 1 // Store service type
+        serviceId: 1, // Store service type
       });
 
     expect(response.status).toBe(200);
@@ -200,7 +200,7 @@ describe('Place Search API - Integration Tests', () => {
         lat: nycCenter.latitude,
         lng: nycCenter.longitude,
         radius: 20, // 20km radius
-        keyword: 'Coffee'
+        keyword: 'Coffee',
       });
 
     expect(response.status).toBe(200);
@@ -222,7 +222,7 @@ describe('Place Search API - Integration Tests', () => {
         lng: nycCenter.longitude,
         radius: 20, // 20km radius
         serviceId: 3, // Coffee shops
-        keyword: 'Premium'
+        keyword: 'Premium',
       });
 
     expect(response.status).toBe(200);
@@ -246,7 +246,7 @@ describe('Place Search API - Integration Tests', () => {
       .query({
         lat: 'invalid',
         lng: nycCenter.longitude,
-        radius: 5
+        radius: 5,
       });
 
     expect(response.status).toBe(422);
@@ -264,7 +264,7 @@ describe('Place Search API - Integration Tests', () => {
         lng: nycCenter.longitude,
         radius: 10,
         page: 1,
-        pageSize: 2
+        pageSize: 2,
       });
 
     expect(firstPageResponse.status).toBe(200);
@@ -286,7 +286,7 @@ describe('Place Search API - Integration Tests', () => {
         lng: nycCenter.longitude,
         radius: 10,
         page: 2,
-        pageSize: 2
+        pageSize: 2,
       });
 
     expect(secondPageResponse.status).toBe(200);

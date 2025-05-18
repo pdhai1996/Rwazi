@@ -12,18 +12,18 @@ export class BaseRepo<T extends object, K extends string | number = number> {
     }
   }
 
-  async findAll(options: { where?: any; select?: any; include?: any } = {}): Promise<T[]> {
+  async findAll(options: { where?: any, select?: any, include?: any } = {}): Promise<T[]> {
     return this.model.findMany(options);
   }
 
-  async findById(id: K, options: { select?: any; include?: any } = {}): Promise<T | null> {
+  async findById(id: K, options: { select?: any, include?: any } = {}): Promise<T | null> {
     return this.model.findUnique({
       where: { id },
-      ...options
+      ...options,
     });
   }
 
-  async findOne(where: any, options: { select?: any; include?: any } = {}): Promise<T | null> {
+  async findOne(where: any, options: { select?: any, include?: any } = {}): Promise<T | null> {
     return this.model.findFirst({
       where,
       ...options,
@@ -32,20 +32,20 @@ export class BaseRepo<T extends object, K extends string | number = number> {
 
   async create(data: any): Promise<T> {
     return this.model.create({
-      data
+      data,
     });
   }
 
   async update(id: K, data: any): Promise<T> {
     return this.model.update({
       where: { id },
-      data
+      data,
     });
   }
 
   async delete(id: K): Promise<T> {
     return this.model.delete({
-      where: { id }
+      where: { id },
     });
   }
 

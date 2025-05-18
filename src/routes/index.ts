@@ -6,6 +6,7 @@ import UserRoutes from './UserRoutes';
 import { authRouter } from './AuthRoutes';
 import { placeRouter } from './PlaceRoutes';
 import { favoriteRouter } from './FavoriteRoutes';
+import { swaggerRouter } from './SwaggerRoutes';
 
 
 /******************************************************************************
@@ -29,7 +30,7 @@ userRouter.post(Paths.Users.Add, UserRoutes.add);
 // Add UserRouter
 apiRouter.use(Paths.Users.Base, userRouter);
 
-apiRouter.use("/auth", authRouter);
+apiRouter.use('/auth', authRouter);
 
 // Add PlaceRouter
 apiRouter.use(Paths.Places.Base, placeRouter);
@@ -38,6 +39,9 @@ apiRouter.use(Paths.Places.Base, placeRouter);
 
 // Add FavoriteRouter
 apiRouter.use(Paths.Favorites.Base, favoriteRouter);
+
+// Add Swagger Documentation
+apiRouter.use(Paths.Docs.Base, swaggerRouter);
 
 
 /******************************************************************************

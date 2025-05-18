@@ -12,7 +12,7 @@ placeRouter.get(
   AuthMiddleware,             // Authentication middleware
   placeValidators.search,     // Apply validation rules
   validateRequest,            // Validation middleware
-  placeController.searchPlaces  // Controller
+  placeController.searchPlaces,  // Controller
 );
 
 export { placeRouter };

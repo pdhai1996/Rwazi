@@ -14,6 +14,7 @@ export default tseslint.config(
       '**/node_modules/*',
       '**/*.mjs',
       '**/*.js',
+      './prisma/*',
     ],
   },
   {
@@ -35,7 +36,7 @@ export default tseslint.config(
   },
   {
     rules: {
-      '@typescript-eslint/explicit-member-accessibility': 'warn',
+      '@typescript-eslint/explicit-member-accessibility': 0,
       '@typescript-eslint/no-misused-promises': 0,
       '@typescript-eslint/no-floating-promises': 0,
       '@typescript-eslint/no-confusing-void-expression': 0,

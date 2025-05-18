@@ -15,7 +15,7 @@ favoriteRouter.post(
   Paths.Favorites.Add,
   favoriteValidators.addFavorite,
   validateRequest,
-  favoriteController.addFavorite
+  favoriteController.addFavorite,
 );
 
 // Get user favorites with pagination (GET /api/favorites)
@@ -23,7 +23,7 @@ favoriteRouter.get(
   Paths.Favorites.Get,
   favoriteValidators.getUserFavorites,
   validateRequest,
-  favoriteController.getUserFavorites
+  favoriteController.getUserFavorites,
 );
 
 // Remove a favorite
@@ -31,7 +31,7 @@ favoriteRouter.delete(
   Paths.Favorites.Remove,
   favoriteValidators.removeFavorite,
   validateRequest,
-  favoriteController.removeFavorite
+  favoriteController.removeFavorite,
 );
 
 // Check if place is favorited
@@ -39,7 +39,7 @@ favoriteRouter.get(
   Paths.Favorites.Check,
   favoriteValidators.checkFavorite,
   validateRequest,
-  favoriteController.checkFavorite
+  favoriteController.checkFavorite,
 );
 
 export { favoriteRouter };

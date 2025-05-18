@@ -7,17 +7,17 @@ const config = defineConfig({
     environment: 'node',
     include: [
       'tests/**/*.test.ts',
-      'tests/**/*.spec.ts'
+      'tests/**/*.spec.ts',
     ],
     setupFiles: [
-      'config.ts'
+      'config.ts',
       // Removed database.ts from here since we're using globalSetup
     ],
     // Global setup runs once before ALL test files
     globalSetup: './tests/setup/global-setup.ts',
     sequence: {
-      shuffle: false
-    }
+      shuffle: false,
+    },
   },
   resolve: {
     alias: {

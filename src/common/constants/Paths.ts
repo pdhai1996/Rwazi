@@ -19,4 +19,8 @@ export default {
     Remove: '/:favoriteId',
     Check: '/check/:placeId',
   },
+  Docs: {
+    Base: '/docs',
+    Json: '/json',
+  },
 } as const;

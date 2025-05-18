@@ -12,9 +12,9 @@ export const validateRequest = (req: IReq, res: IRes, next: NextFunction): void 
   if (!errors.isEmpty()) {
     res.status(422).json({
       message: 'Invalid request',
-      errors: errors.array()
+      errors: errors.array(),
     });
   }else{
-      next();
+    next();
   }
 };

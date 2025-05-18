@@ -26,8 +26,8 @@ class FavoriteService {
       const existingFavorite = await prisma.favorite.findFirst({
         where: {
           user_id: userId,
-          place_id: placeId
-        }
+          place_id: placeId,
+        },
       });
 
       if (existingFavorite) {
@@ -38,11 +38,11 @@ class FavoriteService {
       return await prisma.favorite.create({
         data: {
           user_id: userId,
-          place_id: placeId
+          place_id: placeId,
         },
         include: {
-          place: true
-        }
+          place: true,
+        },
       });
     } catch (error) {
       throw error;
@@ -56,7 +56,7 @@ class FavoriteService {
    * @param pageSize Number of items per page
    * @returns Object containing paged favorites and pagination metadata
    */
-  async getUserFavorites(userId: number, page: number = 1, pageSize: number = 10) {
+  async getUserFavorites(userId: number, page = 1, pageSize = 10) {
     try {
       // Calculate skip value for pagination
       const skip = (page - 1) * pageSize;
@@ -64,27 +64,27 @@ class FavoriteService {
       // Get total count for pagination metadata
       const totalCount = await prisma.favorite.count({
         where: {
-          user_id: userId
-        }
+          user_id: userId,
+        },
       });
       
       // Get paginated favorites
       const favorites = await prisma.favorite.findMany({
         where: {
-          user_id: userId
+          user_id: userId,
         },
         include: {
           place: {
             include: {
-              service: true
-            }
-          }
+              service: true,
+            },
+          },
         },
         skip,
         take: pageSize,
         orderBy: {
-          createdAt: 'desc' // Most recently added first
-        }
+          createdAt: 'desc', // Most recently added first
+        },
       });
 
       const mappedFavorites = favorites.map(fav => ({
@@ -92,9 +92,9 @@ class FavoriteService {
         place_id: fav.place_id,
         place: {
           ...fav.place,
-          serviceName: fav.place.service.name
+          serviceName: fav.place.service.name,
         },
-        createdAt: fav.createdAt
+        createdAt: fav.createdAt,
       }));
       
       // Calculate pagination metadata
@@ -108,8 +108,8 @@ class FavoriteService {
           totalRecords: totalCount,
           totalPages,
           hasNextPage: page < totalPages,
-          hasPreviousPage: page > 1
-        }
+          hasPreviousPage: page > 1,
+        },
       };
     } catch (error) {
       throw error;
@@ -128,8 +128,8 @@ class FavoriteService {
       const favorite = await prisma.favorite.findFirst({
         where: {
           id: favoriteId,
-          user_id: userId
-        }
+          user_id: userId,
+        },
       });
 
       if (!favorite) {
@@ -139,8 +139,8 @@ class FavoriteService {
       // Delete the favorite
       return await prisma.favorite.delete({
         where: {
-          id: favoriteId
-        }
+          id: favoriteId,
+        },
       });
     } catch (error) {
       throw error;
@@ -158,8 +158,8 @@ class FavoriteService {
       const favorite = await prisma.favorite.findFirst({
         where: {
           user_id: userId,
-          place_id: placeId
-        }
+          place_id: placeId,
+        },
       });
 
       return favorite !== null;

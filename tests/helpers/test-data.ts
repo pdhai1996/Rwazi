@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/generated/prisma";
+import { PrismaClient } from '@prisma/generated/prisma';
 import jwt from 'jsonwebtoken';
 import { createHash } from 'crypto';
 
@@ -110,7 +110,7 @@ export const testPlaces = [
 // New York City center point for reference in tests
 export const nycCenter = {
   latitude: 40.7128,
-  longitude: -74.0060
+  longitude: -74.0060,
 };
 
 // Generate a test JWT token for authentication
@@ -118,7 +118,7 @@ export const generateTestToken = () => {
   return jwt.sign(
     { id: testUser.id, username: testUser.username },
     process.env.JWT_SECRET || 'test-secret',
-    { expiresIn: '1h' }
+    { expiresIn: '1h' },
   );
 };
 
@@ -137,9 +137,9 @@ export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
       where: { 
         OR: [
           { id: testUser.id },
-          { username: testUser.username }
-        ]
-      }
+          { username: testUser.username },
+        ],
+      },
     });
     
     if (!existingUser) {
@@ -148,8 +148,8 @@ export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
           id: testUser.id,
           username: testUser.username,
           name: testUser.name,
-          password: testUser.password
-        }
+          password: testUser.password,
+        },
       });
     }
   } catch (error) {
@@ -178,14 +178,14 @@ export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
       place.latitude,
       now,
       now,
-      now
+      now,
     );
   }
 };
 
 // Function to clear test data from the database
 export const clearTestData = async (prisma: PrismaClient): Promise<void> => {
-  const placeIds: number[] = testPlaces.map(place => place.id as number);
+  const placeIds: number[] = testPlaces.map(place => place.id);
   
   // First delete favorites that reference places
   await prisma.favorite.deleteMany({

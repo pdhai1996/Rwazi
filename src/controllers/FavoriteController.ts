@@ -1,9 +1,52 @@
-import { IReq, IRes } from "@src/routes/common/types";
-import { favoriteService } from "@src/services/FavoriteService";
+import { IReq, IRes } from '@src/routes/common/types';
+import { favoriteService } from '@src/services/FavoriteService';
+
+/**
+ * @swagger
+ * tags:
+ *   name: Favorites
+ *   description: API endpoints for managing user favorites
+ */
 
 class FavoriteController {
   /**
-   * Add a place to user's favorites
+   * @swagger
+   * /api/favorites:
+   *   post:
+   *     summary: Add a place to user's favorites
+   *     tags: [Favorites]
+   *     security:
+   *       - bearerAuth: []
+   *     requestBody:
+   *       required: true
+   *       content:
+   *         application/json:
+   *           schema:
+   *             type: object
+   *             required:
+   *               - place_id
+   *             properties:
+   *               place_id:
+   *                 type: integer
+   *                 description: ID of the place to favorite
+   *     responses:
+   *       200:
+   *         description: Place added to favorites
+   *         content:
+   *           application/json:
+   *             schema:
+   *               type: object
+   *               properties:
+   *                 message:
+   *                   type: string
+   *                 favorite:
+   *                   type: object
+   *       401:
+   *         description: User not authenticated
+   *       404:
+   *         description: Place not found
+   *       500:
+   *         description: Server error
    */
   async addFavorite(req: IReq, res: IRes): Promise<void> {
     try {
@@ -18,7 +61,7 @@ class FavoriteController {
       const favorite = await favoriteService.addFavorite(userId, Number(place_id));
       res.status(200).json({ 
         message: 'Place added to favorites', 
-        favorite 
+        favorite, 
       });
     } catch (error) {
       if (error instanceof Error && error.message === 'Place not found') {
@@ -30,7 +73,36 @@ class FavoriteController {
   }
   
   /**
-   * Check if a place is favorited by the current user
+   * @swagger
+   * /api/favorites/check/{placeId}:
+   *   get:
+   *     summary: Check if a place is favorited by the current user
+   *     tags: [Favorites]
+   *     security:
+   *       - bearerAuth: []
+   *     parameters:
+   *       - in: path
+   *         name: placeId
+   *         required: true
+   *         schema:
+   *           type: integer
+   *         description: ID of the place to check
+   *     responses:
+   *       200:
+   *         description: Returns whether the place is favorited
+   *         content:
+   *           application/json:
+   *             schema:
+   *               type: object
+   *               properties:
+   *                 isFavorited:
+   *                   type: boolean
+   *       401:
+   *         description: User not authenticated
+   *       422:
+   *         description: Place ID is required
+   *       500:
+   *         description: Server error
    */
   async checkFavorite(req: IReq, res: IRes): Promise<void> {
     try {
@@ -55,7 +127,82 @@ class FavoriteController {
   }
 
   /**
-   * Get favorite places for the current user with pagination
+   * @swagger
+   * /api/favorites:
+   *   get:
+   *     summary: Get favorite places for the current user with pagination
+   *     tags: [Favorites]
+   *     security:
+   *       - bearerAuth: []
+   *     parameters:
+   *       - in: query
+   *         name: page
+   *         required: false
+   *         schema:
+   *           type: integer
+   *           default: 1
+   *           minimum: 1
+   *         description: Page number for pagination
+   *       - in: query
+   *         name: pageSize
+   *         required: false
+   *         schema:
+   *           type: integer
+   *           default: 10
+   *           minimum: 1
+   *           maximum: 100
+   *         description: Number of items per page
+   *     responses:
+   *       200:
+   *         description: List of user's favorite places
+   *         content:
+   *           application/json:
+   *             schema:
+   *               type: object
+   *               properties:
+   *                 data:
+   *                   type: array
+   *                   items:
+   *                     type: object
+   *                     properties:
+   *                       id:
+   *                         type: integer
+   *                       user_id:
+   *                         type: integer
+   *                       place_id:
+   *                         type: integer
+   *                       place:
+   *                         type: object
+   *                         properties:
+   *                           id:
+   *                             type: integer
+   *                           name:
+   *                             type: string
+   *                           longitude:
+   *                             type: number
+   *                           latitude:
+   *                             type: number
+   *                 pagination:
+   *                   type: object
+   *                   properties:
+   *                     page:
+   *                       type: integer
+   *                     pageSize:
+   *                       type: integer
+   *                     totalRecords:
+   *                       type: integer
+   *                     totalPages:
+   *                       type: integer
+   *                     hasNextPage:
+   *                       type: boolean
+   *                     hasPreviousPage:
+   *                       type: boolean
+   *       400:
+   *         description: Invalid pagination parameters
+   *       401:
+   *         description: User not authenticated
+   *       500:
+   *         description: Server error
    */
   async getUserFavorites(req: IReq, res: IRes): Promise<void> {
     try {
@@ -83,7 +230,36 @@ class FavoriteController {
   }
 
   /**
-   * Remove a place from user's favorites
+   * @swagger
+   * /api/favorites/{favoriteId}:
+   *   delete:
+   *     summary: Remove a place from user's favorites
+   *     tags: [Favorites]
+   *     security:
+   *       - bearerAuth: []
+   *     parameters:
+   *       - in: path
+   *         name: favoriteId
+   *         required: true
+   *         schema:
+   *           type: integer
+   *         description: ID of the favorite to remove
+   *     responses:
+   *       200:
+   *         description: Favorite successfully removed
+   *         content:
+   *           application/json:
+   *             schema:
+   *               type: object
+   *               properties:
+   *                 message:
+   *                   type: string
+   *       401:
+   *         description: User not authenticated
+   *       404:
+   *         description: Favorite not found or does not belong to user
+   *       500:
+   *         description: Server error
    */
   async removeFavorite(req: IReq, res: IRes): Promise<void> {
     try {

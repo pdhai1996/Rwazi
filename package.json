@@ -26,7 +26,11 @@
   },
   "dependencies": {
     "@prisma/client": "^6.7.0",
+    "@types/cors": "^2.8.18",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
     "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dayjs": "^1.11.13",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
@@ -41,7 +45,9 @@
     "jsonfile": "^6.1.0",
     "jsonwebtoken": "^9.0.2",
     "module-alias": "^2.2.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "prisma": {
     "seed": "ts-node ./prisma/seed.ts"
