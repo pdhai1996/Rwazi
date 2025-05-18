@@ -1,6 +1,6 @@
-import { describe, it, expect, vi, beforeEach, afterEach, beforeAll, afterAll } from 'vitest';
+import { describe, it, expect, vi, afterEach, beforeAll } from 'vitest';
 import { placeService } from '@src/services/PlaceService';
-import prisma from '@prisma/client';
+import prisma from '@src/common/prisma';
 
 describe('PlaceService - searchPlaces', () => {
   it('should search places by location and radius', async () => {

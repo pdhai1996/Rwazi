@@ -1,4 +1,50 @@
 services:
+  # Database migration and seeding service
+  db-setup:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: locationsearch-db-setup
+    restart: "no"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=mysql://localtionsearch:password@mysql:3306/locationsearch
+    volumes:
+      - ./config/.env.production:/app/dist/config/.env.production
+      - ./prisma:/app/prisma
+      - ./resources:/app/resources
+    networks:
+      - locationsearch-network
+    depends_on:
+      - mysql
+    command: >
+      sh -c "
+        ./scripts/wait-for-it.sh mysql 3306 &&
+        echo 'Running database migrations...' &&
+        npx dotenv -e ./dist/config/.env.production -- npx prisma migrate deploy &&
+        echo 'Seeding database...' &&
+        npx dotenv -e ./dist/config/.env.production -- npx prisma db seed
+      "
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: locationsearch-api
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      - NODE_ENV=production
+      - PORT=8081
+    depends_on:
+      - mysql
+      - db-setup
+    volumes:
+      - ./config/.env.production:/app/dist/config/.env.production
+    networks:
+      - locationsearch-network
+
   mysql:
     image: mysql:8.0
     container_name: mysql
@@ -10,22 +56,15 @@ services:
       MYSQL_PASSWORD: password
     ports:
       - "3306:3306"
-    # volumes:
-    #   - mysql_data:/var/lib/mysql
-
-  mysql-test:
-    image: mysql:8.0
-    container_name: mysql-test
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: locationsearch
-      MYSQL_USER: localtionsearch
-      MYSQL_PASSWORD: password
-    ports:
-      - "3307:3306"
-    # volumes:
-    #   - mysql_data:/var/lib/mysql
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - locationsearch-network
+    command: --default-authentication-plugin=mysql_native_password
 
 volumes:
   mysql_data:
+
+networks:
+  locationsearch-network:
+    driver: bridge

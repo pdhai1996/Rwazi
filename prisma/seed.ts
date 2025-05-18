@@ -58,7 +58,12 @@ interface Favorite {
 
 async function main() {
   console.log('Seeding database...');
-  
+  // Check if the database already has records
+  const userCount = await prisma.user.count();
+  if (userCount > 0) {
+    console.log('Seed data already exists in the database. Skipping seeding process.');
+    process.exit(0);
+  }
   // Create users
   const users = await createUsers();
   console.log(`Created ${users.length} users`);

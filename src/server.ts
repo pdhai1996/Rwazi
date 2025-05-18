@@ -68,7 +68,7 @@ app.use(express.static(staticDir));
 
 // Nav to users pg by default
 app.get('/', (_: Request, res: Response) => {
-  return res.redirect('/users');
+  return res.redirect('/api/docs');
 });
 
 // Redirect to login if not logged in.

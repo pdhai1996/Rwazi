@@ -1,5 +1,4 @@
-import client from "@prisma/client";
-const prisma = client;
+import prisma from "@src/common/prisma";
 export default async () => {
   await prisma.$transaction([
     prisma.favorite.deleteMany(),

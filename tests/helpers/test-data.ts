@@ -1,9 +1,7 @@
 import jwt from 'jsonwebtoken';
 import { createHash } from 'crypto';
 import { PrismaClient } from '@src/generated/prisma';
-import client from '@prisma/client';
-
-const prisma = client;
+import prisma from '@src/common/prisma';
 // Define service types
 export const testServices = [
   { id: 1, name: 'Store', slug: 'store' },
