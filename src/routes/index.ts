@@ -33,6 +33,12 @@ apiRouter.use("/auth", authRouter);
 // Add PlaceRouter
 apiRouter.use(Paths.Places.Base, placeRouter);
 
+// Import FavoriteRouter
+import { favoriteRouter } from './FavoriteRoutes';
+
+// Add FavoriteRouter
+apiRouter.use(Paths.Favorites.Base, favoriteRouter);
+
 
 /******************************************************************************
                                 Export default

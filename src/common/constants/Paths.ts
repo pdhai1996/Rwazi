@@ -12,4 +12,11 @@ export default {
     Base: '/places',
     Search: '/search',
   },
+  Favorites: {
+    Base: '/favorites',
+    Add: '/add',
+    Get: '/all',
+    Remove: '/:favoriteId',
+    Check: '/check/:placeId',
+  },
 } as const;

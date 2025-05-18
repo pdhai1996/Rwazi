@@ -14,6 +14,7 @@ interface SearchPlacesResult {
     latitude: number;
     distance: number; // distance in meters from the search point
     serviceName?: string;
+    isFavorited?: boolean; // Whether the place is favorited by the current user
 }
 
 interface PaginatedSearchResult {
@@ -37,6 +38,7 @@ class PlaceService {
      * @param keyword - Optional keyword search string
      * @param page - Optional page number for pagination
      * @param pageSize - Optional page size for pagination
+     * @param userId - Optional user ID to check if places are favorited
      * @returns Array of places matching the search criteria, with distance from center point
      */    async searchPlaces(
         location: LocationInterface,
@@ -44,7 +46,8 @@ class PlaceService {
         serviceId?: number,
         keyword?: string,
         page?: number,
-        pageSize?: number
+        pageSize?: number,
+        userId?: number
     ): Promise<PaginatedSearchResult> {
         // Set default values for pagination
         const currentPage = page && page > 0 ? page : 1;
@@ -110,6 +113,27 @@ class PlaceService {
             ORDER BY distance ASC
             LIMIT ? OFFSET ?
         `, ...selectParams);
+
+        // If userId is provided, check which places are favorited by the user
+        if (userId) {
+            // Get all favorites for this user
+            const favorites = await prisma.favorite.findMany({
+                where: {
+                    user_id: userId,
+                    place_id: {
+                        in: results.map(place => place.id)
+                    }
+                }
+            });
+
+            // Create a set of favorited place IDs for fast lookup
+            const favoritedPlaceIds = new Set(favorites.map(fav => fav.place_id));
+
+            // Mark places as favorited
+            results.forEach(place => {
+                place.isFavorited = favoritedPlaceIds.has(place.id);
+            });
+        }
         
         // Return paginated result with metadata
         return {

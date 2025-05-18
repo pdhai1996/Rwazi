@@ -132,20 +132,26 @@ export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
   
   // Insert test user if not exists
   try {
-    await prisma.user.upsert({
-      where: { id: testUser.id },
-      update: {
-        username: testUser.username,
-        name: testUser.name,
-        password: testUser.password
-      },
-      create: {
-        id: testUser.id,
-        username: testUser.username,
-        name: testUser.name,
-        password: testUser.password
+    // Check if user exists first
+    const existingUser = await prisma.user.findFirst({
+      where: { 
+        OR: [
+          { id: testUser.id },
+          { username: testUser.username }
+        ]
       }
     });
+    
+    if (!existingUser) {
+      await prisma.user.create({
+        data: {
+          id: testUser.id,
+          username: testUser.username,
+          name: testUser.name,
+          password: testUser.password
+        }
+      });
+    }
   } catch (error) {
     console.log('User already exists or could not be created:', error);
   }
@@ -180,6 +186,17 @@ export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
 // Function to clear test data from the database
 export const clearTestData = async (prisma: PrismaClient): Promise<void> => {
   const placeIds: number[] = testPlaces.map(place => place.id as number);
+  
+  // First delete favorites that reference places
+  await prisma.favorite.deleteMany({
+    where: {
+      place_id: {
+        in: placeIds,
+      },
+    },
+  });
+
+  // Then delete the places
   await prisma.place.deleteMany({
     where: {
       id: {
