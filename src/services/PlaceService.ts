@@ -16,6 +16,18 @@ interface SearchPlacesResult {
     serviceName?: string;
 }
 
+interface PaginatedSearchResult {
+    data: SearchPlacesResult[];
+    pagination: {
+        page: number;
+        pageSize: number;
+        totalRecords: number;
+        totalPages: number;
+        hasNextPage: boolean;
+        hasPreviousPage: boolean;
+    }
+}
+
 class PlaceService {
     /**
      * Search for places based on location, radius, service type, and keywords
@@ -26,48 +38,65 @@ class PlaceService {
      * @param page - Optional page number for pagination
      * @param pageSize - Optional page size for pagination
      * @returns Array of places matching the search criteria, with distance from center point
-     */
-    async searchPlaces(
+     */    async searchPlaces(
         location: LocationInterface,
         radius: number, // in meters
         serviceId?: number,
         keyword?: string,
         page?: number,
         pageSize?: number
-    ): Promise<SearchPlacesResult[]> {
-        // Build the base query parameters
-        const params: any[] = [
+    ): Promise<PaginatedSearchResult> {
+        // Set default values for pagination
+        const currentPage = page && page > 0 ? page : 1;
+        const size = pageSize && pageSize > 0 ? pageSize : 20;
+        const offset = (currentPage - 1) * size;
+        
+        // Create the base WHERE clause parameters - these will be used for both queries
+        const whereParams: any[] = [
             location.lng,
-            location.lat,
-            location.lng, 
             location.lat,
             radius
         ];
 
         // Start building the WHERE clause
-        let whereClauses = ["ST_Distance_Sphere(location, POINT(?, ?)) <= ?"];
+        let whereClauses = ["ST_Distance_Sphere(p.location, POINT(?, ?)) <= ?"];
         
         // Add service filter if provided
         if (serviceId !== undefined) {
-            whereClauses.push("service_id = ?");
-            params.push(serviceId);
+            whereClauses.push("p.service_id = ?");
+            whereParams.push(serviceId);
         }
         
         // Add keyword search if provided
         if (keyword && keyword.trim().length > 0) {
             whereClauses.push("p.name LIKE ?");
-            params.push(`%${keyword.trim()}%`);
+            whereParams.push(`%${keyword.trim()}%`);
         }
         
         // Combine WHERE clauses
         const whereClause = whereClauses.join(" AND ");
-        
-        // Execute raw SQL query for spatial search
-        // Set default values for pagination
-        const currentPage = page && page > 0 ? page : 1;
-        const size = pageSize && pageSize > 0 ? pageSize : 20;
-        const offset = (currentPage - 1) * size;
 
+        // First, get the total count for pagination info
+        const countResult = await prisma.$queryRawUnsafe<{total: bigint}[]>(`
+            SELECT COUNT(*) as total
+            FROM Place p
+            JOIN Service s ON p.service_id = s.id
+            WHERE ${whereClause}
+        `, ...whereParams);
+        
+        const totalRecords = Number(countResult[0].total);
+        const totalPages = Math.ceil(totalRecords / size);
+
+        // Build the parameters for the SELECT query - includes coordinates for distance calculation
+        const selectParams = [
+            location.lng,    // Add coordinates again for the distance calculation
+            location.lat,
+            ...whereParams, // Add the WHERE clause parameters
+            size,            // Add pagination parameters
+            offset
+        ];
+
+        // Then get the actual results for the current page
         const results = await prisma.$queryRawUnsafe<SearchPlacesResult[]>(`
             SELECT 
             p.id,
@@ -80,9 +109,20 @@ class PlaceService {
             WHERE ${whereClause}
             ORDER BY distance ASC
             LIMIT ? OFFSET ?
-        `, ...params, size, offset);
+        `, ...selectParams);
         
-        return results;
+        // Return paginated result with metadata
+        return {
+            data: results,
+            pagination: {
+                page: currentPage,
+                pageSize: size,
+                totalRecords,
+                totalPages,
+                hasNextPage: currentPage < totalPages,
+                hasPreviousPage: currentPage > 1
+            }
+        };
     }
 }
 

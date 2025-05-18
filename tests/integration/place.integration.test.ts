@@ -13,6 +13,86 @@ describe('Place Search API - Integration Tests', () => {
     await clearTestData(prisma);
   });
 
+  it('should validate required latitude and longitude parameters', async () => {
+    // Missing latitude
+    const missingLat = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lng: nycCenter.longitude,
+        radius: 5
+      });
+    expect(missingLat.status).toBe(422);
+    expect(missingLat.body.errors).toBeInstanceOf(Array);
+    expect(missingLat.body.errors.some((e: any) => e.path === 'lat')).toBe(true);
+    
+    // Missing longitude
+    const missingLng = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lat: nycCenter.latitude,
+        radius: 5
+      });
+    expect(missingLng.status).toBe(422);
+    expect(missingLng.body.errors).toBeInstanceOf(Array);
+    expect(missingLng.body.errors.some((e: any) => e.path === 'lng')).toBe(true);
+  });
+
+  it('should validate latitude and longitude ranges', async () => {
+    // Invalid latitude (out of range)
+    const invalidLat = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lat: 100, // Out of range
+        lng: nycCenter.longitude,
+        radius: 5
+      });
+    expect(invalidLat.status).toBe(422);
+    
+    // Invalid longitude (out of range)
+    const invalidLng = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lat: nycCenter.latitude,
+        lng: 200, // Out of range
+        radius: 5
+      });
+    expect(invalidLng.status).toBe(422);
+  });
+
+  it('should validate optional parameters', async () => {
+    // Negative radius
+    const negativeRadius = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lat: nycCenter.latitude,
+        lng: nycCenter.longitude,
+        radius: -5
+      });
+    expect(negativeRadius.status).toBe(422);
+    
+    // Invalid page number
+    const invalidPage = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lat: nycCenter.latitude,
+        lng: nycCenter.longitude,
+        radius: 5,
+        page: 0
+      });
+    expect(invalidPage.status).toBe(422);
+    
+    // Invalid pageSize
+    const invalidPageSize = await supertest(app)
+      .get('/api/places/search')
+      .query({
+        lat: nycCenter.latitude,
+        lng: nycCenter.longitude,
+        radius: 5,
+        pageSize: 0
+      });
+    expect(invalidPageSize.status).toBe(422);
+  });
+
   it('should return nearby places within 5km radius', async () => {
     const response = await supertest(app)
       .get('/api/places/search')
@@ -21,22 +101,33 @@ describe('Place Search API - Integration Tests', () => {
         lng: nycCenter.longitude,
         radius: 5 // 5km radius
       });
-      console.log(response.body);
-
     expect(response.status).toBe(200);
-    expect(response.body).toBeInstanceOf(Array);
+    expect(response.body).toHaveProperty('data');
+    expect(response.body.data).toBeInstanceOf(Array);
+    expect(response.body).toHaveProperty('pagination');
 
     // Count places that should be within 5km radius
     // In our test data, places with IDs 1, 2, 4, 5, 7, 8, 9 are within 5km of NYC center
     const nearbyPlaceIds = [1, 2, 4, 5, 7, 8, 9]; // IDs of places within 5km
     const expectedPlaces = testPlaces.filter(place => nearbyPlaceIds.includes(place.id));
     
-    expect(response.body.length).toBe(expectedPlaces.length);
+    expect(response.body.data.length).toBe(expectedPlaces.length);
     
     // Verify all returned places have distances less than 5000 meters
-    response.body.forEach((place: any) => {
+    response.body.data.forEach((place: any) => {
       expect(place.distance).toBeLessThanOrEqual(5000);
     });
+    
+    // Verify pagination information
+    expect(response.body.pagination).toHaveProperty('page');
+    expect(response.body.pagination).toHaveProperty('pageSize');
+    expect(response.body.pagination).toHaveProperty('totalRecords');
+    expect(response.body.pagination).toHaveProperty('totalPages');
+    expect(response.body.pagination).toHaveProperty('hasNextPage');
+    expect(response.body.pagination).toHaveProperty('hasPreviousPage');
+    
+    // Check that total records matches the expected nearby places count
+    expect(response.body.pagination.totalRecords).toBe(expectedPlaces.length);
   });
 
   it('should filter places by service type', async () => {
@@ -50,17 +141,13 @@ describe('Place Search API - Integration Tests', () => {
       });
 
     expect(response.status).toBe(200);
-    expect(response.body).toBeInstanceOf(Array);
+    expect(response.body).toHaveProperty('data');
+    expect(response.body.data).toBeInstanceOf(Array);
 
     // All returned places should be stores
-    response.body.forEach((place: any) => {
+    response.body.data.forEach((place: any) => {
       expect(place.service_id).toBe(1);
       expect(place.serviceName).toBe('Store');
-    });
-    
-    // Verify all returned places are stores (service_id = 1)
-    response.body.forEach((place: any) => {
-      expect(place.service_id).toBe(1);
     });
   });
 
@@ -75,10 +162,11 @@ describe('Place Search API - Integration Tests', () => {
       });
 
     expect(response.status).toBe(200);
-    expect(response.body).toBeInstanceOf(Array);
+    expect(response.body).toHaveProperty('data');
+    expect(response.body.data).toBeInstanceOf(Array);
 
     // All returned places should have "Coffee" in their name
-    response.body.forEach((place: any) => {
+    response.body.data.forEach((place: any) => {
       expect(place.name.toLowerCase()).toContain('coffee');
     });
   });
@@ -95,12 +183,13 @@ describe('Place Search API - Integration Tests', () => {
       });
 
     expect(response.status).toBe(200);
-    expect(response.body).toBeInstanceOf(Array);
+    expect(response.body).toHaveProperty('data');
+    expect(response.body.data).toBeInstanceOf(Array);
     
     // In our test data, we have one coffee shop with "Premium" in its name
     // with ID 9 (Premium Coffee House)
-    if (response.body.length > 0) {
-      const premiumCoffee = response.body[0];
+    if (response.body.data.length > 0) {
+      const premiumCoffee = response.body.data[0];
       expect(premiumCoffee.service_id).toBe(3);
       expect(premiumCoffee.serviceName).toBe('Coffee');
       expect(premiumCoffee.name).toContain('Premium');
@@ -134,8 +223,14 @@ describe('Place Search API - Integration Tests', () => {
       });
 
     expect(firstPageResponse.status).toBe(200);
-    expect(firstPageResponse.body).toBeInstanceOf(Array);
-    expect(firstPageResponse.body.length).toBe(2);
+    expect(firstPageResponse.body).toHaveProperty('data');
+    expect(firstPageResponse.body.data).toBeInstanceOf(Array);
+    expect(firstPageResponse.body.data.length).toBe(2);
+    
+    // Check pagination metadata for first page
+    expect(firstPageResponse.body.pagination.page).toBe(1);
+    expect(firstPageResponse.body.pagination.pageSize).toBe(2);
+    expect(firstPageResponse.body.pagination.totalPages).toBeGreaterThan(1); // Should have more than 1 page
 
     // Second page (should have different items)
     const secondPageResponse = await supertest(app)
@@ -149,16 +244,20 @@ describe('Place Search API - Integration Tests', () => {
       });
 
     expect(secondPageResponse.status).toBe(200);
-    expect(secondPageResponse.body).toBeInstanceOf(Array);
+    expect(secondPageResponse.body).toHaveProperty('data');
+    expect(secondPageResponse.body.data).toBeInstanceOf(Array);
+    // Check pagination metadata for second page
+    expect(secondPageResponse.body.pagination.page).toBe(2);
     
-    if (secondPageResponse.body.length > 0) {
+    if (secondPageResponse.body.data.length > 0) {
       // Verify first and second page have different items
-      const firstPageIds = firstPageResponse.body.map((p: any) => p.id);
-      const secondPageIds = secondPageResponse.body.map((p: any) => p.id);
+      const firstPageIds = firstPageResponse.body.data.map((p: any) => p.id);
+      const secondPageIds = secondPageResponse.body.data.map((p: any) => p.id);
       
       for (const id of secondPageIds) {
         expect(firstPageIds).not.toContain(id);
       }
     }
   });
+
 });

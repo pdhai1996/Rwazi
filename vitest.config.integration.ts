@@ -10,9 +10,14 @@ const config = defineConfig({
     ],
     setupFiles: [
       'config.ts', 
-      './tests/support/setup.ts'
+        './tests/setup/database.ts'
     ],
     isolate: true,
+    poolOptions: {
+      threads: {
+        singleThread: true,
+      }
+    }
   },
   resolve: {
     alias: {

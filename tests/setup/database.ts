@@ -1,11 +1,3 @@
-import resetDb from 'tests/helpers/reset-db'
-import { beforeAll } from 'vitest'
-
-beforeAll(async () => {
-  console.log('Resetting database...');
-  await resetDb();
-});
-
-// beforeEach(async () => {
-//   // await resetDb()
-// })
+// This file is kept for backward compatibility
+// Database initialization is now handled by the global setup file
+// See ./tests/setup/global-setup.ts

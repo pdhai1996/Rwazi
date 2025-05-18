@@ -3,12 +3,10 @@ import { placeService } from "@src/services/PlaceService";
 
 class PlaceController {
     async searchPlaces(req: IReq, res: IRes): Promise<void> {
-        try {
-            console.log("searchPlaces");
-            
+        try {   
             const { lat, lng } = req.query;
             const location = { lat: Number(lat), lng: Number(lng) };
-            const radius = (Number(req.query.radius) || 1000) * 1000; // Convert to meters (default 1000km)
+            const radius = Number(req.query.radius)  * 1000;
             const serviceId = req.query.serviceId ? Number(req.query.serviceId) : undefined;
             const keyword = req.query.keyword ? String(req.query.keyword) : undefined;
             const page = req.query.page ? Number(req.query.page) : undefined;
