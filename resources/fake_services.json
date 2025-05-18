@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "store",
+    "name": "Store",
+    "service": "stores"
+  },
+  {
+    "slug": "gas-station",
+    "name": "Gas Station",
+    "service": "gas stations"
+  },
+  {
+    "slug": "eatery",
+    "name": "Eatery",
+    "service": "eateries"
+  },
+  {
+    "slug": "clinic",
+    "name": "Clinic",
+    "service": "clinics"
+  },
+  {
+    "slug": "atm",
+    "name": "ATM",
+    "service": "atms"
+  }
+]

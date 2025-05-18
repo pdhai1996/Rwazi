@@ -27,6 +27,7 @@ model User {
 model Service {
   id        Int      @id @default(autoincrement())
   name      String
+  slug      String   @unique
   places    Place[]  @relation("ServiceToPlace")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
