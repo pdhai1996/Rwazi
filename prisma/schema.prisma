@@ -33,7 +33,7 @@ model Service {
 }
 
 model Place {
-  id        String   @id @default(cuid())
+  id        Int      @id @default(autoincrement())
   name      String
   service_id Int
   service   Service @relation("ServiceToPlace", fields: [service_id], references: [id])
@@ -48,7 +48,7 @@ model Place {
 model Favorite {
   id        Int      @id @default(autoincrement())
   user_id   Int
-  place_id  String
+  place_id  Int
   user      User     @relation(fields: [user_id], references: [id])
   place     Place    @relation(fields: [place_id], references: [id])
   createdAt DateTime @default(now())

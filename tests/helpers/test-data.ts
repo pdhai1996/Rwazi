@@ -12,7 +12,7 @@ export const testServices = [
 export const testPlaces = [
   // Stores (within 5km radius)
   {
-    id: '001-store-nearby',
+    id: 1,
     name: 'Downtown Grocery',
     service_id: 1,
     // About 1.2km from center
@@ -20,7 +20,7 @@ export const testPlaces = [
     longitude: -74.0160,
   },
   {
-    id: '002-store-nearby',
+    id: 2,
     name: 'City Mart',
     service_id: 1,
     // About 2.5km from center
@@ -28,7 +28,7 @@ export const testPlaces = [
     longitude: -74.0260,
   },
   {
-    id: '003-store-far',
+    id: 3,
     name: 'Suburban Shop',
     service_id: 1,
     // About 15km from center
@@ -38,7 +38,7 @@ export const testPlaces = [
   
   // Gas Stations (mix of nearby and far)
   {
-    id: '004-gas-nearby',
+    id: 4,
     name: 'Quick Fill Gas',
     service_id: 2,
     // About 0.8km from center
@@ -46,7 +46,7 @@ export const testPlaces = [
     longitude: -74.0100,
   },
   {
-    id: '005-gas-nearby',
+    id: 5,
     name: 'Urban Gas Station',
     service_id: 2,
     // About 3km from center
@@ -54,7 +54,7 @@ export const testPlaces = [
     longitude: -73.9760,
   },
   {
-    id: '006-gas-far',
+    id: 6,
     name: 'Highway Fuel Stop',
     service_id: 2,
     // About 20km from center
@@ -64,7 +64,7 @@ export const testPlaces = [
   
   // Coffee Shops (mix of nearby and far)
   {
-    id: '007-coffee-nearby',
+    id: 7,
     name: 'Morning Brew Café',
     service_id: 3,
     // About 0.5km from center
@@ -72,7 +72,7 @@ export const testPlaces = [
     longitude: -74.0020,
   },
   {
-    id: '008-coffee-nearby',
+    id: 8,
     name: 'Espresso Corner',
     service_id: 3,
     // About 1.8km from center
@@ -80,7 +80,7 @@ export const testPlaces = [
     longitude: -73.9960,
   },
   {
-    id: '009-coffee-keywords-nearby',
+    id: 9,
     name: 'Premium Coffee House',
     service_id: 3,
     // About 4km from center
@@ -88,7 +88,7 @@ export const testPlaces = [
     longitude: -73.9760,
   },
   {
-    id: '010-coffee-far',
+    id: 10,
     name: 'Suburban Coffee Shop',
     service_id: 3,
     // About 25km from center
@@ -140,7 +140,7 @@ export const loadTestData = async (prisma: PrismaClient): Promise<void> => {
 
 // Function to clear test data from the database
 export const clearTestData = async (prisma: PrismaClient): Promise<void> => {
-  const placeIds = testPlaces.map(place => place.id);
+  const placeIds: number[] = testPlaces.map(place => place.id as number);
   await prisma.place.deleteMany({
     where: {
       id: {
@@ -149,7 +149,7 @@ export const clearTestData = async (prisma: PrismaClient): Promise<void> => {
     },
   });
   
-  const serviceIds = testServices.map(service => service.id);
+  const serviceIds: number[] = testServices.map(service => service.id);
   await prisma.service.deleteMany({
     where: {
       id: {

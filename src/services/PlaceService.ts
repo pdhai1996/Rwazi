@@ -7,7 +7,7 @@ interface LocationInterface {
 }
 
 interface SearchPlacesResult {
-    id: string;
+    id: number;
     name: string;
     service_id: number;
     longitude: number;

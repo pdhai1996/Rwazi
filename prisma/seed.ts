@@ -66,8 +66,8 @@ async function main() {
   console.log(`Created ${places.length} places`);
   
   // Create favorites
-  const favorites = await createFavorites(users, places);
-  console.log(`Created ${favorites.length} favorites`);
+  // const favorites = await createFavorites(users, places);
+  // console.log(`Created ${favorites.length} favorites`);
   
   console.log('Seeding completed successfully!');
 }
@@ -201,31 +201,31 @@ async function createPlacesFromJson(services: Service[]): Promise<Place[]> {
   }
 }
 
-async function createFavorites(users: User[], places: Place[]): Promise<Favorite[]> {
+// async function createFavorites(users: User[], places: Place[]): Promise<Favorite[]> {
   // Clean up existing favorites
-  await prisma.favorite.deleteMany();
+  // await prisma.favorite.deleteMany();
   
-  const favorites: Favorite[] = [];
+  // const favorites: Favorite[] = [];
   
-  // For each user, add 1-3 random favorites
-  for (const user of users) {
-    const numFavorites = Math.floor(Math.random() * 3) + 1;
-    const shuffledPlaces = [...places].sort(() => 0.5 - Math.random());
+  // // For each user, add 1-3 random favorites
+  // for (const user of users) {
+  //   const numFavorites = Math.floor(Math.random() * 3) + 1;
+  //   const shuffledPlaces = [...places].sort(() => 0.5 - Math.random());
     
-    for (let i = 0; i < numFavorites && i < shuffledPlaces.length; i++) {
-      const favorite = await prisma.favorite.create({
-        data: {
-          user_id: user.id,
-          place_id: shuffledPlaces[i].id
-        }
-      }) as Favorite;
+  //   for (let i = 0; i < numFavorites && i < shuffledPlaces.length; i++) {
+  //     const favorite = await prisma.favorite.create({
+  //       data: {
+  //         user_id: user.id,
+  //         place_id: shuffledPlaces[i].id
+  //       }
+  //     }) as Favorite;
       
-      favorites.push(favorite);
-    }
-  }
+  //     favorites.push(favorite);
+  //   }
+  // }
   
-  return favorites;
-}
+  // return favorites;
+// }
 
 main()
   .catch((e) => {
