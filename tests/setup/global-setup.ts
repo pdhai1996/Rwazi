@@ -1,5 +1,5 @@
 import resetDb from '../helpers/reset-db';
-import prisma from '../../prisma/client';
+import prisma from '../../src/common/prisma';
 import { loadTestData, clearTestData } from '../helpers/test-data';
 import { resetDataLoadedState } from '../helpers/test-setup';
 

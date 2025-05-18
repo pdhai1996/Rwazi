@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll, beforeEach } from 'vitest';
 import supertest from 'supertest';
 import app from '@src/server';
-import prisma from '../../prisma/client';
+import prisma from '../../src/common/prisma';
 import { nycCenter, testPlaces, generateTestToken } from '../helpers/test-data';
 import { ensureTestData } from '../helpers/test-setup';
 

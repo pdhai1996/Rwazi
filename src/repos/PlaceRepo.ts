@@ -1,5 +1,5 @@
 import { BaseRepo } from './BaseRepo';
-import { Place } from '@prisma/generated/prisma';
+import { Place } from '@src/generated/prisma';
 
 class UserRepo extends BaseRepo<Place> {}
 

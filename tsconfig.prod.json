@@ -24,7 +24,6 @@
     "tests",
     "src/public/",
     "scripts",
-    "eslint.config.ts",
     "vitest.config.js"
   ]
 }

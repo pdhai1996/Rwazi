@@ -1,7 +1,4 @@
-// filepath: /var/www/LocationSearch/src/services/FavoriteService.ts
-import { PrismaClient } from '@prisma/generated/prisma';
-import prisma from '../../prisma/client';
-
+import prisma from "@src/common/prisma";
 interface FavoriteCreateInterface {
   user_id: number;
   place_id: number;

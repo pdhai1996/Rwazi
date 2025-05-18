@@ -1,12 +1,14 @@
-import { PrismaClient } from '@prisma/generated/prisma';
 import jwt from 'jsonwebtoken';
 import { createHash } from 'crypto';
+import { PrismaClient } from '@src/generated/prisma';
+import client from '@prisma/client';
 
+const prisma = client;
 // Define service types
 export const testServices = [
-  { id: 1, name: 'Store' },
-  { id: 2, name: 'Gas Stations' },
-  { id: 3, name: 'Coffee' },
+  { id: 1, name: 'Store', slug: 'store' },
+  { id: 2, name: 'Gas Stations', slug: 'gas-stations' },
+  { id: 3, name: 'Coffee', slug: 'coffee' },
 ];
 
 // Define test user

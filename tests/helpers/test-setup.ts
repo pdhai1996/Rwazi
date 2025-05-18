@@ -1,4 +1,4 @@
-import prisma from '../../prisma/client';
+import prisma from '../../src/common/prisma';
 import { loadTestData } from './test-data';
 
 /**

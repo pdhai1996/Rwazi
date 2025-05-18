@@ -6,18 +6,28 @@ import childProcess from 'child_process';
 /**
  * Start
  */
-(async () => {
-  try {
+(async () => {  try {
     // Remove current build
     await remove('./dist/');
-    await exec('npm run lint', './');
+    // Generate Prisma client before building
+    await exec('npx prisma generate', './');
     await exec('tsc --build tsconfig.prod.json', './');
-    // Copy
-    await copy('./src/public', './dist/public');
-    await copy('./src/views', './dist/views');
-    await copy('./src/repos/database.json', './dist/repos/database.json');
+    // Copy    await copy('./src/public', './dist/public');
     await copy('./temp/config.js', './config.js');
     await copy('./temp/src', './dist');
+    await copy('./prisma', './dist');
+    
+    // Make sure the generated Prisma files are copied correctly
+    if (fs.existsSync('./src/generated/prisma')) {
+      await fs.ensureDir('./dist/generated');
+      await copy('./src/generated/prisma', './dist/generated/prisma');
+    }
+    
+    // Also copy the .prisma runtime binaries if they exist
+    if (fs.existsSync('./node_modules/.prisma')) {
+      await fs.ensureDir('./dist/.prisma');
+      await copy('./node_modules/.prisma', './dist/.prisma');
+    }
     await remove('./temp/');
   } catch (err) {
     logger.err(err);

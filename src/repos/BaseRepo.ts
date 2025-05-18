@@ -1,4 +1,4 @@
-import prisma from '../../prisma/client';
+import prisma from '@src/common/prisma';
 
 export class BaseRepo<T extends object, K extends string | number = number> {
   protected model: any;

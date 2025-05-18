@@ -1,9 +1,8 @@
-import { PrismaClient } from './generated/prisma';
 import { createHash } from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
+import prisma from '@src/common/prisma';
 
-const prisma = new PrismaClient();
 
 // Interface for the place data in the JSON file
 interface PlaceData {

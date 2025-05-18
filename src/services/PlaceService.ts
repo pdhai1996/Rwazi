@@ -1,5 +1,5 @@
 import { placeRepo } from '@src/repos/PlaceRepo';
-import prisma from '../../prisma/client';
+import prisma from '../common/prisma';
 
 interface LocationInterface {
     lat: number;
