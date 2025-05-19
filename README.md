@@ -149,6 +149,7 @@ All API endpoints are documented with Swagger UI, accessible at http://localhost
 ### Initial Credentials
 
 When the application is first set up, a default admin user is created with the following credentials:
+Run npm run db:seed:dev on development environment to init user.
 
 - **Username**: `admin`
 - **Password**: `admin123`
@@ -195,4 +196,34 @@ This project includes several test suites:
 
 - **Authentication Flow**: Login → Get resources with token → Refresh token → Access with new token
 - **Location Search**: Test different radius values and filter combinations
+  The seed data is init in NYC
+  You can try data
+    latitude: 40.7128,
+    longitude: -74.0060,
+    radius: 5
+  To start testing
 - **Favorites Management**: Add places to favorites → List favorites → Remove from favorites
+
+### Seeding Test Data
+
+The application uses Prisma's seeding mechanism to populate the database with initial data, including the default admin user mentioned above. If you need to create additional test users or reset the database to its initial state, you can use the following methods:
+
+#### Running the Seed Script Manually
+
+To manually run the seed script and create the default admin user (or reset it if modified):
+
+```bash
+# In development mode (local)
+npx prisma db seed
+
+# In Docker environment
+docker-compose exec api npx prisma db seed
+```
+
+#### Creating Custom Users
+
+If you need to create additional users for testing:
+
+1. You can modify the seed script in `prisma/seed.ts` to include additional users with custom credentials
+2. Alternatively, you can use the API to create users (if your application includes user registration endpoints)
+

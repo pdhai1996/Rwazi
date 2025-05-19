@@ -1,5879 +1,5879 @@
 [
   {
-    "name": "Peterson Center",
+    "name": "Mirehill",
     "type": "clinic",
     "lat": 40.761392,
     "lng": -73.927962,
     "address": "5627 Elm St, Bronx, NY 11182"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Sablepoint",
     "type": "store",
     "lat": 40.629275,
     "lng": -74.047042,
     "address": "621 Maple St, Queens, NY 10597"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Foxbridge",
     "type": "store",
     "lat": 40.684448,
     "lng": -74.09276,
     "address": "2804 Elm St, Manhattan, NY 11003"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Hearthwill",
     "type": "eatery",
     "lat": 40.803429,
     "lng": -73.998998,
     "address": "2560 Washington St, Bronx, NY 11311"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Ironstead",
     "type": "eatery",
     "lat": 40.744239,
     "lng": -73.932031,
     "address": "6043 Elm St, Staten Island, NY 11570"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Thornpine",
     "type": "store",
     "lat": 40.648658,
     "lng": -74.071757,
     "address": "6773 Pine St, Brooklyn, NY 10347"
   },
   {
-    "name": "Sunset Center",
+    "name": "Cindercenter",
     "type": "store",
     "lat": 40.750584,
     "lng": -74.081925,
     "address": "5671 Washington St, Staten Island, NY 10491"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Frostbarrow",
     "type": "store",
     "lat": 40.679219,
     "lng": -73.908383,
     "address": "4456 Washington St, Staten Island, NY 11159"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Elmgroup",
     "type": "atm",
     "lat": 40.647084,
     "lng": -74.103984,
     "address": "2361 Washington St, Bronx, NY 10886"
   },
   {
-    "name": "Maple Health",
+    "name": "Oakhollow",
     "type": "clinic",
     "lat": 40.804904,
     "lng": -73.920841,
     "address": "6129 Elm St, Bronx, NY 11121"
   },
   {
-    "name": "Riverside Market",
+    "name": "Hollowbarrow",
     "type": "gas station",
     "lat": 40.61819,
     "lng": -73.998103,
     "address": "6506 Washington St, Staten Island, NY 11717"
   },
   {
-    "name": "Riverside Point",
+    "name": "Brightmere",
     "type": "store",
     "lat": 40.65432,
     "lng": -73.907475,
     "address": "5895 Cedar St, Brooklyn, NY 10116"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Starhollow",
     "type": "eatery",
     "lat": 40.784236,
     "lng": -73.948872,
     "address": "9152 Main St, Manhattan, NY 11488"
   },
   {
-    "name": "Sunset Health",
+    "name": "Brighthollow",
     "type": "clinic",
     "lat": 40.756025,
     "lng": -73.995741,
     "address": "4765 Elm St, Staten Island, NY 11132"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Cinderhaven",
     "type": "clinic",
     "lat": 40.732229,
     "lng": -74.057042,
     "address": "278 Hill St, Manhattan, NY 11994"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Ravenmarket",
     "type": "clinic",
     "lat": 40.625359,
     "lng": -74.038249,
     "address": "9788 Hill St, Brooklyn, NY 10767"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Sunstead",
     "type": "store",
     "lat": 40.625409,
     "lng": -74.085969,
     "address": "4277 Maple St, Brooklyn, NY 10670"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Cinderpoint",
     "type": "store",
     "lat": 40.791291,
     "lng": -73.979683,
     "address": "1610 Hill St, Brooklyn, NY 10868"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Cinderbridge",
     "type": "store",
     "lat": 40.732656,
     "lng": -73.987236,
     "address": "4688 Elm St, Brooklyn, NY 10335"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Oakgroup",
     "type": "store",
     "lat": 40.793797,
     "lng": -73.917004,
     "address": "5973 Elm St, Bronx, NY 10184"
   },
   {
-    "name": "Brighton Market",
+    "name": "Brassstone",
     "type": "gas station",
     "lat": 40.635023,
     "lng": -74.021609,
     "address": "9784 Washington St, Manhattan, NY 10891"
   },
   {
-    "name": "Sunset Group",
+    "name": "Glimmerhaven",
     "type": "clinic",
     "lat": 40.79601,
     "lng": -74.026833,
     "address": "3215 Sunset St, Manhattan, NY 11561"
   },
   {
-    "name": "Brighton Group",
+    "name": "Brookstone",
     "type": "clinic",
     "lat": 40.658376,
     "lng": -74.066136,
     "address": "6160 Main St, Manhattan, NY 10695"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Hearthbank",
     "type": "store",
     "lat": 40.648716,
     "lng": -74.059024,
     "address": "5598 Lake St, Queens, NY 11326"
   },
   {
-    "name": "Brighton Group",
+    "name": "Driftmere",
     "type": "atm",
     "lat": 40.656873,
     "lng": -73.943924,
     "address": "6928 Main St, Queens, NY 11432"
   },
   {
-    "name": "Brighton Point",
+    "name": "Miststead",
     "type": "atm",
     "lat": 40.745158,
     "lng": -74.094293,
     "address": "8445 Hill St, Bronx, NY 11401"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Brasspoint",
     "type": "clinic",
     "lat": 40.792296,
     "lng": -74.082179,
     "address": "2650 Lake St, Brooklyn, NY 11614"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Sunpoint",
     "type": "eatery",
     "lat": 40.795591,
     "lng": -74.036075,
     "address": "6773 Cedar St, Queens, NY 10155"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Sunwill",
     "type": "gas station",
     "lat": 40.742905,
     "lng": -73.956474,
     "address": "4739 Washington St, Brooklyn, NY 11762"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Brightwick",
     "type": "atm",
     "lat": 40.720983,
     "lng": -73.963913,
     "address": "5161 Lake St, Staten Island, NY 10201"
   },
   {
-    "name": "Brighton Center",
+    "name": "Pinewatch",
     "type": "eatery",
     "lat": 40.673228,
     "lng": -73.995318,
     "address": "3527 Cedar St, Staten Island, NY 10553"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Mirevault",
     "type": "gas station",
     "lat": 40.699625,
     "lng": -74.058424,
     "address": "6043 Lake St, Manhattan, NY 10849"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Frostridge",
     "type": "atm",
     "lat": 40.738139,
     "lng": -73.992548,
     "address": "8182 Washington St, Brooklyn, NY 10079"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Frostrun",
     "type": "store",
     "lat": 40.720164,
     "lng": -74.054531,
     "address": "9647 Main St, Staten Island, NY 10858"
   },
   {
-    "name": "Riverside Group",
+    "name": "Cloudvault",
     "type": "eatery",
     "lat": 40.790814,
     "lng": -74.01579,
     "address": "5168 Hill St, Manhattan, NY 10381"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Silverwick",
     "type": "atm",
     "lat": 40.767583,
     "lng": -74.076809,
     "address": "9286 Hill St, Bronx, NY 11883"
   },
   {
-    "name": "Sunset Market",
+    "name": "Sablemoor",
     "type": "gas station",
     "lat": 40.739468,
     "lng": -73.944308,
     "address": "523 Elm St, Staten Island, NY 11614"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Hollowgroup",
     "type": "clinic",
     "lat": 40.728403,
     "lng": -74.01997,
     "address": "5017 Hill St, Staten Island, NY 10977"
   },
   {
-    "name": "Peterson Group",
+    "name": "Stonefen",
     "type": "clinic",
     "lat": 40.695054,
     "lng": -74.104319,
     "address": "121 Hill St, Bronx, NY 11960"
   },
   {
-    "name": "Peterson Market",
+    "name": "Hollowhaven",
     "type": "gas station",
     "lat": 40.811694,
     "lng": -74.021992,
     "address": "2493 Sunset St, Queens, NY 10577"
   },
   {
-    "name": "Sunset Station",
+    "name": "Mirestead",
     "type": "store",
     "lat": 40.77456,
     "lng": -74.063533,
     "address": "8998 Oak St, Brooklyn, NY 11156"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Oakwatch",
     "type": "gas station",
     "lat": 40.75069,
     "lng": -73.945694,
     "address": "7554 Maple St, Brooklyn, NY 10007"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Glimmermarket",
     "type": "atm",
     "lat": 40.717883,
     "lng": -73.976245,
     "address": "2900 Main St, Brooklyn, NY 11826"
   },
   {
-    "name": "Sunset Market",
+    "name": "Pinereach",
     "type": "clinic",
     "lat": 40.669114,
     "lng": -74.075189,
     "address": "5853 Maple St, Queens, NY 11387"
   },
   {
-    "name": "Sunset Station",
+    "name": "Glimmerhill",
     "type": "eatery",
     "lat": 40.664941,
     "lng": -74.056621,
     "address": "3220 Washington St, Bronx, NY 11114"
   },
   {
-    "name": "Peterson Group",
+    "name": "Moonrun",
     "type": "store",
     "lat": 40.715979,
     "lng": -73.912608,
     "address": "5378 Oak St, Manhattan, NY 11402"
   },
   {
-    "name": "Peterson Group",
+    "name": "Foxoutlet",
     "type": "gas station",
     "lat": 40.72358,
     "lng": -73.995549,
     "address": "1252 Hill St, Bronx, NY 11023"
   },
   {
-    "name": "Peterson Station",
+    "name": "Thornoutlet",
     "type": "eatery",
     "lat": 40.745819,
     "lng": -73.918833,
     "address": "4817 Washington St, Manhattan, NY 11893"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Brightplaza",
     "type": "gas station",
     "lat": 40.659281,
     "lng": -74.032986,
     "address": "2691 Hill St, Manhattan, NY 10168"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Irongrove",
     "type": "atm",
     "lat": 40.811607,
     "lng": -73.929428,
     "address": "5703 Maple St, Queens, NY 10113"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Hearthgroup",
     "type": "gas station",
     "lat": 40.647372,
     "lng": -73.930916,
     "address": "5135 Hill St, Bronx, NY 11625"
   },
   {
-    "name": "Riverside Group",
+    "name": "Sablegrove",
     "type": "eatery",
     "lat": 40.740595,
     "lng": -73.968826,
     "address": "6986 Lake St, Queens, NY 10915"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Stonehollow",
     "type": "gas station",
     "lat": 40.725583,
     "lng": -73.933606,
     "address": "7319 Elm St, Queens, NY 10679"
   },
   {
-    "name": "Riverside Center",
+    "name": "Moonstation",
     "type": "gas station",
     "lat": 40.685554,
     "lng": -73.954777,
     "address": "655 Maple St, Bronx, NY 11226"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Brookvault",
     "type": "gas station",
     "lat": 40.708954,
     "lng": -74.047252,
     "address": "6581 Hill St, Brooklyn, NY 11449"
   },
   {
-    "name": "Riverside Market",
+    "name": "Pinebarrow",
     "type": "eatery",
     "lat": 40.743044,
     "lng": -74.020181,
     "address": "3446 Washington St, Queens, NY 10396"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Irongroup",
     "type": "gas station",
     "lat": 40.808829,
     "lng": -73.978616,
     "address": "5412 Cedar St, Bronx, NY 10173"
   },
   {
-    "name": "Greenwood Center",
+    "name": "Nightwatch",
     "type": "eatery",
     "lat": 40.620274,
     "lng": -73.9377,
     "address": "534 Cedar St, Brooklyn, NY 10519"
   },
   {
-    "name": "Peterson Health",
+    "name": "Thornwatch",
     "type": "atm",
     "lat": 40.717063,
     "lng": -74.100042,
     "address": "8054 Main St, Queens, NY 10804"
   },
   {
-    "name": "Sunset Market",
+    "name": "Oakvault",
     "type": "atm",
     "lat": 40.676341,
     "lng": -73.929511,
     "address": "9350 Elm St, Queens, NY 11183"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Oakpoint",
     "type": "atm",
     "lat": 40.68174,
     "lng": -74.047265,
     "address": "2793 Main St, Bronx, NY 11307"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Frostmere",
     "type": "eatery",
     "lat": 40.706927,
     "lng": -74.01961,
     "address": "7940 Sunset St, Staten Island, NY 10882"
   },
   {
-    "name": "Peterson Station",
+    "name": "Glimmerbank",
     "type": "gas station",
     "lat": 40.62903,
     "lng": -74.046488,
     "address": "1445 Pine St, Brooklyn, NY 11692"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Ironwill",
     "type": "eatery",
     "lat": 40.810685,
     "lng": -74.068706,
     "address": "275 Main St, Queens, NY 10231"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Brookridge",
     "type": "gas station",
     "lat": 40.7524,
     "lng": -74.084197,
     "address": "5848 Cedar St, Bronx, NY 11947"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Stonewill",
     "type": "store",
     "lat": 40.75645,
     "lng": -73.956839,
     "address": "5399 Cedar St, Bronx, NY 10597"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Mirehaven",
     "type": "store",
     "lat": 40.80283,
     "lng": -73.937288,
     "address": "9031 Maple St, Queens, NY 10086"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Thornrun",
     "type": "gas station",
     "lat": 40.785577,
     "lng": -73.947012,
     "address": "2120 Washington St, Manhattan, NY 10217"
   },
   {
-    "name": "Maple Health",
+    "name": "Sunwick",
     "type": "atm",
     "lat": 40.787107,
     "lng": -74.059699,
     "address": "6698 Elm St, Brooklyn, NY 10787"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Driftmoor",
     "type": "gas station",
     "lat": 40.666602,
     "lng": -73.962079,
     "address": "8881 Oak St, Staten Island, NY 10694"
   },
   {
-    "name": "Sunset Point",
+    "name": "Stargrove",
     "type": "eatery",
     "lat": 40.664418,
     "lng": -73.9418,
     "address": "4383 Hill St, Manhattan, NY 10586"
   },
   {
-    "name": "Peterson Group",
+    "name": "Brasshill",
     "type": "atm",
     "lat": 40.619332,
     "lng": -73.964931,
     "address": "425 Hill St, Staten Island, NY 10851"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Ashreach",
     "type": "clinic",
     "lat": 40.768362,
     "lng": -74.019166,
     "address": "4645 Main St, Brooklyn, NY 10911"
   },
   {
-    "name": "Brighton Point",
+    "name": "Stonewick",
     "type": "eatery",
     "lat": 40.711513,
     "lng": -74.025272,
     "address": "4083 Pine St, Manhattan, NY 10973"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Brightstation",
     "type": "eatery",
     "lat": 40.698284,
     "lng": -74.030911,
     "address": "6789 Main St, Bronx, NY 11283"
   },
   {
-    "name": "Peterson Market",
+    "name": "Hollowfield",
     "type": "clinic",
     "lat": 40.686321,
     "lng": -74.031254,
     "address": "3125 Elm St, Queens, NY 10744"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Ashplaza",
     "type": "eatery",
     "lat": 40.663109,
     "lng": -73.922548,
     "address": "8954 Elm St, Queens, NY 11854"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Brookfield",
     "type": "gas station",
     "lat": 40.787465,
     "lng": -74.049532,
     "address": "9100 Cedar St, Bronx, NY 10860"
   },
   {
-    "name": "Maple Center",
+    "name": "Stonehill",
     "type": "eatery",
     "lat": 40.691433,
     "lng": -74.002309,
     "address": "4880 Lake St, Staten Island, NY 11238"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Windplaza",
     "type": "atm",
     "lat": 40.797895,
     "lng": -74.088693,
     "address": "5762 Elm St, Bronx, NY 11437"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Cindermere",
     "type": "eatery",
     "lat": 40.770238,
     "lng": -74.044358,
     "address": "6419 Sunset St, Queens, NY 10032"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Ravenwill",
     "type": "gas station",
     "lat": 40.755181,
     "lng": -73.94282,
     "address": "7586 Oak St, Bronx, NY 10401"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Ironhollow",
     "type": "eatery",
     "lat": 40.69688,
     "lng": -73.91409,
     "address": "2412 Sunset St, Staten Island, NY 10563"
   },
   {
-    "name": "Peterson Market",
+    "name": "Stonerun",
     "type": "gas station",
     "lat": 40.724379,
     "lng": -74.104916,
     "address": "6844 Washington St, Manhattan, NY 10934"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Mistfield",
     "type": "clinic",
     "lat": 40.655822,
     "lng": -73.993026,
     "address": "2655 Sunset St, Brooklyn, NY 10584"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Shadowstation",
     "type": "store",
     "lat": 40.74392,
     "lng": -74.007848,
     "address": "849 Oak St, Staten Island, NY 10061"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Moonoutlet",
     "type": "gas station",
     "lat": 40.61999,
     "lng": -73.951125,
     "address": "7128 Hill St, Bronx, NY 10675"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Ashmoor",
     "type": "gas station",
     "lat": 40.738509,
     "lng": -73.973227,
     "address": "4144 Main St, Brooklyn, NY 10081"
   },
   {
-    "name": "Peterson Station",
+    "name": "Brightpine",
     "type": "atm",
     "lat": 40.740077,
     "lng": -73.993762,
     "address": "4785 Maple St, Manhattan, NY 10086"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Shadowmarket",
     "type": "store",
     "lat": 40.677128,
     "lng": -74.052188,
     "address": "1179 Oak St, Bronx, NY 10110"
   },
   {
-    "name": "Sunset Station",
+    "name": "Stoneplaza",
     "type": "atm",
     "lat": 40.718697,
     "lng": -74.013742,
     "address": "3255 Lake St, Brooklyn, NY 11529"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Moonvault",
     "type": "gas station",
     "lat": 40.683558,
     "lng": -74.058067,
     "address": "5787 Cedar St, Queens, NY 10691"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Elmpine",
     "type": "eatery",
     "lat": 40.761923,
     "lng": -74.038037,
     "address": "4150 Elm St, Staten Island, NY 10995"
   },
   {
-    "name": "Brighton Health",
+    "name": "Cindergrove",
     "type": "atm",
     "lat": 40.679807,
     "lng": -74.100825,
     "address": "2509 Main St, Bronx, NY 11593"
   },
   {
-    "name": "Sunset Point",
+    "name": "Silvergrove",
     "type": "eatery",
     "lat": 40.684968,
     "lng": -73.986787,
     "address": "2314 Washington St, Staten Island, NY 11310"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Hearthstation",
     "type": "eatery",
     "lat": 40.629369,
     "lng": -73.977421,
     "address": "572 Maple St, Staten Island, NY 11528"
   },
   {
-    "name": "Maple Health",
+    "name": "Goldoutlet",
     "type": "store",
     "lat": 40.736382,
     "lng": -74.028764,
     "address": "4341 Cedar St, Staten Island, NY 10907"
   },
   {
-    "name": "Riverside Health",
+    "name": "Mirecenter",
     "type": "eatery",
     "lat": 40.793817,
     "lng": -73.94446,
     "address": "3054 Elm St, Bronx, NY 11483"
   },
   {
-    "name": "Maple Group",
+    "name": "Sunbank",
     "type": "atm",
     "lat": 40.653488,
     "lng": -73.991167,
     "address": "9083 Washington St, Staten Island, NY 10746"
   },
   {
-    "name": "Sunset Market",
+    "name": "Elmwick",
     "type": "store",
     "lat": 40.793131,
     "lng": -73.964927,
     "address": "9800 Elm St, Brooklyn, NY 11432"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Thornfen",
     "type": "atm",
     "lat": 40.812712,
     "lng": -73.910825,
     "address": "2218 Maple St, Bronx, NY 10003"
   },
   {
-    "name": "Sunset Health",
+    "name": "Oakfield",
     "type": "eatery",
     "lat": 40.671593,
     "lng": -73.931461,
     "address": "5719 Washington St, Bronx, NY 11386"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Moonmoor",
     "type": "atm",
     "lat": 40.652043,
     "lng": -74.019911,
     "address": "5130 Pine St, Queens, NY 11702"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Brassstead",
     "type": "clinic",
     "lat": 40.80719,
     "lng": -73.961674,
     "address": "606 Maple St, Staten Island, NY 10791"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Goldhill",
     "type": "eatery",
     "lat": 40.770351,
     "lng": -74.024989,
     "address": "4795 Hill St, Brooklyn, NY 10957"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Mirestation",
     "type": "gas station",
     "lat": 40.666324,
     "lng": -73.993286,
     "address": "9328 Maple St, Manhattan, NY 10252"
   },
   {
-    "name": "Brighton Center",
+    "name": "Sablepine",
     "type": "store",
     "lat": 40.636431,
     "lng": -74.073572,
     "address": "4455 Sunset St, Bronx, NY 11867"
   },
   {
-    "name": "Brighton Market",
+    "name": "Pinebridge",
     "type": "store",
     "lat": 40.72665,
     "lng": -74.065673,
     "address": "4302 Main St, Queens, NY 11386"
   },
   {
-    "name": "Sunset Market",
+    "name": "Cloudridge",
     "type": "atm",
     "lat": 40.807722,
     "lng": -74.036038,
     "address": "5473 Maple St, Bronx, NY 11514"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Stonegroup",
     "type": "clinic",
     "lat": 40.708804,
     "lng": -73.915244,
     "address": "747 Lake St, Staten Island, NY 10124"
   },
   {
-    "name": "Maple Market",
+    "name": "Foxreach",
     "type": "store",
     "lat": 40.725418,
     "lng": -74.093334,
     "address": "6571 Pine St, Manhattan, NY 10684"
   },
   {
-    "name": "Riverside Point",
+    "name": "Goldmere",
     "type": "gas station",
     "lat": 40.760708,
     "lng": -73.981802,
     "address": "9072 Lake St, Bronx, NY 11420"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Nightmoor",
     "type": "eatery",
     "lat": 40.701586,
     "lng": -74.062311,
     "address": "5842 Washington St, Queens, NY 10220"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Windreach",
     "type": "eatery",
     "lat": 40.658539,
     "lng": -73.93954,
     "address": "5753 Cedar St, Bronx, NY 11315"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Moonfield",
     "type": "atm",
     "lat": 40.781772,
     "lng": -74.048749,
     "address": "5131 Pine St, Brooklyn, NY 11264"
   },
   {
-    "name": "Sunset Station",
+    "name": "Shadowwick",
     "type": "atm",
     "lat": 40.783872,
     "lng": -74.081247,
     "address": "8894 Pine St, Bronx, NY 11107"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Mistrun",
     "type": "eatery",
     "lat": 40.66146,
     "lng": -73.911815,
     "address": "7870 Main St, Bronx, NY 11033"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Brookoutlet",
     "type": "eatery",
     "lat": 40.758489,
     "lng": -74.071186,
     "address": "4691 Maple St, Queens, NY 10208"
   },
   {
-    "name": "Maple Market",
+    "name": "Driftstation",
     "type": "atm",
     "lat": 40.785435,
     "lng": -73.980725,
     "address": "4658 Main St, Bronx, NY 11146"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Shadowbridge",
     "type": "eatery",
     "lat": 40.687482,
     "lng": -74.088322,
     "address": "417 Pine St, Manhattan, NY 11009"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Glimmerplaza",
     "type": "eatery",
     "lat": 40.742898,
     "lng": -73.98549,
     "address": "9316 Hill St, Staten Island, NY 10793"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Sablestation",
     "type": "atm",
     "lat": 40.783808,
     "lng": -73.976488,
     "address": "1223 Sunset St, Brooklyn, NY 10058"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Silvermarket",
     "type": "store",
     "lat": 40.694307,
     "lng": -73.962951,
     "address": "5167 Pine St, Bronx, NY 10874"
   },
   {
-    "name": "Riverside Health",
+    "name": "Brookgroup",
     "type": "eatery",
     "lat": 40.752628,
     "lng": -73.964241,
     "address": "7547 Pine St, Staten Island, NY 10741"
   },
   {
-    "name": "Maple Market",
+    "name": "Moonfen",
     "type": "store",
     "lat": 40.740642,
     "lng": -74.051565,
     "address": "7117 Hill St, Manhattan, NY 11050"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Foxhaven",
     "type": "eatery",
     "lat": 40.621273,
     "lng": -73.926626,
     "address": "8568 Pine St, Brooklyn, NY 11015"
   },
   {
-    "name": "Riverside Station",
+    "name": "Nightgrove",
     "type": "atm",
     "lat": 40.694022,
     "lng": -73.939515,
     "address": "2359 Pine St, Staten Island, NY 11794"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Elmstation",
     "type": "clinic",
     "lat": 40.650055,
     "lng": -74.058246,
     "address": "7634 Pine St, Staten Island, NY 10837"
   },
   {
-    "name": "Sunset Station",
+    "name": "Thornbridge",
     "type": "store",
     "lat": 40.757809,
     "lng": -73.942975,
     "address": "5066 Main St, Brooklyn, NY 11080"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Driftfield",
     "type": "clinic",
     "lat": 40.699398,
     "lng": -74.062396,
     "address": "3917 Hill St, Queens, NY 10535"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Foxmoor",
     "type": "gas station",
     "lat": 40.713783,
     "lng": -74.03442,
     "address": "8573 Washington St, Brooklyn, NY 10102"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Cloudfen",
     "type": "atm",
     "lat": 40.660513,
     "lng": -74.029124,
     "address": "2510 Oak St, Queens, NY 11003"
   },
   {
-    "name": "Maple Health",
+    "name": "Ravenfen",
     "type": "clinic",
     "lat": 40.614548,
     "lng": -74.064155,
     "address": "5434 Elm St, Manhattan, NY 11970"
   },
   {
-    "name": "Maple Point",
+    "name": "Ironmarket",
     "type": "atm",
     "lat": 40.745151,
     "lng": -73.93244,
     "address": "3098 Elm St, Manhattan, NY 10892"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Ashmere",
     "type": "gas station",
     "lat": 40.737619,
     "lng": -73.998754,
     "address": "7765 Main St, Manhattan, NY 10774"
   },
   {
-    "name": "Maple Station",
+    "name": "Hearthfen",
     "type": "gas station",
     "lat": 40.643068,
     "lng": -73.972004,
     "address": "7940 Lake St, Brooklyn, NY 10716"
   },
   {
-    "name": "Brighton Station",
+    "name": "Pinegroup",
     "type": "gas station",
     "lat": 40.634964,
     "lng": -73.928941,
     "address": "9874 Oak St, Staten Island, NY 10501"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Brightrun",
     "type": "clinic",
     "lat": 40.747611,
     "lng": -74.003355,
     "address": "422 Pine St, Bronx, NY 11205"
   },
   {
-    "name": "Brighton Market",
+    "name": "Ravenbridge",
     "type": "store",
     "lat": 40.793896,
     "lng": -74.070483,
     "address": "5350 Sunset St, Brooklyn, NY 10810"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Cloudhollow",
     "type": "atm",
     "lat": 40.805161,
     "lng": -74.10459,
     "address": "5617 Sunset St, Bronx, NY 11497"
   },
   {
-    "name": "Peterson Station",
+    "name": "Mirefield",
     "type": "store",
     "lat": 40.757365,
     "lng": -74.102492,
     "address": "4793 Lake St, Brooklyn, NY 11538"
   },
   {
-    "name": "Peterson Group",
+    "name": "Hearthrun",
     "type": "gas station",
     "lat": 40.616366,
     "lng": -74.011109,
     "address": "3716 Lake St, Bronx, NY 11160"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Oakstation",
     "type": "gas station",
     "lat": 40.777371,
     "lng": -73.923802,
     "address": "9812 Washington St, Bronx, NY 10782"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Mirewatch",
     "type": "store",
     "lat": 40.622671,
     "lng": -73.979342,
     "address": "6545 Main St, Staten Island, NY 11756"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Nightstation",
     "type": "clinic",
     "lat": 40.795311,
     "lng": -74.046781,
     "address": "6729 Washington St, Queens, NY 11402"
   },
   {
-    "name": "Maple Station",
+    "name": "Nightfield",
     "type": "atm",
     "lat": 40.77315,
     "lng": -73.975548,
     "address": "5336 Oak St, Staten Island, NY 11447"
   },
   {
-    "name": "Sunset Station",
+    "name": "Nightvault",
     "type": "clinic",
     "lat": 40.704073,
     "lng": -73.99571,
     "address": "5041 Washington St, Bronx, NY 10477"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Sunmoor",
     "type": "clinic",
     "lat": 40.673091,
     "lng": -74.00183,
     "address": "8610 Maple St, Staten Island, NY 11414"
   },
   {
-    "name": "Brighton Station",
+    "name": "Mistbank",
     "type": "atm",
     "lat": 40.736837,
     "lng": -74.052332,
     "address": "6312 Elm St, Manhattan, NY 11305"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Brassgroup",
     "type": "atm",
     "lat": 40.6157,
     "lng": -73.99007,
     "address": "2436 Elm St, Brooklyn, NY 10478"
   },
   {
-    "name": "Sunset Health",
+    "name": "Nightridge",
     "type": "store",
     "lat": 40.742455,
     "lng": -74.006961,
     "address": "5007 Pine St, Manhattan, NY 10480"
   },
   {
-    "name": "Brighton Market",
+    "name": "Ashwill",
     "type": "gas station",
     "lat": 40.622511,
     "lng": -74.042797,
     "address": "1249 Elm St, Bronx, NY 10944"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Stonebarrow",
     "type": "eatery",
     "lat": 40.693478,
     "lng": -73.93025,
     "address": "9904 Hill St, Staten Island, NY 11389"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Ravenstation",
     "type": "store",
     "lat": 40.765608,
     "lng": -74.008861,
     "address": "5474 Lake St, Staten Island, NY 11810"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Goldplaza",
     "type": "eatery",
     "lat": 40.746955,
     "lng": -74.040513,
     "address": "5135 Hill St, Brooklyn, NY 11720"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Goldgroup",
     "type": "eatery",
     "lat": 40.779443,
     "lng": -73.934081,
     "address": "5080 Main St, Queens, NY 11679"
   },
   {
-    "name": "Riverside Group",
+    "name": "Brassbank",
     "type": "store",
     "lat": 40.640111,
     "lng": -73.916012,
     "address": "8431 Elm St, Staten Island, NY 10898"
   },
   {
-    "name": "Sunset Health",
+    "name": "Brookmere",
     "type": "gas station",
     "lat": 40.627411,
     "lng": -73.915947,
     "address": "4664 Main St, Queens, NY 11452"
   },
   {
-    "name": "Maple Group",
+    "name": "Oakridge",
     "type": "store",
     "lat": 40.791073,
     "lng": -73.939895,
     "address": "3817 Lake St, Manhattan, NY 10544"
   },
   {
-    "name": "Maple Station",
+    "name": "Ravenhill",
     "type": "atm",
     "lat": 40.796189,
     "lng": -73.922919,
     "address": "2350 Cedar St, Bronx, NY 11275"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Silverstation",
     "type": "clinic",
     "lat": 40.679918,
     "lng": -74.011008,
     "address": "3207 Lake St, Brooklyn, NY 10501"
   },
   {
-    "name": "Riverside Market",
+    "name": "Brookwick",
     "type": "gas station",
     "lat": 40.77081,
     "lng": -73.995346,
     "address": "1333 Oak St, Bronx, NY 11467"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Oakcenter",
     "type": "eatery",
     "lat": 40.767086,
     "lng": -74.077623,
     "address": "5706 Washington St, Queens, NY 11361"
   },
   {
-    "name": "Peterson Center",
+    "name": "Ironfen",
     "type": "clinic",
     "lat": 40.728683,
     "lng": -74.013156,
     "address": "2664 Sunset St, Bronx, NY 10404"
   },
   {
-    "name": "Maple Point",
+    "name": "Brassmarket",
     "type": "eatery",
     "lat": 40.771853,
     "lng": -73.920892,
     "address": "1459 Washington St, Bronx, NY 11175"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Moonhollow",
     "type": "gas station",
     "lat": 40.768148,
     "lng": -73.915262,
     "address": "6932 Hill St, Brooklyn, NY 10882"
   },
   {
-    "name": "Peterson Market",
+    "name": "Mistoutlet",
     "type": "clinic",
     "lat": 40.639848,
     "lng": -74.075185,
     "address": "9380 Cedar St, Queens, NY 10657"
   },
   {
-    "name": "Sunset Station",
+    "name": "Ironwick",
     "type": "atm",
     "lat": 40.682429,
     "lng": -73.93752,
     "address": "2981 Maple St, Manhattan, NY 10762"
   },
   {
-    "name": "Brighton Center",
+    "name": "Miremoor",
     "type": "clinic",
     "lat": 40.65123,
     "lng": -73.907579,
     "address": "5787 Main St, Queens, NY 11968"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Glimmerbridge",
     "type": "clinic",
     "lat": 40.736039,
     "lng": -73.988363,
     "address": "606 Main St, Bronx, NY 11797"
   },
   {
-    "name": "Sunset Station",
+    "name": "Windbank",
     "type": "eatery",
     "lat": 40.799864,
     "lng": -74.020065,
     "address": "8915 Cedar St, Bronx, NY 10988"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Cinderstation",
     "type": "eatery",
     "lat": 40.691242,
     "lng": -74.01844,
     "address": "332 Maple St, Bronx, NY 10841"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Hearthcenter",
     "type": "store",
     "lat": 40.639242,
     "lng": -74.037821,
     "address": "3789 Maple St, Manhattan, NY 10948"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Starwatch",
     "type": "eatery",
     "lat": 40.761008,
     "lng": -74.070154,
     "address": "515 Cedar St, Staten Island, NY 10011"
   },
   {
-    "name": "Sunset Health",
+    "name": "Ashhollow",
     "type": "clinic",
     "lat": 40.628627,
     "lng": -74.002013,
     "address": "5274 Hill St, Bronx, NY 11160"
   },
   {
-    "name": "Riverside Center",
+    "name": "Brassoutlet",
     "type": "gas station",
     "lat": 40.664346,
     "lng": -74.042921,
     "address": "153 Hill St, Staten Island, NY 10796"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Driftstead",
     "type": "clinic",
     "lat": 40.672299,
     "lng": -74.038572,
     "address": "4983 Washington St, Staten Island, NY 11923"
   },
   {
-    "name": "Brighton Station",
+    "name": "Ashwatch",
     "type": "clinic",
     "lat": 40.639399,
     "lng": -74.056297,
     "address": "5940 Cedar St, Bronx, NY 10659"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Brasshaven",
     "type": "clinic",
     "lat": 40.64801,
     "lng": -73.994348,
     "address": "673 Oak St, Brooklyn, NY 11974"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Silverbarrow",
     "type": "store",
     "lat": 40.665208,
     "lng": -73.93564,
     "address": "160 Cedar St, Queens, NY 10076"
   },
   {
-    "name": "Maple Group",
+    "name": "Moongroup",
     "type": "gas station",
     "lat": 40.700335,
     "lng": -73.965143,
     "address": "3088 Main St, Manhattan, NY 10027"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Starmoor",
     "type": "atm",
     "lat": 40.721255,
     "lng": -73.947643,
     "address": "2326 Pine St, Brooklyn, NY 11604"
   },
   {
-    "name": "Sunset Market",
+    "name": "Starstead",
     "type": "gas station",
     "lat": 40.799187,
     "lng": -73.988904,
     "address": "7905 Elm St, Staten Island, NY 10993"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Elmrun",
     "type": "atm",
     "lat": 40.771382,
     "lng": -74.099059,
     "address": "6979 Lake St, Bronx, NY 10907"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Stonegrove",
     "type": "eatery",
     "lat": 40.788245,
     "lng": -73.974942,
     "address": "1615 Sunset St, Staten Island, NY 11639"
   },
   {
-    "name": "Peterson Group",
+    "name": "Driftwill",
     "type": "gas station",
     "lat": 40.672284,
     "lng": -73.948915,
     "address": "4677 Hill St, Manhattan, NY 11849"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Silverpine",
     "type": "atm",
     "lat": 40.68952,
     "lng": -73.961326,
     "address": "5189 Maple St, Staten Island, NY 11074"
   },
   {
-    "name": "Sunset Market",
+    "name": "Starfield",
     "type": "store",
     "lat": 40.761911,
     "lng": -74.005854,
     "address": "2163 Hill St, Brooklyn, NY 11485"
   },
   {
-    "name": "Greenwood Center",
+    "name": "Misthill",
     "type": "atm",
     "lat": 40.775032,
     "lng": -74.060357,
     "address": "4107 Main St, Bronx, NY 11594"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Miremarket",
     "type": "eatery",
     "lat": 40.700757,
     "lng": -73.955901,
     "address": "2455 Hill St, Staten Island, NY 10716"
   },
   {
-    "name": "Brighton Station",
+    "name": "Miststone",
     "type": "atm",
     "lat": 40.804309,
     "lng": -73.95217,
     "address": "7705 Cedar St, Bronx, NY 11198"
   },
   {
-    "name": "Peterson Station",
+    "name": "Pinepoint",
     "type": "eatery",
     "lat": 40.775539,
     "lng": -73.93868,
     "address": "8579 Pine St, Queens, NY 10149"
   },
   {
-    "name": "Greenwood Center",
+    "name": "Shadowreach",
     "type": "store",
     "lat": 40.691537,
     "lng": -73.986138,
     "address": "1251 Lake St, Staten Island, NY 10555"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Hearthhaven",
     "type": "atm",
     "lat": 40.648096,
     "lng": -73.948712,
     "address": "9722 Maple St, Manhattan, NY 10617"
   },
   {
-    "name": "Maple Health",
+    "name": "Mistreach",
     "type": "eatery",
     "lat": 40.664506,
     "lng": -74.078726,
     "address": "3763 Maple St, Queens, NY 10296"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Goldwill",
     "type": "eatery",
     "lat": 40.64698,
     "lng": -73.963186,
     "address": "886 Washington St, Queens, NY 10759"
   },
   {
-    "name": "Maple Health",
+    "name": "Windhollow",
     "type": "store",
     "lat": 40.747223,
     "lng": -74.090692,
     "address": "5141 Maple St, Queens, NY 11342"
   },
   {
-    "name": "Sunset Health",
+    "name": "Cloudhaven",
     "type": "store",
     "lat": 40.775778,
     "lng": -74.001563,
     "address": "1016 Washington St, Bronx, NY 10579"
   },
   {
-    "name": "Brighton Center",
+    "name": "Mirefen",
     "type": "atm",
     "lat": 40.638916,
     "lng": -74.102188,
     "address": "3250 Sunset St, Brooklyn, NY 10188"
   },
   {
-    "name": "Sunset Station",
+    "name": "Cloudrun",
     "type": "store",
     "lat": 40.699193,
     "lng": -73.96965,
     "address": "7619 Elm St, Brooklyn, NY 11576"
   },
   {
-    "name": "Peterson Health",
+    "name": "Glimmerfen",
     "type": "eatery",
     "lat": 40.716822,
     "lng": -73.973865,
     "address": "3036 Main St, Manhattan, NY 11583"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Glimmermoor",
     "type": "eatery",
     "lat": 40.694157,
     "lng": -74.064906,
     "address": "2134 Elm St, Brooklyn, NY 10459"
   },
   {
-    "name": "Sunset Point",
+    "name": "Froststation",
     "type": "clinic",
     "lat": 40.795774,
     "lng": -73.992589,
     "address": "184 Lake St, Staten Island, NY 10016"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Sunhill",
     "type": "atm",
     "lat": 40.789845,
     "lng": -73.906194,
     "address": "2236 Cedar St, Manhattan, NY 10382"
   },
   {
-    "name": "Brighton Center",
+    "name": "Foxfield",
     "type": "gas station",
     "lat": 40.708414,
     "lng": -73.925699,
     "address": "7921 Hill St, Manhattan, NY 11005"
   },
   {
-    "name": "Sunset Group",
+    "name": "Driftvault",
     "type": "eatery",
     "lat": 40.717199,
     "lng": -73.997771,
     "address": "8643 Oak St, Manhattan, NY 11286"
   },
   {
-    "name": "Peterson Group",
+    "name": "Ravenpoint",
     "type": "gas station",
     "lat": 40.712322,
     "lng": -74.083043,
     "address": "9693 Cedar St, Bronx, NY 10327"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Hollowplaza",
     "type": "atm",
     "lat": 40.763463,
     "lng": -74.040552,
     "address": "2982 Washington St, Manhattan, NY 11644"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Sunbarrow",
     "type": "gas station",
     "lat": 40.725452,
     "lng": -73.921371,
     "address": "6643 Hill St, Brooklyn, NY 11690"
   },
   {
-    "name": "Peterson Center",
+    "name": "Brightwatch",
     "type": "gas station",
     "lat": 40.695336,
     "lng": -74.075018,
     "address": "3922 Lake St, Queens, NY 11427"
   },
   {
-    "name": "Maple Health",
+    "name": "Ravenwatch",
     "type": "gas station",
     "lat": 40.662984,
     "lng": -73.941707,
     "address": "2869 Main St, Manhattan, NY 11824"
   },
   {
-    "name": "Maple Health",
+    "name": "Pinefen",
     "type": "atm",
     "lat": 40.652002,
     "lng": -73.937094,
     "address": "8741 Pine St, Staten Island, NY 10434"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Ironfield",
     "type": "clinic",
     "lat": 40.649794,
     "lng": -74.018365,
     "address": "1489 Sunset St, Manhattan, NY 11492"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Thornhollow",
     "type": "atm",
     "lat": 40.680855,
     "lng": -74.010921,
     "address": "853 Oak St, Queens, NY 10338"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Foxmarket",
     "type": "store",
     "lat": 40.688608,
     "lng": -74.023607,
     "address": "4065 Washington St, Brooklyn, NY 11640"
   },
   {
-    "name": "Brighton Market",
+    "name": "Frostvault",
     "type": "eatery",
     "lat": 40.675947,
     "lng": -73.980132,
     "address": "6304 Sunset St, Manhattan, NY 11090"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Moonpoint",
     "type": "store",
     "lat": 40.667162,
     "lng": -74.100815,
     "address": "6821 Sunset St, Queens, NY 11742"
   },
   {
-    "name": "Peterson Group",
+    "name": "Cloudgroup",
     "type": "gas station",
     "lat": 40.723979,
     "lng": -74.075403,
     "address": "3596 Washington St, Brooklyn, NY 10280"
   },
   {
-    "name": "Maple Group",
+    "name": "Moonmarket",
     "type": "eatery",
     "lat": 40.717143,
     "lng": -74.088949,
     "address": "9691 Main St, Manhattan, NY 11714"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Brookwill",
     "type": "gas station",
     "lat": 40.653944,
     "lng": -74.086265,
     "address": "8253 Oak St, Manhattan, NY 10446"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Ashpine",
     "type": "gas station",
     "lat": 40.69802,
     "lng": -73.986235,
     "address": "1997 Sunset St, Staten Island, NY 11992"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Glimmerwick",
     "type": "clinic",
     "lat": 40.809117,
     "lng": -74.02241,
     "address": "6993 Hill St, Queens, NY 10396"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Ravenbank",
     "type": "store",
     "lat": 40.81125,
     "lng": -73.927712,
     "address": "4217 Washington St, Queens, NY 11299"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Brightbarrow",
     "type": "gas station",
     "lat": 40.773361,
     "lng": -74.015999,
     "address": "2076 Oak St, Brooklyn, NY 10325"
   },
   {
-    "name": "Sunset Station",
+    "name": "Elmmere",
     "type": "eatery",
     "lat": 40.768893,
     "lng": -74.036708,
     "address": "1986 Main St, Bronx, NY 11915"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Pinebank",
     "type": "gas station",
     "lat": 40.768375,
     "lng": -73.953513,
     "address": "2701 Washington St, Staten Island, NY 11967"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Sablebarrow",
     "type": "clinic",
     "lat": 40.766943,
     "lng": -74.100398,
     "address": "1737 Oak St, Manhattan, NY 10685"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Sunmere",
     "type": "clinic",
     "lat": 40.750679,
     "lng": -74.050044,
     "address": "3179 Pine St, Queens, NY 11687"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Frostgroup",
     "type": "store",
     "lat": 40.6551,
     "lng": -74.032222,
     "address": "8471 Hill St, Brooklyn, NY 11708"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Elmhollow",
     "type": "store",
     "lat": 40.673039,
     "lng": -74.058568,
     "address": "604 Elm St, Brooklyn, NY 10435"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Stonewatch",
     "type": "atm",
     "lat": 40.770091,
     "lng": -74.003274,
     "address": "5936 Oak St, Queens, NY 11067"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Ironbarrow",
     "type": "eatery",
     "lat": 40.799182,
     "lng": -73.910988,
     "address": "849 Maple St, Bronx, NY 10764"
   },
   {
-    "name": "Peterson Point",
+    "name": "Hollowmarket",
     "type": "gas station",
     "lat": 40.802686,
     "lng": -74.093178,
     "address": "8896 Pine St, Bronx, NY 10395"
   },
   {
-    "name": "Riverside Market",
+    "name": "Brasshollow",
     "type": "eatery",
     "lat": 40.748045,
     "lng": -73.939109,
     "address": "6254 Main St, Bronx, NY 10480"
   },
   {
-    "name": "Maple Point",
+    "name": "Windbarrow",
     "type": "atm",
     "lat": 40.733995,
     "lng": -74.000165,
     "address": "1609 Washington St, Manhattan, NY 11628"
   },
   {
-    "name": "Peterson Center",
+    "name": "Silverstead",
     "type": "gas station",
     "lat": 40.681681,
     "lng": -74.015094,
     "address": "7595 Pine St, Queens, NY 11341"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Sunpine",
     "type": "store",
     "lat": 40.687176,
     "lng": -73.922949,
     "address": "653 Pine St, Brooklyn, NY 11925"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Glimmerrun",
     "type": "clinic",
     "lat": 40.713688,
     "lng": -73.960897,
     "address": "3728 Oak St, Queens, NY 11622"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Brightridge",
     "type": "gas station",
     "lat": 40.672571,
     "lng": -73.907785,
     "address": "4459 Maple St, Staten Island, NY 11428"
   },
   {
-    "name": "Maple Point",
+    "name": "Sunplaza",
     "type": "store",
     "lat": 40.618548,
     "lng": -73.913091,
     "address": "5835 Maple St, Brooklyn, NY 10412"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Ironoutlet",
     "type": "gas station",
     "lat": 40.66255,
     "lng": -73.953385,
     "address": "1003 Maple St, Manhattan, NY 11571"
   },
   {
-    "name": "Maple Center",
+    "name": "Starhill",
     "type": "atm",
     "lat": 40.679364,
     "lng": -73.906487,
     "address": "9122 Maple St, Manhattan, NY 10218"
   },
   {
-    "name": "Peterson Group",
+    "name": "Brookcenter",
     "type": "store",
     "lat": 40.727576,
     "lng": -73.926907,
     "address": "6789 Hill St, Brooklyn, NY 11466"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Hearthhill",
     "type": "eatery",
     "lat": 40.702847,
     "lng": -73.916214,
     "address": "8054 Pine St, Staten Island, NY 10517"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Cloudplaza",
     "type": "atm",
     "lat": 40.675504,
     "lng": -73.952375,
     "address": "2526 Sunset St, Brooklyn, NY 11914"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Shadowrun",
     "type": "gas station",
     "lat": 40.721308,
     "lng": -74.036199,
     "address": "5041 Oak St, Brooklyn, NY 11739"
   },
   {
-    "name": "Riverside Group",
+    "name": "Sablehill",
     "type": "gas station",
     "lat": 40.666572,
     "lng": -74.05466,
     "address": "1368 Maple St, Bronx, NY 11878"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Sablestone",
     "type": "store",
     "lat": 40.723379,
     "lng": -74.086516,
     "address": "2596 Sunset St, Bronx, NY 10162"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Silverridge",
     "type": "store",
     "lat": 40.719976,
     "lng": -73.962808,
     "address": "2269 Lake St, Queens, NY 11415"
   },
   {
-    "name": "Maple Market",
+    "name": "Hollowgrove",
     "type": "eatery",
     "lat": 40.624149,
     "lng": -74.095415,
     "address": "4985 Washington St, Brooklyn, NY 10224"
   },
   {
-    "name": "Peterson Group",
+    "name": "Pineplaza",
     "type": "eatery",
     "lat": 40.720168,
     "lng": -74.078974,
     "address": "8969 Main St, Queens, NY 11937"
   },
   {
-    "name": "Maple Station",
+    "name": "Thornreach",
     "type": "atm",
     "lat": 40.753252,
     "lng": -73.915096,
     "address": "3041 Sunset St, Manhattan, NY 11559"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Brasswill",
     "type": "store",
     "lat": 40.71605,
     "lng": -73.96027,
     "address": "7394 Cedar St, Brooklyn, NY 10010"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Sunreach",
     "type": "clinic",
     "lat": 40.760732,
     "lng": -73.950543,
     "address": "9631 Washington St, Bronx, NY 11193"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Mirepoint",
     "type": "clinic",
     "lat": 40.649903,
     "lng": -73.9525,
     "address": "2374 Elm St, Manhattan, NY 11906"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Sablehollow",
     "type": "store",
     "lat": 40.800973,
     "lng": -74.005672,
     "address": "9210 Sunset St, Manhattan, NY 11290"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Mistpoint",
     "type": "store",
     "lat": 40.805552,
     "lng": -74.078866,
     "address": "7755 Maple St, Queens, NY 10737"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Windrun",
     "type": "clinic",
     "lat": 40.731935,
     "lng": -74.078115,
     "address": "4672 Maple St, Bronx, NY 11367"
   },
   {
-    "name": "Riverside Center",
+    "name": "Brookplaza",
     "type": "eatery",
     "lat": 40.718249,
     "lng": -74.088287,
     "address": "5912 Elm St, Staten Island, NY 11454"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Sablewill",
     "type": "gas station",
     "lat": 40.762014,
     "lng": -74.003395,
     "address": "821 Elm St, Staten Island, NY 11353"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Mistpine",
     "type": "eatery",
     "lat": 40.628658,
     "lng": -73.946468,
     "address": "7447 Washington St, Manhattan, NY 10491"
   },
   {
-    "name": "Riverside Point",
+    "name": "Brookwatch",
     "type": "atm",
     "lat": 40.755081,
     "lng": -74.01861,
     "address": "169 Washington St, Queens, NY 11082"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Goldhaven",
     "type": "store",
     "lat": 40.726546,
     "lng": -73.991036,
     "address": "7079 Cedar St, Brooklyn, NY 11848"
   },
   {
-    "name": "Maple Group",
+    "name": "Windwill",
     "type": "atm",
     "lat": 40.705966,
     "lng": -74.023707,
     "address": "3176 Oak St, Staten Island, NY 10210"
   },
   {
-    "name": "Maple Station",
+    "name": "Thornstead",
     "type": "atm",
     "lat": 40.697034,
     "lng": -73.990673,
     "address": "8925 Cedar St, Bronx, NY 10877"
   },
   {
-    "name": "Riverside Market",
+    "name": "Cindermoor",
     "type": "atm",
     "lat": 40.775878,
     "lng": -73.96549,
     "address": "1340 Washington St, Manhattan, NY 11289"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Elmbridge",
     "type": "store",
     "lat": 40.783678,
     "lng": -74.003574,
     "address": "7900 Elm St, Bronx, NY 10805"
   },
   {
-    "name": "Riverside Market",
+    "name": "Sunstation",
     "type": "clinic",
     "lat": 40.712809,
     "lng": -73.995726,
     "address": "3756 Maple St, Queens, NY 11073"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Brookhollow",
     "type": "eatery",
     "lat": 40.617368,
     "lng": -73.976657,
     "address": "7436 Pine St, Staten Island, NY 10896"
   },
   {
-    "name": "Sunset Center",
+    "name": "Windstone",
     "type": "store",
     "lat": 40.802282,
     "lng": -73.935318,
     "address": "2525 Hill St, Staten Island, NY 11368"
   },
   {
-    "name": "Maple Market",
+    "name": "Ironplaza",
     "type": "store",
     "lat": 40.619735,
     "lng": -73.962821,
     "address": "8006 Washington St, Manhattan, NY 11980"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Nightrun",
     "type": "clinic",
     "lat": 40.790178,
     "lng": -74.035305,
     "address": "4537 Lake St, Manhattan, NY 11745"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Cinderstead",
     "type": "atm",
     "lat": 40.710551,
     "lng": -74.037629,
     "address": "7910 Washington St, Bronx, NY 10395"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Brightgroup",
     "type": "clinic",
     "lat": 40.629548,
     "lng": -73.999313,
     "address": "9083 Washington St, Queens, NY 10935"
   },
   {
-    "name": "Riverside Health",
+    "name": "Foxstead",
     "type": "clinic",
     "lat": 40.802793,
     "lng": -74.09609,
     "address": "4566 Lake St, Manhattan, NY 10002"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Hearthmoor",
     "type": "store",
     "lat": 40.710394,
     "lng": -74.06227,
     "address": "5894 Lake St, Manhattan, NY 10337"
   },
   {
-    "name": "Riverside Station",
+    "name": "Thorncenter",
     "type": "atm",
     "lat": 40.647883,
     "lng": -74.024419,
     "address": "7575 Main St, Staten Island, NY 10455"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Shadowoutlet",
     "type": "gas station",
     "lat": 40.728249,
     "lng": -74.062449,
     "address": "9596 Sunset St, Queens, NY 11746"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Hollowwill",
     "type": "atm",
     "lat": 40.784156,
     "lng": -74.007501,
     "address": "3063 Sunset St, Bronx, NY 10661"
   },
   {
-    "name": "Riverside Point",
+    "name": "Moonreach",
     "type": "store",
     "lat": 40.679326,
     "lng": -73.917134,
     "address": "7126 Main St, Manhattan, NY 10934"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Brassfield",
     "type": "store",
     "lat": 40.617459,
     "lng": -74.058218,
     "address": "8974 Elm St, Manhattan, NY 11556"
   },
   {
-    "name": "Riverside Center",
+    "name": "Thornpoint",
     "type": "eatery",
     "lat": 40.746035,
     "lng": -73.988595,
     "address": "4294 Main St, Bronx, NY 11567"
   },
   {
-    "name": "Brighton Market",
+    "name": "Foxrun",
     "type": "gas station",
     "lat": 40.773349,
     "lng": -74.103991,
     "address": "5616 Sunset St, Staten Island, NY 11290"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Windgroup",
     "type": "eatery",
     "lat": 40.697534,
     "lng": -74.075403,
     "address": "667 Lake St, Brooklyn, NY 10012"
   },
   {
-    "name": "Riverside Station",
+    "name": "Elmplaza",
     "type": "atm",
     "lat": 40.654121,
     "lng": -74.030783,
     "address": "6123 Lake St, Queens, NY 11563"
   },
   {
-    "name": "Greenwood Station",
+    "name": "Pinemoor",
     "type": "atm",
     "lat": 40.72764,
     "lng": -74.081827,
     "address": "2768 Cedar St, Manhattan, NY 10601"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Sableridge",
     "type": "atm",
     "lat": 40.688438,
     "lng": -74.012508,
     "address": "6939 Maple St, Bronx, NY 11955"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Moongrove",
     "type": "eatery",
     "lat": 40.789186,
     "lng": -73.981513,
     "address": "4330 Hill St, Manhattan, NY 11654"
   },
   {
-    "name": "Sunset Center",
+    "name": "Glimmeroutlet",
     "type": "store",
     "lat": 40.622594,
     "lng": -74.027608,
     "address": "5558 Maple St, Manhattan, NY 10303"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Windwatch",
     "type": "store",
     "lat": 40.785514,
     "lng": -74.052021,
     "address": "5437 Maple St, Bronx, NY 10721"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Frostmarket",
     "type": "clinic",
     "lat": 40.702185,
     "lng": -74.042277,
     "address": "641 Elm St, Bronx, NY 11583"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Mistwill",
     "type": "clinic",
     "lat": 40.643228,
     "lng": -74.000531,
     "address": "9901 Maple St, Manhattan, NY 11359"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Goldstone",
     "type": "atm",
     "lat": 40.781687,
     "lng": -74.053114,
     "address": "4439 Pine St, Staten Island, NY 11735"
   },
   {
-    "name": "Sunset Health",
+    "name": "Driftridge",
     "type": "eatery",
     "lat": 40.648253,
     "lng": -73.916643,
     "address": "3991 Lake St, Staten Island, NY 11616"
   },
   {
-    "name": "Riverside Point",
+    "name": "Brookrun",
     "type": "gas station",
     "lat": 40.76177,
     "lng": -73.994941,
     "address": "3318 Washington St, Manhattan, NY 11899"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Ironrun",
     "type": "store",
     "lat": 40.696861,
     "lng": -74.066916,
     "address": "8127 Oak St, Queens, NY 11628"
   },
   {
-    "name": "Peterson Group",
+    "name": "Sablefen",
     "type": "atm",
     "lat": 40.667777,
     "lng": -74.041228,
     "address": "5110 Pine St, Manhattan, NY 10223"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Brookgrove",
     "type": "gas station",
     "lat": 40.750779,
     "lng": -74.078909,
     "address": "2337 Oak St, Queens, NY 11625"
   },
   {
-    "name": "Maple Health",
+    "name": "Ashbank",
     "type": "eatery",
     "lat": 40.806948,
     "lng": -74.068275,
     "address": "2620 Lake St, Staten Island, NY 11241"
   },
   {
-    "name": "Maple Group",
+    "name": "Stonevault",
     "type": "eatery",
     "lat": 40.793208,
     "lng": -73.952329,
     "address": "1670 Pine St, Bronx, NY 11436"
   },
   {
-    "name": "Peterson Center",
+    "name": "Ironstone",
     "type": "clinic",
     "lat": 40.791262,
     "lng": -74.071272,
     "address": "1046 Maple St, Staten Island, NY 10877"
   },
   {
-    "name": "Brighton Market",
+    "name": "Foxwatch",
     "type": "atm",
     "lat": 40.654128,
     "lng": -73.928506,
     "address": "7633 Pine St, Bronx, NY 10117"
   },
   {
-    "name": "Sunset Group",
+    "name": "Sungroup",
     "type": "gas station",
     "lat": 40.661222,
     "lng": -73.964349,
     "address": "9410 Cedar St, Queens, NY 11984"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Ashvault",
     "type": "store",
     "lat": 40.725641,
     "lng": -73.968085,
     "address": "3862 Oak St, Queens, NY 11432"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Ashmarket",
     "type": "atm",
     "lat": 40.623437,
     "lng": -73.939963,
     "address": "960 Washington St, Staten Island, NY 10008"
   },
   {
-    "name": "Peterson Market",
+    "name": "Frostfield",
     "type": "eatery",
     "lat": 40.647591,
     "lng": -74.080466,
     "address": "9015 Elm St, Manhattan, NY 10857"
   },
   {
-    "name": "Riverside Group",
+    "name": "Frostwatch",
     "type": "eatery",
     "lat": 40.79787,
     "lng": -73.997659,
     "address": "3602 Sunset St, Brooklyn, NY 10420"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Mistmere",
     "type": "atm",
     "lat": 40.7517,
     "lng": -73.99183,
     "address": "5441 Maple St, Bronx, NY 10759"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Silvergroup",
     "type": "eatery",
     "lat": 40.780247,
     "lng": -73.954327,
     "address": "9391 Main St, Bronx, NY 10632"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Brasspine",
     "type": "eatery",
     "lat": 40.786858,
     "lng": -74.09948,
     "address": "9352 Cedar St, Queens, NY 11830"
   },
   {
-    "name": "Brighton Station",
+    "name": "Miststation",
     "type": "clinic",
     "lat": 40.788026,
     "lng": -73.960716,
     "address": "6748 Main St, Manhattan, NY 11394"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Brasswick",
     "type": "gas station",
     "lat": 40.766014,
     "lng": -73.974498,
     "address": "7692 Hill St, Staten Island, NY 10865"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Driftgroup",
     "type": "atm",
     "lat": 40.635392,
     "lng": -74.038739,
     "address": "4320 Elm St, Queens, NY 11721"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Shadowwatch",
     "type": "atm",
     "lat": 40.793374,
     "lng": -74.10083,
     "address": "9693 Cedar St, Bronx, NY 10554"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Goldpine",
     "type": "atm",
     "lat": 40.700222,
     "lng": -73.937765,
     "address": "9368 Oak St, Queens, NY 11694"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Silverpoint",
     "type": "atm",
     "lat": 40.726835,
     "lng": -74.058842,
     "address": "1083 Maple St, Brooklyn, NY 10424"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Mistmarket",
     "type": "gas station",
     "lat": 40.779412,
     "lng": -74.066067,
     "address": "7853 Lake St, Manhattan, NY 11356"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Pinecenter",
     "type": "eatery",
     "lat": 40.769049,
     "lng": -73.989715,
     "address": "1797 Elm St, Manhattan, NY 10448"
   },
   {
-    "name": "Sunset Center",
+    "name": "Starpine",
     "type": "atm",
     "lat": 40.632289,
     "lng": -74.026618,
     "address": "8426 Sunset St, Staten Island, NY 10700"
   },
   {
-    "name": "Brighton Center",
+    "name": "Mirewill",
     "type": "atm",
     "lat": 40.716557,
     "lng": -74.064248,
     "address": "9625 Lake St, Queens, NY 11918"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Glimmercenter",
     "type": "store",
     "lat": 40.654272,
     "lng": -74.103203,
     "address": "5635 Washington St, Brooklyn, NY 10972"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Windstead",
     "type": "store",
     "lat": 40.709056,
     "lng": -73.952703,
     "address": "2218 Washington St, Bronx, NY 11360"
   },
   {
-    "name": "Peterson Point",
+    "name": "Brightbank",
     "type": "gas station",
     "lat": 40.614247,
     "lng": -73.969353,
     "address": "3663 Oak St, Staten Island, NY 10573"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Frostfen",
     "type": "eatery",
     "lat": 40.800556,
     "lng": -74.008241,
     "address": "1074 Washington St, Staten Island, NY 11294"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Shadowgroup",
     "type": "clinic",
     "lat": 40.635113,
     "lng": -73.995195,
     "address": "7246 Cedar St, Brooklyn, NY 10761"
   },
   {
-    "name": "Brighton Group",
+    "name": "Stonereach",
     "type": "eatery",
     "lat": 40.717255,
     "lng": -74.075981,
     "address": "8128 Lake St, Brooklyn, NY 10065"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Brassmere",
     "type": "store",
     "lat": 40.643567,
     "lng": -74.025107,
     "address": "5958 Elm St, Queens, NY 11584"
   },
   {
-    "name": "Maple Health",
+    "name": "Shadowhill",
     "type": "clinic",
     "lat": 40.806606,
     "lng": -73.934606,
     "address": "9174 Maple St, Bronx, NY 10335"
   },
   {
-    "name": "Brighton Point",
+    "name": "Cinderwill",
     "type": "store",
     "lat": 40.630437,
     "lng": -74.052182,
     "address": "2984 Hill St, Bronx, NY 11892"
   },
   {
-    "name": "Maple Center",
+    "name": "Mirereach",
     "type": "atm",
     "lat": 40.760398,
     "lng": -74.105594,
     "address": "7022 Elm St, Manhattan, NY 11382"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Hearthbridge",
     "type": "gas station",
     "lat": 40.73798,
     "lng": -74.059199,
     "address": "7845 Pine St, Manhattan, NY 11379"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Moonhaven",
     "type": "store",
     "lat": 40.801777,
     "lng": -74.024548,
     "address": "8872 Sunset St, Brooklyn, NY 11321"
   },
   {
-    "name": "Maple Market",
+    "name": "Miremere",
     "type": "store",
     "lat": 40.790073,
     "lng": -73.958299,
     "address": "9098 Washington St, Bronx, NY 10273"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Hearthvault",
     "type": "store",
     "lat": 40.672646,
     "lng": -74.064994,
     "address": "9904 Lake St, Queens, NY 10346"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Silverwill",
     "type": "store",
     "lat": 40.649338,
     "lng": -73.920573,
     "address": "8752 Pine St, Bronx, NY 10543"
   },
   {
-    "name": "Brighton Market",
+    "name": "Glimmerwatch",
     "type": "gas station",
     "lat": 40.716099,
     "lng": -73.985009,
     "address": "125 Main St, Queens, NY 11588"
   },
   {
-    "name": "Riverside Center",
+    "name": "Silvervault",
     "type": "clinic",
     "lat": 40.697306,
     "lng": -73.918789,
     "address": "7607 Lake St, Brooklyn, NY 11859"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Nightmere",
     "type": "eatery",
     "lat": 40.760816,
     "lng": -74.075457,
     "address": "972 Oak St, Staten Island, NY 11326"
   },
   {
-    "name": "Sunset Center",
+    "name": "Elmreach",
     "type": "atm",
     "lat": 40.633647,
     "lng": -74.04317,
     "address": "6469 Washington St, Queens, NY 10646"
   },
   {
-    "name": "Sunset Market",
+    "name": "Staroutlet",
     "type": "eatery",
     "lat": 40.708641,
     "lng": -74.048971,
     "address": "9029 Cedar St, Brooklyn, NY 11808"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Elmmoor",
     "type": "eatery",
     "lat": 40.743425,
     "lng": -73.987534,
     "address": "9319 Sunset St, Manhattan, NY 11383"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Goldmarket",
     "type": "store",
     "lat": 40.70016,
     "lng": -73.939525,
     "address": "1104 Cedar St, Bronx, NY 11375"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Cinderreach",
     "type": "gas station",
     "lat": 40.690777,
     "lng": -74.023984,
     "address": "4008 Oak St, Bronx, NY 10927"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Elmfield",
     "type": "eatery",
     "lat": 40.797436,
     "lng": -73.94337,
     "address": "7249 Cedar St, Staten Island, NY 11346"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Moonstead",
     "type": "atm",
     "lat": 40.794098,
     "lng": -74.002367,
     "address": "2006 Main St, Brooklyn, NY 11528"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Stargroup",
     "type": "atm",
     "lat": 40.713009,
     "lng": -73.930446,
     "address": "1119 Washington St, Brooklyn, NY 11218"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Moonbank",
     "type": "clinic",
     "lat": 40.801239,
     "lng": -74.076948,
     "address": "9530 Maple St, Bronx, NY 10072"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Frostbridge",
     "type": "gas station",
     "lat": 40.73436,
     "lng": -73.915174,
     "address": "4978 Elm St, Brooklyn, NY 10247"
   },
   {
-    "name": "Maple Group",
+    "name": "Stonebank",
     "type": "clinic",
     "lat": 40.615016,
     "lng": -74.090663,
     "address": "819 Washington St, Brooklyn, NY 10691"
   },
   {
-    "name": "Maple Group",
+    "name": "Pineridge",
     "type": "eatery",
     "lat": 40.632028,
     "lng": -73.971622,
     "address": "5060 Hill St, Manhattan, NY 11801"
   },
   {
-    "name": "Maple Center",
+    "name": "Hollowpoint",
     "type": "gas station",
     "lat": 40.689003,
     "lng": -74.083959,
     "address": "1220 Washington St, Bronx, NY 10865"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Pinepine",
     "type": "gas station",
     "lat": 40.674597,
     "lng": -73.935836,
     "address": "8378 Main St, Bronx, NY 11904"
   },
   {
-    "name": "Riverside Center",
+    "name": "Goldrun",
     "type": "store",
     "lat": 40.673799,
     "lng": -74.096821,
     "address": "4207 Pine St, Brooklyn, NY 10660"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Moonbarrow",
     "type": "store",
     "lat": 40.698549,
     "lng": -73.953873,
     "address": "7061 Pine St, Manhattan, NY 11942"
   },
   {
-    "name": "Brighton Health",
+    "name": "Thornwick",
     "type": "gas station",
     "lat": 40.799839,
     "lng": -73.947648,
     "address": "3180 Sunset St, Brooklyn, NY 11958"
   },
   {
-    "name": "Peterson Health",
+    "name": "Ironreach",
     "type": "gas station",
     "lat": 40.728062,
     "lng": -74.014521,
     "address": "6142 Pine St, Staten Island, NY 11480"
   },
   {
-    "name": "Brighton Point",
+    "name": "Cloudfield",
     "type": "store",
     "lat": 40.663885,
     "lng": -73.990241,
     "address": "1073 Hill St, Staten Island, NY 10659"
   },
   {
-    "name": "Riverside Market",
+    "name": "Cloudmere",
     "type": "store",
     "lat": 40.749401,
     "lng": -73.94255,
     "address": "1102 Main St, Manhattan, NY 11681"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Shadowfield",
     "type": "eatery",
     "lat": 40.714973,
     "lng": -73.946287,
     "address": "6431 Sunset St, Queens, NY 10535"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Sableoutlet",
     "type": "eatery",
     "lat": 40.647839,
     "lng": -73.955855,
     "address": "9569 Hill St, Bronx, NY 10648"
   },
   {
-    "name": "Brighton Point",
+    "name": "Starcenter",
     "type": "eatery",
     "lat": 40.61423,
     "lng": -74.01755,
     "address": "852 Cedar St, Bronx, NY 10881"
   },
   {
-    "name": "Riverside Point",
+    "name": "Silverfield",
     "type": "gas station",
     "lat": 40.810628,
     "lng": -74.066634,
     "address": "5300 Maple St, Bronx, NY 11715"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Nightoutlet",
     "type": "clinic",
     "lat": 40.702303,
     "lng": -73.926427,
     "address": "5914 Elm St, Brooklyn, NY 11731"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Brassrun",
     "type": "atm",
     "lat": 40.619177,
     "lng": -74.090803,
     "address": "6999 Washington St, Staten Island, NY 10092"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Windgrove",
     "type": "store",
     "lat": 40.759052,
     "lng": -74.019229,
     "address": "3050 Cedar St, Manhattan, NY 10158"
   },
   {
-    "name": "Peterson Point",
+    "name": "Brightwill",
     "type": "atm",
     "lat": 40.801593,
     "lng": -73.930461,
     "address": "509 Oak St, Queens, NY 11179"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Driftwatch",
     "type": "atm",
     "lat": 40.631191,
     "lng": -74.023103,
     "address": "7333 Washington St, Bronx, NY 11673"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Nighthill",
     "type": "eatery",
     "lat": 40.694138,
     "lng": -74.054229,
     "address": "6307 Hill St, Bronx, NY 11447"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Shadowwill",
     "type": "gas station",
     "lat": 40.724416,
     "lng": -74.073114,
     "address": "7006 Hill St, Brooklyn, NY 11083"
   },
   {
-    "name": "Sunset Market",
+    "name": "Ravenhollow",
     "type": "store",
     "lat": 40.677074,
     "lng": -74.058899,
     "address": "9921 Pine St, Queens, NY 10488"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Mireridge",
     "type": "clinic",
     "lat": 40.71465,
     "lng": -73.97418,
     "address": "7786 Maple St, Staten Island, NY 11324"
   },
   {
-    "name": "Sunset Health",
+    "name": "Goldbank",
     "type": "atm",
     "lat": 40.661235,
     "lng": -74.049461,
     "address": "1108 Sunset St, Brooklyn, NY 10856"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Oakmoor",
     "type": "atm",
     "lat": 40.765784,
     "lng": -74.041411,
     "address": "5230 Lake St, Manhattan, NY 11325"
   },
   {
-    "name": "Peterson Point",
+    "name": "Windwick",
     "type": "gas station",
     "lat": 40.801699,
     "lng": -74.051927,
     "address": "3472 Cedar St, Brooklyn, NY 10546"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Ironvault",
     "type": "store",
     "lat": 40.734546,
     "lng": -74.030754,
     "address": "4525 Hill St, Brooklyn, NY 11545"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Stonepoint",
     "type": "clinic",
     "lat": 40.808362,
     "lng": -73.932508,
     "address": "5090 Oak St, Bronx, NY 11781"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Mirestone",
     "type": "gas station",
     "lat": 40.789827,
     "lng": -74.041416,
     "address": "6847 Sunset St, Queens, NY 10139"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Thornmoor",
     "type": "atm",
     "lat": 40.692876,
     "lng": -73.976614,
     "address": "3511 Elm St, Brooklyn, NY 10146"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Sablewatch",
     "type": "eatery",
     "lat": 40.746233,
     "lng": -73.937115,
     "address": "3559 Maple St, Bronx, NY 10812"
   },
   {
-    "name": "Brighton Market",
+    "name": "Glimmerstone",
     "type": "eatery",
     "lat": 40.741771,
     "lng": -74.073204,
     "address": "6781 Main St, Manhattan, NY 11058"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Pinefield",
     "type": "eatery",
     "lat": 40.64012,
     "lng": -73.922185,
     "address": "1913 Main St, Manhattan, NY 11579"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Ironhaven",
     "type": "atm",
     "lat": 40.775902,
     "lng": -74.029307,
     "address": "2688 Sunset St, Brooklyn, NY 11350"
   },
   {
-    "name": "Riverside Health",
+    "name": "Stonehaven",
     "type": "store",
     "lat": 40.666436,
     "lng": -73.995173,
     "address": "7184 Elm St, Queens, NY 10223"
   },
   {
-    "name": "Maple Center",
+    "name": "Frostoutlet",
     "type": "store",
     "lat": 40.76268,
     "lng": -74.028018,
     "address": "1594 Sunset St, Staten Island, NY 10635"
   },
   {
-    "name": "Sunset Health",
+    "name": "Windfen",
     "type": "atm",
     "lat": 40.638802,
     "lng": -74.039241,
     "address": "4103 Hill St, Manhattan, NY 11555"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Frosthill",
     "type": "store",
     "lat": 40.615267,
     "lng": -74.105394,
     "address": "5709 Main St, Queens, NY 10349"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Starplaza",
     "type": "clinic",
     "lat": 40.694967,
     "lng": -73.944059,
     "address": "6043 Maple St, Bronx, NY 10746"
   },
   {
-    "name": "Sunset Center",
+    "name": "Silvermere",
     "type": "gas station",
     "lat": 40.638787,
     "lng": -74.081599,
     "address": "6596 Washington St, Queens, NY 11360"
   },
   {
-    "name": "Peterson Health",
+    "name": "Sablereach",
     "type": "eatery",
     "lat": 40.706889,
     "lng": -74.081714,
     "address": "6663 Hill St, Brooklyn, NY 10105"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Shadowstone",
     "type": "clinic",
     "lat": 40.615739,
     "lng": -74.009636,
     "address": "4750 Maple St, Staten Island, NY 10938"
   },
   {
-    "name": "Brighton Group",
+    "name": "Moonbridge",
     "type": "eatery",
     "lat": 40.735492,
     "lng": -74.100806,
     "address": "993 Sunset St, Manhattan, NY 11550"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Frostpine",
     "type": "gas station",
     "lat": 40.645479,
     "lng": -73.962692,
     "address": "8235 Maple St, Brooklyn, NY 10195"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Pinehollow",
     "type": "store",
     "lat": 40.776149,
     "lng": -74.061041,
     "address": "6297 Hill St, Staten Island, NY 11665"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Windbridge",
     "type": "atm",
     "lat": 40.770549,
     "lng": -74.062276,
     "address": "6954 Lake St, Brooklyn, NY 11848"
   },
   {
-    "name": "Maple Group",
+    "name": "Foxwill",
     "type": "gas station",
     "lat": 40.700481,
     "lng": -73.991842,
     "address": "1325 Oak St, Queens, NY 10916"
   },
   {
-    "name": "Maple Market",
+    "name": "Cloudbank",
     "type": "eatery",
     "lat": 40.770198,
     "lng": -73.925106,
     "address": "7071 Pine St, Staten Island, NY 11895"
   },
   {
-    "name": "Maple Point",
+    "name": "Hearthfield",
     "type": "gas station",
     "lat": 40.769276,
     "lng": -73.933802,
     "address": "5793 Hill St, Queens, NY 10592"
   },
   {
-    "name": "Riverside Health",
+    "name": "Driftrun",
     "type": "eatery",
     "lat": 40.658209,
     "lng": -73.936275,
     "address": "5994 Washington St, Queens, NY 11082"
   },
   {
-    "name": "Brighton Group",
+    "name": "Froststead",
     "type": "store",
     "lat": 40.770626,
     "lng": -74.087515,
     "address": "3866 Pine St, Brooklyn, NY 10565"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Oakwill",
     "type": "clinic",
     "lat": 40.722254,
     "lng": -73.979463,
     "address": "1502 Pine St, Bronx, NY 11559"
   },
   {
-    "name": "Sunset Health",
+    "name": "Hollowvault",
     "type": "atm",
     "lat": 40.733652,
     "lng": -73.98013,
     "address": "1604 Lake St, Brooklyn, NY 10992"
   },
   {
-    "name": "Riverside Market",
+    "name": "Brassmoor",
     "type": "store",
     "lat": 40.746913,
     "lng": -74.035577,
     "address": "5393 Maple St, Queens, NY 10677"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Silveroutlet",
     "type": "store",
     "lat": 40.615709,
     "lng": -74.037936,
     "address": "1094 Hill St, Bronx, NY 10643"
   },
   {
-    "name": "Sunset Group",
+    "name": "Cloudwatch",
     "type": "atm",
     "lat": 40.751123,
     "lng": -74.012769,
     "address": "1402 Maple St, Queens, NY 10526"
   },
   {
-    "name": "Maple Health",
+    "name": "Brightgrove",
     "type": "store",
     "lat": 40.674275,
     "lng": -74.082687,
     "address": "1370 Pine St, Bronx, NY 11649"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Driftbank",
     "type": "atm",
     "lat": 40.668894,
     "lng": -74.073338,
     "address": "8219 Pine St, Bronx, NY 11365"
   },
   {
-    "name": "Riverside Market",
+    "name": "Ashpoint",
     "type": "eatery",
     "lat": 40.714177,
     "lng": -73.925454,
     "address": "1992 Pine St, Bronx, NY 10399"
   },
   {
-    "name": "Maple Health",
+    "name": "Brasscenter",
     "type": "clinic",
     "lat": 40.627982,
     "lng": -74.029102,
     "address": "4686 Main St, Manhattan, NY 10827"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Windridge",
     "type": "clinic",
     "lat": 40.660474,
     "lng": -74.029596,
     "address": "7761 Pine St, Bronx, NY 10956"
   },
   {
-    "name": "Greenwood Center",
+    "name": "Sablegroup",
     "type": "atm",
     "lat": 40.778887,
     "lng": -74.105664,
     "address": "7782 Hill St, Queens, NY 10639"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Starbarrow",
     "type": "clinic",
     "lat": 40.702288,
     "lng": -74.081706,
     "address": "3834 Lake St, Bronx, NY 11197"
   },
   {
-    "name": "Maple Station",
+    "name": "Sunoutlet",
     "type": "gas station",
     "lat": 40.703839,
     "lng": -73.958801,
     "address": "6122 Cedar St, Bronx, NY 11153"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Shadowpoint",
     "type": "gas station",
     "lat": 40.802226,
     "lng": -74.028798,
     "address": "5703 Lake St, Manhattan, NY 10966"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Hearthreach",
     "type": "atm",
     "lat": 40.758861,
     "lng": -74.071431,
     "address": "3702 Hill St, Queens, NY 10882"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Driftreach",
     "type": "store",
     "lat": 40.793819,
     "lng": -73.997639,
     "address": "9552 Washington St, Brooklyn, NY 10905"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Hearthridge",
     "type": "atm",
     "lat": 40.719535,
     "lng": -74.036699,
     "address": "1893 Sunset St, Bronx, NY 10298"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Goldbridge",
     "type": "atm",
     "lat": 40.70778,
     "lng": -74.013872,
     "address": "8664 Pine St, Staten Island, NY 11329"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Nightbank",
     "type": "store",
     "lat": 40.789019,
     "lng": -74.087944,
     "address": "7287 Pine St, Manhattan, NY 11658"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Brightpoint",
     "type": "eatery",
     "lat": 40.647892,
     "lng": -74.102997,
     "address": "6774 Maple St, Bronx, NY 10434"
   },
   {
-    "name": "Sunset Station",
+    "name": "Pinewill",
     "type": "clinic",
     "lat": 40.707829,
     "lng": -74.013782,
     "address": "9462 Maple St, Bronx, NY 10672"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Oakbarrow",
     "type": "store",
     "lat": 40.613991,
     "lng": -74.060596,
     "address": "2509 Cedar St, Bronx, NY 11542"
   },
   {
-    "name": "Brighton Center",
+    "name": "Hollowridge",
     "type": "gas station",
     "lat": 40.768159,
     "lng": -74.016339,
     "address": "6215 Pine St, Manhattan, NY 10185"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Shadowbank",
     "type": "clinic",
     "lat": 40.797984,
     "lng": -74.071108,
     "address": "7110 Maple St, Bronx, NY 10362"
   },
   {
-    "name": "Brighton Center",
+    "name": "Oakreach",
     "type": "gas station",
     "lat": 40.658347,
     "lng": -74.012125,
     "address": "8803 Sunset St, Bronx, NY 11279"
   },
   {
-    "name": "Riverside Market",
+    "name": "Brookbank",
     "type": "clinic",
     "lat": 40.615272,
     "lng": -73.959145,
     "address": "9997 Pine St, Brooklyn, NY 11123"
   },
   {
-    "name": "Maple Station",
+    "name": "Pinemarket",
     "type": "clinic",
     "lat": 40.668035,
     "lng": -74.080207,
     "address": "5553 Maple St, Bronx, NY 10464"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Elmwatch",
     "type": "gas station",
     "lat": 40.743315,
     "lng": -73.937067,
     "address": "7600 Washington St, Bronx, NY 10391"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Driftplaza",
     "type": "atm",
     "lat": 40.653476,
     "lng": -73.996251,
     "address": "8819 Oak St, Bronx, NY 11731"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Ironwatch",
     "type": "store",
     "lat": 40.613924,
     "lng": -74.074763,
     "address": "4495 Elm St, Queens, NY 11708"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Cloudmarket",
     "type": "store",
     "lat": 40.713605,
     "lng": -74.044134,
     "address": "625 Washington St, Bronx, NY 11720"
   },
   {
-    "name": "Maple Point",
+    "name": "Pinehill",
     "type": "gas station",
     "lat": 40.746554,
     "lng": -74.041718,
     "address": "953 Hill St, Brooklyn, NY 10570"
   },
   {
-    "name": "Riverside Health",
+    "name": "Moonwill",
     "type": "eatery",
     "lat": 40.804906,
     "lng": -73.944679,
     "address": "1859 Cedar St, Queens, NY 10199"
   },
   {
-    "name": "Brighton Health",
+    "name": "Stoneoutlet",
     "type": "clinic",
     "lat": 40.739629,
     "lng": -74.085476,
     "address": "6568 Lake St, Staten Island, NY 10781"
   },
   {
-    "name": "Brighton Group",
+    "name": "Mirebank",
     "type": "store",
     "lat": 40.622541,
     "lng": -73.980869,
     "address": "8675 Oak St, Staten Island, NY 11349"
   },
   {
-    "name": "Brighton Market",
+    "name": "Driftoutlet",
     "type": "gas station",
     "lat": 40.768269,
     "lng": -73.941634,
     "address": "1280 Hill St, Manhattan, NY 11985"
   },
   {
-    "name": "Greenwood Station",
+    "name": "Windcenter",
     "type": "store",
     "lat": 40.676505,
     "lng": -73.931645,
     "address": "8340 Lake St, Brooklyn, NY 10475"
   },
   {
-    "name": "Riverside Center",
+    "name": "Foxpine",
     "type": "atm",
     "lat": 40.766306,
     "lng": -74.037556,
     "address": "4445 Maple St, Manhattan, NY 10851"
   },
   {
-    "name": "Maple Health",
+    "name": "Ravencenter",
     "type": "gas station",
     "lat": 40.712447,
     "lng": -73.954022,
     "address": "4566 Hill St, Manhattan, NY 10024"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Glimmervault",
     "type": "store",
     "lat": 40.643471,
     "lng": -74.067243,
     "address": "5623 Washington St, Manhattan, NY 11788"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Nightgroup",
     "type": "store",
     "lat": 40.629608,
     "lng": -73.941349,
     "address": "9829 Sunset St, Bronx, NY 10524"
   },
   {
-    "name": "Brighton Point",
+    "name": "Brookhill",
     "type": "gas station",
     "lat": 40.705682,
     "lng": -74.080077,
     "address": "6326 Sunset St, Manhattan, NY 11495"
   },
   {
-    "name": "Brighton Point",
+    "name": "Stonecenter",
     "type": "store",
     "lat": 40.678667,
     "lng": -73.938662,
     "address": "3935 Pine St, Manhattan, NY 11302"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Brassbridge",
     "type": "gas station",
     "lat": 40.700418,
     "lng": -74.046528,
     "address": "5704 Washington St, Staten Island, NY 11660"
   },
   {
-    "name": "Sunset Group",
+    "name": "Brightfen",
     "type": "gas station",
     "lat": 40.752365,
     "lng": -74.000831,
     "address": "6238 Main St, Manhattan, NY 10917"
   },
   {
-    "name": "Brighton Point",
+    "name": "Windhill",
     "type": "eatery",
     "lat": 40.765282,
     "lng": -73.908763,
     "address": "6751 Maple St, Bronx, NY 11578"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Shadowhollow",
     "type": "clinic",
     "lat": 40.637159,
     "lng": -73.95708,
     "address": "5334 Elm St, Brooklyn, NY 11065"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Drifthollow",
     "type": "atm",
     "lat": 40.678593,
     "lng": -73.981577,
     "address": "4213 Oak St, Brooklyn, NY 10674"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Mooncenter",
     "type": "atm",
     "lat": 40.802592,
     "lng": -73.97225,
     "address": "6315 Hill St, Manhattan, NY 10814"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Sunfen",
     "type": "atm",
     "lat": 40.641768,
     "lng": -73.987019,
     "address": "1771 Sunset St, Staten Island, NY 10670"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Ironstation",
     "type": "clinic",
     "lat": 40.768043,
     "lng": -74.047922,
     "address": "1058 Pine St, Staten Island, NY 10368"
   },
   {
-    "name": "Riverside Point",
+    "name": "Sunridge",
     "type": "gas station",
     "lat": 40.662865,
     "lng": -74.055888,
     "address": "8972 Sunset St, Manhattan, NY 10640"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Elmfen",
     "type": "eatery",
     "lat": 40.804794,
     "lng": -73.929634,
     "address": "7922 Hill St, Bronx, NY 10881"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Sunvault",
     "type": "clinic",
     "lat": 40.651814,
     "lng": -74.101073,
     "address": "9369 Lake St, Bronx, NY 11085"
   },
   {
-    "name": "Peterson Market",
+    "name": "Nightbarrow",
     "type": "store",
     "lat": 40.757633,
     "lng": -74.020442,
     "address": "8273 Cedar St, Staten Island, NY 10893"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Goldpoint",
     "type": "clinic",
     "lat": 40.730733,
     "lng": -73.926345,
     "address": "8404 Hill St, Brooklyn, NY 11172"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Ravengrove",
     "type": "gas station",
     "lat": 40.66224,
     "lng": -74.008213,
     "address": "3263 Oak St, Bronx, NY 10124"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Starstation",
     "type": "store",
     "lat": 40.798226,
     "lng": -74.041093,
     "address": "4873 Maple St, Manhattan, NY 10383"
   },
   {
-    "name": "Sunset Point",
+    "name": "Mistwatch",
     "type": "gas station",
     "lat": 40.801494,
     "lng": -73.910807,
     "address": "6220 Lake St, Bronx, NY 10887"
   },
   {
-    "name": "Sunset Center",
+    "name": "Cloudgrove",
     "type": "clinic",
     "lat": 40.808008,
     "lng": -73.938239,
     "address": "1212 Lake St, Staten Island, NY 11403"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Ashhaven",
     "type": "gas station",
     "lat": 40.733478,
     "lng": -73.962968,
     "address": "2294 Pine St, Queens, NY 10148"
   },
   {
-    "name": "Maple Point",
+    "name": "Oakbank",
     "type": "atm",
     "lat": 40.693761,
     "lng": -73.968693,
     "address": "178 Sunset St, Queens, NY 10733"
   },
   {
-    "name": "Riverside Point",
+    "name": "Elmbank",
     "type": "gas station",
     "lat": 40.800063,
     "lng": -73.980024,
     "address": "9656 Hill St, Staten Island, NY 10394"
   },
   {
-    "name": "Riverside Group",
+    "name": "Pinestone",
     "type": "atm",
     "lat": 40.767076,
     "lng": -74.038543,
     "address": "960 Cedar St, Brooklyn, NY 10599"
   },
   {
-    "name": "Maple Health",
+    "name": "Hollowstead",
     "type": "clinic",
     "lat": 40.638496,
     "lng": -74.06781,
     "address": "2535 Lake St, Manhattan, NY 10501"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Sablevault",
     "type": "eatery",
     "lat": 40.71925,
     "lng": -73.942487,
     "address": "7862 Main St, Manhattan, NY 11519"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Brassvault",
     "type": "eatery",
     "lat": 40.726428,
     "lng": -74.08307,
     "address": "7068 Elm St, Bronx, NY 10326"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Hearthgrove",
     "type": "eatery",
     "lat": 40.65408,
     "lng": -73.925069,
     "address": "1413 Maple St, Manhattan, NY 11203"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Silverplaza",
     "type": "gas station",
     "lat": 40.732629,
     "lng": -73.977202,
     "address": "1481 Maple St, Bronx, NY 10093"
   },
   {
-    "name": "Brighton Market",
+    "name": "Starrun",
     "type": "clinic",
     "lat": 40.674079,
     "lng": -74.02448,
     "address": "9901 Main St, Brooklyn, NY 11071"
   },
   {
-    "name": "Peterson Group",
+    "name": "Mirebridge",
     "type": "store",
     "lat": 40.724071,
     "lng": -73.988915,
     "address": "1965 Sunset St, Staten Island, NY 11788"
   },
   {
-    "name": "Peterson Station",
+    "name": "Hearthhollow",
     "type": "atm",
     "lat": 40.704582,
     "lng": -74.001768,
     "address": "233 Sunset St, Brooklyn, NY 11570"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Oakrun",
     "type": "atm",
     "lat": 40.744337,
     "lng": -74.095501,
     "address": "7211 Maple St, Brooklyn, NY 11318"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Cloudstation",
     "type": "clinic",
     "lat": 40.745176,
     "lng": -73.970271,
     "address": "7518 Pine St, Queens, NY 10483"
   },
   {
-    "name": "Riverside Center",
+    "name": "Stonestone",
     "type": "eatery",
     "lat": 40.801213,
     "lng": -73.913653,
     "address": "2659 Main St, Brooklyn, NY 11293"
   },
   {
-    "name": "Brighton Center",
+    "name": "Mistridge",
     "type": "eatery",
     "lat": 40.672958,
     "lng": -74.033675,
     "address": "9761 Oak St, Queens, NY 10056"
   },
   {
-    "name": "Peterson Market",
+    "name": "Thornhill",
     "type": "gas station",
     "lat": 40.716484,
     "lng": -73.981452,
     "address": "8765 Washington St, Staten Island, NY 11290"
   },
   {
-    "name": "Brighton Station",
+    "name": "Nightstead",
     "type": "store",
     "lat": 40.748856,
     "lng": -74.010758,
     "address": "1615 Lake St, Bronx, NY 11647"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Silverhollow",
     "type": "clinic",
     "lat": 40.799866,
     "lng": -73.96229,
     "address": "9227 Washington St, Brooklyn, NY 10212"
   },
   {
-    "name": "Brighton Market",
+    "name": "Windhaven",
     "type": "store",
     "lat": 40.810149,
     "lng": -74.079223,
     "address": "1321 Elm St, Manhattan, NY 11811"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Frostwill",
     "type": "eatery",
     "lat": 40.644206,
     "lng": -73.930115,
     "address": "2602 Oak St, Bronx, NY 10766"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Frostplaza",
     "type": "clinic",
     "lat": 40.798248,
     "lng": -73.985016,
     "address": "9838 Cedar St, Queens, NY 10079"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Goldwatch",
     "type": "gas station",
     "lat": 40.797701,
     "lng": -74.048403,
     "address": "389 Pine St, Staten Island, NY 10788"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Pinestead",
     "type": "clinic",
     "lat": 40.805669,
     "lng": -74.068124,
     "address": "6851 Oak St, Bronx, NY 10887"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Goldreach",
     "type": "eatery",
     "lat": 40.619643,
     "lng": -74.048322,
     "address": "2933 Main St, Manhattan, NY 10526"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Glimmerstead",
     "type": "gas station",
     "lat": 40.616775,
     "lng": -74.012247,
     "address": "1493 Oak St, Brooklyn, NY 11935"
   },
   {
-    "name": "Brighton Health",
+    "name": "Oakstone",
     "type": "store",
     "lat": 40.661652,
     "lng": -74.015395,
     "address": "2551 Elm St, Queens, NY 10896"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Hollowfen",
     "type": "gas station",
     "lat": 40.617339,
     "lng": -74.089732,
     "address": "9339 Main St, Staten Island, NY 11147"
   },
   {
-    "name": "Maple Health",
+    "name": "Brassreach",
     "type": "store",
     "lat": 40.767587,
     "lng": -74.017011,
     "address": "6530 Main St, Bronx, NY 11156"
   },
   {
-    "name": "Maple Market",
+    "name": "Shadowstead",
     "type": "clinic",
     "lat": 40.701094,
     "lng": -73.915077,
     "address": "5567 Elm St, Queens, NY 11152"
   },
   {
-    "name": "Brighton Group",
+    "name": "Shadowvault",
     "type": "store",
     "lat": 40.726786,
     "lng": -73.96508,
     "address": "6768 Oak St, Manhattan, NY 10235"
   },
   {
-    "name": "Peterson Health",
+    "name": "Ravenstead",
     "type": "store",
     "lat": 40.725655,
     "lng": -73.936002,
     "address": "767 Washington St, Bronx, NY 11631"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Oakbridge",
     "type": "eatery",
     "lat": 40.799042,
     "lng": -74.101342,
     "address": "7815 Oak St, Bronx, NY 10617"
   },
   {
-    "name": "Riverside Center",
+    "name": "Brookmoor",
     "type": "clinic",
     "lat": 40.77293,
     "lng": -73.986935,
     "address": "3919 Main St, Staten Island, NY 11946"
   },
   {
-    "name": "Maple Station",
+    "name": "Oakoutlet",
     "type": "clinic",
     "lat": 40.775284,
     "lng": -74.070399,
     "address": "2541 Main St, Queens, NY 10534"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Cindervault",
     "type": "atm",
     "lat": 40.706576,
     "lng": -74.013449,
     "address": "9300 Oak St, Manhattan, NY 10429"
   },
   {
-    "name": "Maple Health",
+    "name": "Shadowpine",
     "type": "atm",
     "lat": 40.699939,
     "lng": -73.976087,
     "address": "6496 Main St, Staten Island, NY 11483"
   },
   {
-    "name": "Riverside Point",
+    "name": "Foxvault",
     "type": "store",
     "lat": 40.680069,
     "lng": -74.100528,
     "address": "2474 Hill St, Bronx, NY 11843"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Ashstone",
     "type": "eatery",
     "lat": 40.702513,
     "lng": -74.105532,
     "address": "5939 Elm St, Bronx, NY 11390"
   },
   {
-    "name": "Maple Point",
+    "name": "Goldhollow",
     "type": "clinic",
     "lat": 40.614884,
     "lng": -73.954916,
     "address": "2611 Washington St, Queens, NY 10041"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Frostgrove",
     "type": "eatery",
     "lat": 40.779724,
     "lng": -74.047568,
     "address": "7455 Washington St, Queens, NY 11180"
   },
   {
-    "name": "Sunset Market",
+    "name": "Brightoutlet",
     "type": "clinic",
     "lat": 40.666558,
     "lng": -74.028859,
     "address": "4570 Oak St, Staten Island, NY 11992"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Sableplaza",
     "type": "atm",
     "lat": 40.694002,
     "lng": -74.085163,
     "address": "221 Pine St, Brooklyn, NY 10408"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Mistgrove",
     "type": "store",
     "lat": 40.787949,
     "lng": -73.920954,
     "address": "1414 Elm St, Bronx, NY 10293"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Cloudstead",
     "type": "eatery",
     "lat": 40.657488,
     "lng": -73.933137,
     "address": "2148 Hill St, Staten Island, NY 11047"
   },
   {
-    "name": "Maple Station",
+    "name": "Hollowstone",
     "type": "eatery",
     "lat": 40.670377,
     "lng": -74.081034,
     "address": "1680 Elm St, Staten Island, NY 10862"
   },
   {
-    "name": "Greenwood Station",
+    "name": "Hearthstone",
     "type": "atm",
     "lat": 40.679412,
     "lng": -73.959056,
     "address": "8531 Washington St, Brooklyn, NY 11661"
   },
   {
-    "name": "Maple Market",
+    "name": "Hearthpoint",
     "type": "atm",
     "lat": 40.797867,
     "lng": -73.927382,
     "address": "101 Main St, Queens, NY 10512"
   },
   {
-    "name": "Brighton Point",
+    "name": "Shadowhaven",
     "type": "store",
     "lat": 40.711455,
     "lng": -73.995683,
     "address": "5783 Hill St, Staten Island, NY 11079"
   },
   {
-    "name": "Greenwood Station",
+    "name": "Nightpoint",
     "type": "clinic",
     "lat": 40.637207,
     "lng": -73.908837,
     "address": "3105 Sunset St, Staten Island, NY 10475"
   },
   {
-    "name": "Riverside Point",
+    "name": "Ashcenter",
     "type": "eatery",
     "lat": 40.674376,
     "lng": -74.01297,
     "address": "9160 Cedar St, Bronx, NY 10163"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Starstone",
     "type": "store",
     "lat": 40.651078,
     "lng": -74.079955,
     "address": "9527 Oak St, Manhattan, NY 11765"
   },
   {
-    "name": "Riverside Station",
+    "name": "Cindergroup",
     "type": "clinic",
     "lat": 40.644036,
     "lng": -73.937739,
     "address": "3412 Cedar St, Brooklyn, NY 10649"
   },
   {
-    "name": "Brighton Health",
+    "name": "Cloudreach",
     "type": "gas station",
     "lat": 40.775949,
     "lng": -73.911548,
     "address": "5428 Pine St, Queens, NY 11729"
   },
   {
-    "name": "Maple Market",
+    "name": "Elmmarket",
     "type": "clinic",
     "lat": 40.697963,
     "lng": -73.914752,
     "address": "3135 Sunset St, Staten Island, NY 10616"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Windmoor",
     "type": "store",
     "lat": 40.801517,
     "lng": -74.056419,
     "address": "2470 Main St, Queens, NY 11486"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Cinderwick",
     "type": "eatery",
     "lat": 40.770209,
     "lng": -73.952662,
     "address": "8044 Pine St, Brooklyn, NY 11117"
   },
   {
-    "name": "Riverside Health",
+    "name": "Sunfield",
     "type": "gas station",
     "lat": 40.696324,
     "lng": -73.967023,
     "address": "7147 Elm St, Queens, NY 10382"
   },
   {
-    "name": "Maple Station",
+    "name": "Driftbridge",
     "type": "clinic",
     "lat": 40.701463,
     "lng": -73.91488,
     "address": "4658 Elm St, Manhattan, NY 11823"
   },
   {
-    "name": "Brighton Center",
+    "name": "Glimmerwill",
     "type": "atm",
     "lat": 40.785147,
     "lng": -73.941526,
     "address": "1305 Pine St, Queens, NY 10378"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Ravenoutlet",
     "type": "store",
     "lat": 40.760509,
     "lng": -74.067651,
     "address": "3055 Sunset St, Manhattan, NY 10745"
   },
   {
-    "name": "Riverside Center",
+    "name": "Thornwill",
     "type": "atm",
     "lat": 40.660148,
     "lng": -74.100665,
     "address": "7251 Oak St, Staten Island, NY 11040"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Foxgrove",
     "type": "store",
     "lat": 40.62137,
     "lng": -74.072583,
     "address": "3299 Main St, Bronx, NY 10127"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Cinderfen",
     "type": "clinic",
     "lat": 40.811456,
     "lng": -74.09399,
     "address": "8121 Pine St, Queens, NY 10053"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Hearthplaza",
     "type": "gas station",
     "lat": 40.786192,
     "lng": -74.064203,
     "address": "7678 Oak St, Bronx, NY 10317"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Brookstation",
     "type": "store",
     "lat": 40.620307,
     "lng": -74.007725,
     "address": "4102 Lake St, Queens, NY 11900"
   },
   {
-    "name": "Peterson Health",
+    "name": "Windpine",
     "type": "store",
     "lat": 40.643531,
     "lng": -74.007037,
     "address": "7037 Lake St, Bronx, NY 11263"
   },
   {
-    "name": "Riverside Group",
+    "name": "Ironridge",
     "type": "atm",
     "lat": 40.67601,
     "lng": -74.070859,
     "address": "1650 Main St, Staten Island, NY 11585"
   },
   {
-    "name": "Sunset Center",
+    "name": "Starridge",
     "type": "clinic",
     "lat": 40.665639,
     "lng": -74.072794,
     "address": "3311 Washington St, Bronx, NY 11863"
   },
   {
-    "name": "Peterson Market",
+    "name": "Mistmoor",
     "type": "eatery",
     "lat": 40.794167,
     "lng": -73.947011,
     "address": "7262 Sunset St, Staten Island, NY 11820"
   },
   {
-    "name": "Riverside Group",
+    "name": "Elmpoint",
     "type": "gas station",
     "lat": 40.768194,
     "lng": -74.022052,
     "address": "8156 Elm St, Brooklyn, NY 10035"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Brightstone",
     "type": "gas station",
     "lat": 40.688594,
     "lng": -74.057283,
     "address": "585 Sunset St, Staten Island, NY 11424"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Glimmergrove",
     "type": "store",
     "lat": 40.747122,
     "lng": -73.977313,
     "address": "4051 Lake St, Brooklyn, NY 11804"
   },
   {
-    "name": "Riverside Center",
+    "name": "Hollowwick",
     "type": "store",
     "lat": 40.639635,
     "lng": -73.927296,
     "address": "6284 Pine St, Brooklyn, NY 11674"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Oakgrove",
     "type": "store",
     "lat": 40.747467,
     "lng": -73.959042,
     "address": "116 Main St, Bronx, NY 10262"
   },
   {
-    "name": "Peterson Point",
+    "name": "Goldwick",
     "type": "gas station",
     "lat": 40.665233,
     "lng": -74.076486,
     "address": "2206 Lake St, Brooklyn, NY 10464"
   },
   {
-    "name": "Riverside Station",
+    "name": "Cinderhill",
     "type": "clinic",
     "lat": 40.680428,
     "lng": -73.95155,
     "address": "3258 Cedar St, Brooklyn, NY 11085"
   },
   {
-    "name": "Riverside Health",
+    "name": "Goldfield",
     "type": "eatery",
     "lat": 40.623713,
     "lng": -73.996171,
     "address": "2436 Elm St, Staten Island, NY 11314"
   },
   {
-    "name": "Brighton Health",
+    "name": "Cinderhollow",
     "type": "store",
     "lat": 40.6591,
     "lng": -73.913346,
     "address": "8324 Pine St, Queens, NY 10647"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Sunmarket",
     "type": "atm",
     "lat": 40.629174,
     "lng": -74.030919,
     "address": "5973 Washington St, Manhattan, NY 11856"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Brighthaven",
     "type": "store",
     "lat": 40.810666,
     "lng": -73.937019,
     "address": "5492 Lake St, Bronx, NY 11659"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Nightpine",
     "type": "eatery",
     "lat": 40.624632,
     "lng": -73.953112,
     "address": "1044 Lake St, Queens, NY 10882"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Foxhollow",
     "type": "eatery",
     "lat": 40.779834,
     "lng": -73.912619,
     "address": "9904 Main St, Manhattan, NY 11423"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Goldbarrow",
     "type": "eatery",
     "lat": 40.737357,
     "lng": -73.93129,
     "address": "3508 Lake St, Bronx, NY 11947"
   },
   {
-    "name": "Maple Station",
+    "name": "Driftfen",
     "type": "eatery",
     "lat": 40.659239,
     "lng": -74.009918,
     "address": "3524 Lake St, Brooklyn, NY 11464"
   },
   {
-    "name": "Peterson Station",
+    "name": "Sablemere",
     "type": "clinic",
     "lat": 40.612928,
     "lng": -74.010357,
     "address": "5457 Elm St, Staten Island, NY 10272"
   },
   {
-    "name": "Sunset Station",
+    "name": "Hollowbridge",
     "type": "store",
     "lat": 40.633671,
     "lng": -74.070636,
     "address": "5963 Elm St, Manhattan, NY 11427"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Cloudbridge",
     "type": "gas station",
     "lat": 40.757034,
     "lng": -74.09714,
     "address": "1697 Elm St, Manhattan, NY 10018"
   },
   {
-    "name": "Sunset Market",
+    "name": "Brookreach",
     "type": "eatery",
     "lat": 40.721447,
     "lng": -74.037536,
     "address": "2823 Hill St, Staten Island, NY 11941"
   },
   {
-    "name": "Maple Point",
+    "name": "Goldstead",
     "type": "gas station",
     "lat": 40.809983,
     "lng": -73.928757,
     "address": "1809 Lake St, Manhattan, NY 11942"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Ashwick",
     "type": "gas station",
     "lat": 40.810717,
     "lng": -74.005293,
     "address": "7076 Hill St, Brooklyn, NY 10703"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Brightreach",
     "type": "eatery",
     "lat": 40.659612,
     "lng": -73.970133,
     "address": "1066 Sunset St, Brooklyn, NY 10381"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Sunbridge",
     "type": "store",
     "lat": 40.690141,
     "lng": -73.94676,
     "address": "3726 Pine St, Queens, NY 11953"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Ironpoint",
     "type": "clinic",
     "lat": 40.74365,
     "lng": -73.989217,
     "address": "3000 Elm St, Manhattan, NY 11960"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Foxcenter",
     "type": "clinic",
     "lat": 40.637637,
     "lng": -74.020092,
     "address": "9666 Pine St, Manhattan, NY 10855"
   },
   {
-    "name": "Maple Market",
+    "name": "Brookfen",
     "type": "clinic",
     "lat": 40.747663,
     "lng": -74.031407,
     "address": "3263 Maple St, Staten Island, NY 10094"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Mirehollow",
     "type": "store",
     "lat": 40.717367,
     "lng": -74.023359,
     "address": "6158 Pine St, Manhattan, NY 10784"
   },
   {
-    "name": "Brighton Point",
+    "name": "Cloudbarrow",
     "type": "atm",
     "lat": 40.809429,
     "lng": -74.002023,
     "address": "1750 Oak St, Staten Island, NY 10104"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Nightwick",
     "type": "clinic",
     "lat": 40.654458,
     "lng": -73.967768,
     "address": "9520 Elm St, Bronx, NY 11737"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Ravenplaza",
     "type": "store",
     "lat": 40.631669,
     "lng": -74.052226,
     "address": "7687 Washington St, Bronx, NY 10864"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Glimmerstation",
     "type": "clinic",
     "lat": 40.652752,
     "lng": -74.023801,
     "address": "7079 Elm St, Brooklyn, NY 10016"
   },
   {
-    "name": "Brighton Center",
+    "name": "Driftgrove",
     "type": "eatery",
     "lat": 40.63193,
     "lng": -74.014073,
     "address": "8148 Washington St, Bronx, NY 11666"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Sablewick",
     "type": "gas station",
     "lat": 40.691747,
     "lng": -73.951038,
     "address": "4390 Elm St, Staten Island, NY 10926"
   },
   {
-    "name": "Peterson Group",
+    "name": "Sablebridge",
     "type": "store",
     "lat": 40.764385,
     "lng": -73.925495,
     "address": "4332 Lake St, Queens, NY 10666"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Cinderoutlet",
     "type": "atm",
     "lat": 40.810402,
     "lng": -73.914567,
     "address": "4981 Sunset St, Staten Island, NY 11026"
   },
   {
-    "name": "Sunset Health",
+    "name": "Starreach",
     "type": "atm",
     "lat": 40.735946,
     "lng": -74.002727,
     "address": "147 Pine St, Queens, NY 11206"
   },
   {
-    "name": "Peterson Station",
+    "name": "Silverhill",
     "type": "atm",
     "lat": 40.772516,
     "lng": -73.982068,
     "address": "6243 Main St, Manhattan, NY 10622"
   },
   {
-    "name": "Riverside Point",
+    "name": "Hearthpine",
     "type": "eatery",
     "lat": 40.789435,
     "lng": -74.077755,
     "address": "2735 Oak St, Staten Island, NY 11013"
   },
   {
-    "name": "Maple Market",
+    "name": "Thornmarket",
     "type": "store",
     "lat": 40.736904,
     "lng": -73.96239,
     "address": "8433 Maple St, Staten Island, NY 11109"
   },
   {
-    "name": "Maple Station",
+    "name": "Brightmoor",
     "type": "gas station",
     "lat": 40.642095,
     "lng": -73.93954,
     "address": "201 Cedar St, Queens, NY 10187"
   },
   {
-    "name": "Peterson Market",
+    "name": "Silvermoor",
     "type": "clinic",
     "lat": 40.760216,
     "lng": -73.927844,
     "address": "8027 Lake St, Manhattan, NY 11952"
   },
   {
-    "name": "Peterson Point",
+    "name": "Driftpoint",
     "type": "clinic",
     "lat": 40.653281,
     "lng": -73.987181,
     "address": "6171 Maple St, Bronx, NY 11930"
   },
   {
-    "name": "Maple Point",
+    "name": "Cinderbarrow",
     "type": "clinic",
     "lat": 40.796898,
     "lng": -74.092441,
     "address": "8749 Oak St, Queens, NY 11339"
   },
   {
-    "name": "Riverside Point",
+    "name": "Brassstation",
     "type": "store",
     "lat": 40.621689,
     "lng": -74.018675,
     "address": "326 Lake St, Bronx, NY 10777"
   },
   {
-    "name": "Brighton Group",
+    "name": "Ravenhaven",
     "type": "gas station",
     "lat": 40.624614,
     "lng": -73.941087,
     "address": "1743 Sunset St, Manhattan, NY 11538"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Oakfen",
     "type": "store",
     "lat": 40.654646,
     "lng": -74.025499,
     "address": "9042 Washington St, Brooklyn, NY 11392"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Foxstone",
     "type": "gas station",
     "lat": 40.664366,
     "lng": -74.102717,
     "address": "1106 Lake St, Bronx, NY 11773"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Ashbarrow",
     "type": "gas station",
     "lat": 40.615629,
     "lng": -74.04611,
     "address": "3396 Maple St, Staten Island, NY 10722"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Miregrove",
     "type": "store",
     "lat": 40.631524,
     "lng": -74.015635,
     "address": "4397 Oak St, Bronx, NY 11935"
   },
   {
-    "name": "Maple Station",
+    "name": "Ironhill",
     "type": "gas station",
     "lat": 40.696542,
     "lng": -74.08406,
     "address": "9739 Sunset St, Brooklyn, NY 10293"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Oakmarket",
     "type": "gas station",
     "lat": 40.784004,
     "lng": -74.06375,
     "address": "1392 Lake St, Staten Island, NY 11960"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Ravengroup",
     "type": "clinic",
     "lat": 40.674754,
     "lng": -73.952052,
     "address": "9582 Lake St, Bronx, NY 11886"
   },
   {
-    "name": "Peterson Center",
+    "name": "Mireoutlet",
     "type": "clinic",
     "lat": 40.758047,
     "lng": -73.934302,
     "address": "3325 Hill St, Manhattan, NY 11410"
   },
   {
-    "name": "Maple Market",
+    "name": "Ashstead",
     "type": "gas station",
     "lat": 40.617442,
     "lng": -74.026063,
     "address": "6933 Washington St, Staten Island, NY 10071"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Thornstation",
     "type": "eatery",
     "lat": 40.6193,
     "lng": -73.908329,
     "address": "9737 Oak St, Manhattan, NY 11075"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Brassgrove",
     "type": "atm",
     "lat": 40.806201,
     "lng": -73.965555,
     "address": "9607 Hill St, Brooklyn, NY 10892"
   },
   {
-    "name": "Riverside Health",
+    "name": "Hollowstation",
     "type": "clinic",
     "lat": 40.703983,
     "lng": -74.087053,
     "address": "5578 Sunset St, Brooklyn, NY 11318"
   },
   {
-    "name": "Peterson Group",
+    "name": "Mistcenter",
     "type": "store",
     "lat": 40.748374,
     "lng": -73.974345,
     "address": "6379 Pine St, Queens, NY 11855"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Drifthaven",
     "type": "clinic",
     "lat": 40.684683,
     "lng": -74.069769,
     "address": "4040 Main St, Manhattan, NY 10346"
   },
   {
-    "name": "Peterson Market",
+    "name": "Cinderridge",
     "type": "clinic",
     "lat": 40.663368,
     "lng": -74.034063,
     "address": "9446 Elm St, Staten Island, NY 11646"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Sunwatch",
     "type": "gas station",
     "lat": 40.749426,
     "lng": -74.029886,
     "address": "9480 Lake St, Manhattan, NY 10141"
   },
   {
-    "name": "Riverside Point",
+    "name": "Foxpoint",
     "type": "gas station",
     "lat": 40.805808,
     "lng": -73.932266,
     "address": "9645 Oak St, Manhattan, NY 10084"
   },
   {
-    "name": "Maple Health",
+    "name": "Foxbank",
     "type": "store",
     "lat": 40.67264,
     "lng": -73.90658,
     "address": "9591 Lake St, Queens, NY 11299"
   },
   {
-    "name": "Sunset Point",
+    "name": "Shadowbarrow",
     "type": "store",
     "lat": 40.620922,
     "lng": -74.081577,
     "address": "2847 Main St, Bronx, NY 11658"
   },
   {
-    "name": "Riverside Station",
+    "name": "Ashhill",
     "type": "clinic",
     "lat": 40.62601,
     "lng": -74.080968,
     "address": "9257 Oak St, Queens, NY 10461"
   },
   {
-    "name": "Maple Market",
+    "name": "Ironmoor",
     "type": "store",
     "lat": 40.765868,
     "lng": -74.062552,
     "address": "7982 Pine St, Bronx, NY 11392"
   },
   {
-    "name": "Peterson Health",
+    "name": "Cindermarket",
     "type": "gas station",
     "lat": 40.768826,
     "lng": -73.974059,
     "address": "8559 Elm St, Brooklyn, NY 11259"
   },
   {
-    "name": "Riverside Station",
+    "name": "Frosthaven",
     "type": "eatery",
     "lat": 40.619588,
     "lng": -73.955028,
     "address": "1349 Maple St, Bronx, NY 11440"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Goldmoor",
     "type": "gas station",
     "lat": 40.78128,
     "lng": -73.967414,
     "address": "3718 Maple St, Manhattan, NY 11696"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Sunrun",
     "type": "atm",
     "lat": 40.691167,
     "lng": -73.995921,
     "address": "7449 Pine St, Staten Island, NY 10566"
   },
   {
-    "name": "Riverside Group",
+    "name": "Cloudcenter",
     "type": "eatery",
     "lat": 40.659764,
     "lng": -73.949068,
     "address": "1992 Washington St, Manhattan, NY 11286"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Brightstead",
     "type": "store",
     "lat": 40.649343,
     "lng": -73.997151,
     "address": "9816 Main St, Brooklyn, NY 11814"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Sablehaven",
     "type": "clinic",
     "lat": 40.696007,
     "lng": -74.050769,
     "address": "6803 Elm St, Brooklyn, NY 11587"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Hearthmarket",
     "type": "gas station",
     "lat": 40.750625,
     "lng": -73.92989,
     "address": "5264 Main St, Queens, NY 11556"
   },
   {
-    "name": "Riverside Health",
+    "name": "Oakpine",
     "type": "clinic",
     "lat": 40.794078,
     "lng": -73.958363,
     "address": "6092 Pine St, Queens, NY 11439"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Cloudpoint",
     "type": "atm",
     "lat": 40.808576,
     "lng": -73.931358,
     "address": "2409 Elm St, Bronx, NY 10149"
   },
   {
-    "name": "Maple Market",
+    "name": "Foxstation",
     "type": "clinic",
     "lat": 40.740271,
     "lng": -73.949319,
     "address": "8858 Maple St, Bronx, NY 11324"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Cinderbank",
     "type": "store",
     "lat": 40.630178,
     "lng": -73.928446,
     "address": "6640 Hill St, Staten Island, NY 11658"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Frostmoor",
     "type": "gas station",
     "lat": 40.662748,
     "lng": -74.105222,
     "address": "8004 Sunset St, Staten Island, NY 11747"
   },
   {
-    "name": "Brighton Center",
+    "name": "Glimmerfield",
     "type": "clinic",
     "lat": 40.70002,
     "lng": -74.074182,
     "address": "9766 Hill St, Queens, NY 11311"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Nightreach",
     "type": "clinic",
     "lat": 40.656942,
     "lng": -73.947156,
     "address": "8908 Lake St, Bronx, NY 11885"
   },
   {
-    "name": "Maple Group",
+    "name": "Goldridge",
     "type": "eatery",
     "lat": 40.685517,
     "lng": -74.031639,
     "address": "8374 Washington St, Queens, NY 10576"
   },
   {
-    "name": "Peterson Station",
+    "name": "Ironbank",
     "type": "clinic",
     "lat": 40.681224,
     "lng": -73.942831,
     "address": "879 Oak St, Bronx, NY 11365"
   },
   {
-    "name": "Brighton Group",
+    "name": "Pinewick",
     "type": "eatery",
     "lat": 40.677984,
     "lng": -74.025723,
     "address": "5840 Main St, Brooklyn, NY 11863"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Brassplaza",
     "type": "atm",
     "lat": 40.721982,
     "lng": -73.957203,
     "address": "9020 Main St, Bronx, NY 11057"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Nightfen",
     "type": "gas station",
     "lat": 40.764399,
     "lng": -73.962393,
     "address": "4041 Sunset St, Queens, NY 11766"
   },
   {
-    "name": "Brighton Group",
+    "name": "Silverbridge",
     "type": "gas station",
     "lat": 40.781137,
     "lng": -74.031511,
     "address": "6387 Cedar St, Staten Island, NY 11286"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Shadowplaza",
     "type": "atm",
     "lat": 40.639978,
     "lng": -73.947946,
     "address": "7007 Cedar St, Queens, NY 11387"
   },
   {
-    "name": "Peterson Health",
+    "name": "Hollowmoor",
     "type": "clinic",
     "lat": 40.770485,
     "lng": -74.036591,
     "address": "4560 Hill St, Manhattan, NY 10697"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Stonemere",
     "type": "eatery",
     "lat": 40.739659,
     "lng": -74.080727,
     "address": "9277 Pine St, Bronx, NY 11884"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Elmhill",
     "type": "gas station",
     "lat": 40.693782,
     "lng": -73.997365,
     "address": "5532 Cedar St, Brooklyn, NY 10036"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Windstation",
     "type": "clinic",
     "lat": 40.719897,
     "lng": -74.062978,
     "address": "6585 Pine St, Brooklyn, NY 10143"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Oakmere",
     "type": "store",
     "lat": 40.793058,
     "lng": -74.006094,
     "address": "1025 Oak St, Manhattan, NY 10791"
   },
   {
-    "name": "Sunset Group",
+    "name": "Frostcenter",
     "type": "eatery",
     "lat": 40.661812,
     "lng": -74.031379,
     "address": "2664 Hill St, Brooklyn, NY 11943"
   },
   {
-    "name": "Sunset Point",
+    "name": "Pinemere",
     "type": "clinic",
     "lat": 40.732645,
     "lng": -73.95601,
     "address": "212 Maple St, Brooklyn, NY 10634"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Starhaven",
     "type": "atm",
     "lat": 40.79083,
     "lng": -74.027456,
     "address": "8514 Maple St, Brooklyn, NY 11787"
   },
   {
-    "name": "Riverside Group",
+    "name": "Shadowmoor",
     "type": "store",
     "lat": 40.752029,
     "lng": -74.052135,
     "address": "1613 Lake St, Brooklyn, NY 11995"
   },
   {
-    "name": "Sunset Point",
+    "name": "Hollowcenter",
     "type": "store",
     "lat": 40.789436,
     "lng": -73.95026,
     "address": "675 Pine St, Staten Island, NY 11585"
   },
   {
-    "name": "Brighton Health",
+    "name": "Sunstone",
     "type": "eatery",
     "lat": 40.655364,
     "lng": -73.953837,
     "address": "5723 Maple St, Staten Island, NY 10075"
   },
   {
-    "name": "Brighton Point",
+    "name": "Stonestead",
     "type": "eatery",
     "lat": 40.625707,
     "lng": -73.984712,
     "address": "4229 Main St, Brooklyn, NY 10488"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Shadowridge",
     "type": "eatery",
     "lat": 40.803666,
     "lng": -73.949593,
     "address": "6467 Cedar St, Bronx, NY 11059"
   },
   {
-    "name": "Sunset Group",
+    "name": "Nightbridge",
     "type": "eatery",
     "lat": 40.625856,
     "lng": -74.019738,
     "address": "8770 Oak St, Bronx, NY 10536"
   },
   {
-    "name": "Sunset Station",
+    "name": "Brassbarrow",
     "type": "gas station",
     "lat": 40.748628,
     "lng": -74.062961,
     "address": "4216 Sunset St, Manhattan, NY 11487"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Starmere",
     "type": "clinic",
     "lat": 40.699795,
     "lng": -74.002385,
     "address": "2827 Hill St, Bronx, NY 10601"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Starbank",
     "type": "clinic",
     "lat": 40.703714,
     "lng": -73.975704,
     "address": "8750 Hill St, Staten Island, NY 10009"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Brightmarket",
     "type": "gas station",
     "lat": 40.627064,
     "lng": -73.982113,
     "address": "9898 Pine St, Staten Island, NY 11327"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Hollowbank",
     "type": "atm",
     "lat": 40.64408,
     "lng": -73.990335,
     "address": "8341 Elm St, Bronx, NY 10149"
   },
   {
-    "name": "Brighton Market",
+    "name": "Shadowcenter",
     "type": "eatery",
     "lat": 40.784783,
     "lng": -74.048848,
     "address": "2409 Pine St, Manhattan, NY 11535"
   },
   {
-    "name": "Brighton Health",
+    "name": "Brightcenter",
     "type": "eatery",
     "lat": 40.807733,
     "lng": -74.032604,
     "address": "1178 Lake St, Bronx, NY 11866"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Driftstone",
     "type": "store",
     "lat": 40.646446,
     "lng": -73.942199,
     "address": "9773 Main St, Bronx, NY 10779"
   },
   {
-    "name": "Sunset Health",
+    "name": "Drifthill",
     "type": "gas station",
     "lat": 40.676763,
     "lng": -74.078132,
     "address": "5767 Oak St, Queens, NY 11821"
   },
   {
-    "name": "Brighton Center",
+    "name": "Ironcenter",
     "type": "clinic",
     "lat": 40.668134,
     "lng": -74.094444,
     "address": "8347 Main St, Manhattan, NY 10398"
   },
   {
-    "name": "Peterson Station",
+    "name": "Thornfield",
     "type": "eatery",
     "lat": 40.641107,
     "lng": -73.927369,
     "address": "2144 Pine St, Brooklyn, NY 10985"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Hollowmere",
     "type": "store",
     "lat": 40.650727,
     "lng": -74.045575,
     "address": "1411 Maple St, Staten Island, NY 11886"
   },
   {
-    "name": "Riverside Market",
+    "name": "Pinestation",
     "type": "gas station",
     "lat": 40.776091,
     "lng": -73.94805,
     "address": "5741 Sunset St, Brooklyn, NY 11674"
   },
   {
-    "name": "Maple Center",
+    "name": "Starbridge",
     "type": "store",
     "lat": 40.673416,
     "lng": -74.029233,
     "address": "2664 Cedar St, Queens, NY 11726"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Stoneridge",
     "type": "store",
     "lat": 40.745348,
     "lng": -74.098397,
     "address": "3053 Cedar St, Queens, NY 11450"
   },
   {
-    "name": "Brighton Group",
+    "name": "Ravenpine",
     "type": "eatery",
     "lat": 40.75198,
     "lng": -74.045113,
     "address": "7528 Elm St, Manhattan, NY 11902"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Elmstone",
     "type": "clinic",
     "lat": 40.635532,
     "lng": -73.958256,
     "address": "7411 Cedar St, Staten Island, NY 11351"
   },
   {
-    "name": "Maple Health",
+    "name": "Nightcenter",
     "type": "gas station",
     "lat": 40.716773,
     "lng": -73.994973,
     "address": "8612 Hill St, Brooklyn, NY 11708"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Moonridge",
     "type": "gas station",
     "lat": 40.616504,
     "lng": -73.971491,
     "address": "2187 Hill St, Brooklyn, NY 11552"
   },
   {
-    "name": "Maple Health",
+    "name": "Moonplaza",
     "type": "gas station",
     "lat": 40.801899,
     "lng": -74.008289,
     "address": "8913 Main St, Brooklyn, NY 11456"
   },
   {
-    "name": "Peterson Station",
+    "name": "Ravenridge",
     "type": "clinic",
     "lat": 40.780139,
     "lng": -74.041747,
     "address": "452 Hill St, Staten Island, NY 10553"
   },
   {
-    "name": "Maple Group",
+    "name": "Ravenmoor",
     "type": "atm",
     "lat": 40.682315,
     "lng": -74.090843,
     "address": "5279 Sunset St, Brooklyn, NY 11802"
   },
   {
-    "name": "Brighton Point",
+    "name": "Thornplaza",
     "type": "store",
     "lat": 40.614701,
     "lng": -74.021849,
     "address": "2127 Washington St, Queens, NY 11833"
   },
   {
-    "name": "Brighton Center",
+    "name": "Glimmergroup",
     "type": "eatery",
     "lat": 40.614189,
     "lng": -74.094633,
     "address": "9263 Maple St, Brooklyn, NY 10929"
   },
   {
-    "name": "Riverside Center",
+    "name": "Ironmere",
     "type": "gas station",
     "lat": 40.750076,
     "lng": -74.038558,
     "address": "6234 Oak St, Manhattan, NY 11530"
   },
   {
-    "name": "Sunset Station",
+    "name": "Stonemarket",
     "type": "eatery",
     "lat": 40.779436,
     "lng": -74.096739,
     "address": "432 Maple St, Bronx, NY 11365"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Hollowhollow",
     "type": "gas station",
     "lat": 40.625093,
     "lng": -73.9306,
     "address": "244 Elm St, Brooklyn, NY 11713"
   },
   {
-    "name": "Brighton Health",
+    "name": "Brookmarket",
     "type": "clinic",
     "lat": 40.627652,
     "lng": -74.083171,
     "address": "836 Main St, Brooklyn, NY 10695"
   },
   {
-    "name": "Peterson Center",
+    "name": "Ashgroup",
     "type": "gas station",
     "lat": 40.751281,
     "lng": -74.016083,
     "address": "3466 Oak St, Bronx, NY 11154"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Hearthbarrow",
     "type": "store",
     "lat": 40.720714,
     "lng": -74.051643,
     "address": "6535 Pine St, Staten Island, NY 11527"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Brassfen",
     "type": "clinic",
     "lat": 40.712499,
     "lng": -73.909529,
     "address": "4434 Elm St, Brooklyn, NY 10938"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Stonepine",
     "type": "store",
     "lat": 40.625153,
     "lng": -73.931594,
     "address": "6656 Pine St, Brooklyn, NY 11141"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Sablerun",
     "type": "atm",
     "lat": 40.806178,
     "lng": -74.075953,
     "address": "5687 Elm St, Manhattan, NY 10119"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Sablebank",
     "type": "clinic",
     "lat": 40.768896,
     "lng": -73.968545,
     "address": "1256 Washington St, Staten Island, NY 11105"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Mistbarrow",
     "type": "atm",
     "lat": 40.811208,
     "lng": -73.993487,
     "address": "9516 Sunset St, Brooklyn, NY 11669"
   },
   {
-    "name": "Peterson Health",
+    "name": "Windoutlet",
     "type": "gas station",
     "lat": 40.782103,
     "lng": -73.936924,
     "address": "623 Cedar St, Queens, NY 11676"
   },
   {
-    "name": "Sunset Market",
+    "name": "Cinderstone",
     "type": "store",
     "lat": 40.794078,
     "lng": -74.08732,
     "address": "755 Oak St, Staten Island, NY 11998"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Cloudwill",
     "type": "store",
     "lat": 40.623874,
     "lng": -73.923411,
     "address": "9160 Elm St, Bronx, NY 11443"
   },
   {
-    "name": "Riverside Point",
+    "name": "Brookstead",
     "type": "eatery",
     "lat": 40.698,
     "lng": -73.947989,
     "address": "2889 Washington St, Manhattan, NY 10094"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Mistplaza",
     "type": "atm",
     "lat": 40.679161,
     "lng": -73.986584,
     "address": "7310 Washington St, Manhattan, NY 10362"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Elmbarrow",
     "type": "eatery",
     "lat": 40.792639,
     "lng": -74.080494,
     "address": "3297 Maple St, Brooklyn, NY 10466"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Brookpine",
     "type": "clinic",
     "lat": 40.805444,
     "lng": -73.978972,
     "address": "7916 Oak St, Bronx, NY 11397"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Windmarket",
     "type": "clinic",
     "lat": 40.75389,
     "lng": -74.048938,
     "address": "9457 Washington St, Queens, NY 10736"
   },
   {
-    "name": "Brighton Center",
+    "name": "Hearthstead",
     "type": "clinic",
     "lat": 40.792857,
     "lng": -73.984572,
     "address": "6309 Sunset St, Manhattan, NY 11541"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Goldstation",
     "type": "eatery",
     "lat": 40.65168,
     "lng": -74.039344,
     "address": "9593 Oak St, Bronx, NY 11126"
   },
   {
-    "name": "Brighton Group",
+    "name": "Thorngroup",
     "type": "eatery",
     "lat": 40.763559,
     "lng": -74.031729,
     "address": "2694 Cedar St, Queens, NY 10464"
   },
   {
-    "name": "Maple Group",
+    "name": "Mirerun",
     "type": "clinic",
     "lat": 40.726572,
     "lng": -74.090303,
     "address": "7252 Sunset St, Brooklyn, NY 11755"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Oakstead",
     "type": "atm",
     "lat": 40.652364,
     "lng": -73.977361,
     "address": "6112 Hill St, Brooklyn, NY 10639"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Hollowhill",
     "type": "gas station",
     "lat": 40.709333,
     "lng": -74.084876,
     "address": "465 Oak St, Manhattan, NY 11885"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Oakwick",
     "type": "gas station",
     "lat": 40.71972,
     "lng": -74.013446,
     "address": "1194 Elm St, Brooklyn, NY 11180"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Brightfield",
     "type": "store",
     "lat": 40.702,
     "lng": -74.093059,
     "address": "4866 Maple St, Manhattan, NY 10483"
   },
   {
-    "name": "Peterson Center",
+    "name": "Brookhaven",
     "type": "gas station",
     "lat": 40.704043,
     "lng": -73.960231,
     "address": "4310 Washington St, Queens, NY 10921"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Moonwatch",
     "type": "gas station",
     "lat": 40.710802,
     "lng": -74.049386,
     "address": "5724 Main St, Staten Island, NY 10030"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Misthaven",
     "type": "atm",
     "lat": 40.707447,
     "lng": -74.064654,
     "address": "3553 Elm St, Brooklyn, NY 10458"
   },
   {
-    "name": "Sunset Point",
+    "name": "Shadowfen",
     "type": "store",
     "lat": 40.643883,
     "lng": -73.928414,
     "address": "1336 Sunset St, Manhattan, NY 11118"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Foxfen",
     "type": "clinic",
     "lat": 40.74692,
     "lng": -74.086789,
     "address": "1890 Pine St, Manhattan, NY 11323"
   },
   {
-    "name": "Hilltop Outlet",
+    "name": "Oakhill",
     "type": "eatery",
     "lat": 40.613564,
     "lng": -74.037664,
     "address": "4795 Sunset St, Bronx, NY 10657"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Brookbridge",
     "type": "atm",
     "lat": 40.793522,
     "lng": -73.951323,
     "address": "5386 Sunset St, Bronx, NY 11663"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Elmhaven",
     "type": "atm",
     "lat": 40.700604,
     "lng": -73.916157,
     "address": "1545 Oak St, Staten Island, NY 10652"
   },
   {
-    "name": "Sunset Health",
+    "name": "Elmcenter",
     "type": "store",
     "lat": 40.664066,
     "lng": -73.906872,
     "address": "9444 Sunset St, Manhattan, NY 11547"
   },
   {
-    "name": "Maple Market",
+    "name": "Thornhaven",
     "type": "store",
     "lat": 40.799101,
     "lng": -73.911876,
     "address": "6216 Maple St, Queens, NY 11166"
   },
   {
-    "name": "Brighton Center",
+    "name": "Ashoutlet",
     "type": "gas station",
     "lat": 40.771904,
     "lng": -73.911451,
     "address": "9737 Hill St, Queens, NY 11779"
   },
   {
-    "name": "Greenwood Station",
+    "name": "Foxbarrow",
     "type": "gas station",
     "lat": 40.704343,
     "lng": -74.102296,
     "address": "1523 Sunset St, Bronx, NY 10796"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Stonemoor",
     "type": "atm",
     "lat": 40.738164,
     "lng": -73.933369,
     "address": "6708 Elm St, Manhattan, NY 10091"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Glimmerbarrow",
     "type": "clinic",
     "lat": 40.642899,
     "lng": -74.067515,
     "address": "6554 Washington St, Manhattan, NY 11015"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Frostbank",
     "type": "store",
     "lat": 40.758188,
     "lng": -74.007174,
     "address": "5355 Oak St, Brooklyn, NY 11769"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Driftcenter",
     "type": "gas station",
     "lat": 40.63086,
     "lng": -73.949315,
     "address": "1492 Sunset St, Brooklyn, NY 11063"
   },
   {
-    "name": "Sunset Station",
+    "name": "Elmgrove",
     "type": "clinic",
     "lat": 40.772642,
     "lng": -74.019932,
     "address": "5940 Sunset St, Brooklyn, NY 10725"
   },
   {
-    "name": "Riverside Point",
+    "name": "Nightmarket",
     "type": "store",
     "lat": 40.623873,
     "lng": -74.102216,
     "address": "5181 Main St, Manhattan, NY 11075"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Elmridge",
     "type": "gas station",
     "lat": 40.763165,
     "lng": -74.050257,
     "address": "5664 Sunset St, Staten Island, NY 11805"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Moonwick",
     "type": "clinic",
     "lat": 40.797949,
     "lng": -73.94835,
     "address": "4669 Oak St, Manhattan, NY 10554"
   },
   {
-    "name": "Lakeside Plaza",
+    "name": "Foxwick",
     "type": "store",
     "lat": 40.792776,
     "lng": -74.014935,
     "address": "1323 Lake St, Brooklyn, NY 10913"
   },
   {
-    "name": "Riverside Market",
+    "name": "Mirewick",
     "type": "gas station",
     "lat": 40.656134,
     "lng": -73.906316,
     "address": "2390 Main St, Brooklyn, NY 10387"
   },
   {
-    "name": "Sunset Group",
+    "name": "Cloudoutlet",
     "type": "clinic",
     "lat": 40.764512,
     "lng": -74.075464,
     "address": "3457 Pine St, Manhattan, NY 10755"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Starmarket",
     "type": "store",
     "lat": 40.748871,
     "lng": -74.002621,
     "address": "8842 Main St, Manhattan, NY 10222"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Ashfen",
     "type": "clinic",
     "lat": 40.734604,
     "lng": -74.087578,
     "address": "1102 Hill St, Staten Island, NY 10058"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Glimmerridge",
     "type": "gas station",
     "lat": 40.619755,
     "lng": -74.06166,
     "address": "4591 Main St, Brooklyn, NY 10883"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Mistgroup",
     "type": "clinic",
     "lat": 40.68598,
     "lng": -74.010137,
     "address": "6092 Washington St, Manhattan, NY 11191"
   },
   {
-    "name": "Sunset Station",
+    "name": "Silvercenter",
     "type": "store",
     "lat": 40.784012,
     "lng": -74.056114,
     "address": "1760 Lake St, Queens, NY 11034"
   },
   {
-    "name": "Maple Health",
+    "name": "Cloudmoor",
     "type": "gas station",
     "lat": 40.786913,
     "lng": -74.007905,
     "address": "8262 Lake St, Bronx, NY 11983"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Mirebarrow",
     "type": "gas station",
     "lat": 40.632684,
     "lng": -73.993206,
     "address": "317 Oak St, Manhattan, NY 10364"
   },
   {
-    "name": "Sunset Market",
+    "name": "Mirepine",
     "type": "clinic",
     "lat": 40.715207,
     "lng": -74.006507,
     "address": "4828 Lake St, Bronx, NY 11221"
   },
   {
-    "name": "Sunset Center",
+    "name": "Mistfen",
     "type": "atm",
     "lat": 40.617428,
     "lng": -74.005083,
     "address": "2501 Elm St, Manhattan, NY 10140"
   },
   {
-    "name": "Riverside Center",
+    "name": "Pinehaven",
     "type": "gas station",
     "lat": 40.681944,
     "lng": -73.993865,
     "address": "6539 Main St, Queens, NY 10054"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Goldgrove",
     "type": "atm",
     "lat": 40.73813,
     "lng": -73.93235,
     "address": "7480 Pine St, Queens, NY 11107"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Nightplaza",
     "type": "store",
     "lat": 40.661625,
     "lng": -73.994775,
     "address": "3442 Cedar St, Queens, NY 11739"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Cinderfield",
     "type": "atm",
     "lat": 40.697533,
     "lng": -73.938877,
     "address": "9743 Maple St, Brooklyn, NY 10698"
   },
   {
-    "name": "Sunset Group",
+    "name": "Thornridge",
     "type": "clinic",
     "lat": 40.745421,
     "lng": -74.032412,
     "address": "5533 Lake St, Staten Island, NY 10479"
   },
   {
-    "name": "Sunset Plaza",
+    "name": "Oakhaven",
     "type": "store",
     "lat": 40.686614,
     "lng": -74.093688,
     "address": "7775 Hill St, Brooklyn, NY 11385"
   },
   {
-    "name": "Sunset Point",
+    "name": "Sungrove",
     "type": "store",
     "lat": 40.758831,
     "lng": -73.968853,
     "address": "9830 Pine St, Staten Island, NY 10370"
   },
   {
-    "name": "Sunset Station",
+    "name": "Silverhaven",
     "type": "atm",
     "lat": 40.778606,
     "lng": -73.946224,
     "address": "6551 Hill St, Brooklyn, NY 10246"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Starfen",
     "type": "clinic",
     "lat": 40.732873,
     "lng": -74.064583,
     "address": "8684 Lake St, Manhattan, NY 11636"
   },
   {
-    "name": "Peterson Health",
+    "name": "Thornbarrow",
     "type": "eatery",
     "lat": 40.765476,
     "lng": -73.972055,
     "address": "9751 Sunset St, Bronx, NY 11325"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Shadowgrove",
     "type": "clinic",
     "lat": 40.683465,
     "lng": -74.050373,
     "address": "5130 Pine St, Staten Island, NY 10573"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Glimmerhollow",
     "type": "gas station",
     "lat": 40.671356,
     "lng": -74.086012,
     "address": "9935 Pine St, Manhattan, NY 10491"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Nightstone",
     "type": "eatery",
     "lat": 40.649097,
     "lng": -73.919512,
     "address": "3956 Cedar St, Manhattan, NY 10438"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Moonmere",
     "type": "gas station",
     "lat": 40.786911,
     "lng": -74.083238,
     "address": "189 Oak St, Bronx, NY 11179"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Thornstone",
     "type": "gas station",
     "lat": 40.745559,
     "lng": -74.07875,
     "address": "5019 Maple St, Brooklyn, NY 11056"
   },
   {
-    "name": "Peterson Health",
+    "name": "Frostreach",
     "type": "gas station",
     "lat": 40.623764,
     "lng": -74.038346,
     "address": "2715 Washington St, Bronx, NY 11951"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Hollowwatch",
     "type": "store",
     "lat": 40.808625,
     "lng": -74.052948,
     "address": "7184 Sunset St, Bronx, NY 10871"
   },
   {
-    "name": "Riverside Market",
+    "name": "Pinevault",
     "type": "atm",
     "lat": 40.78681,
     "lng": -74.058384,
     "address": "8416 Maple St, Staten Island, NY 10377"
   },
   {
-    "name": "Brighton Market",
+    "name": "Ashridge",
     "type": "eatery",
     "lat": 40.696117,
     "lng": -73.945626,
     "address": "2150 Hill St, Queens, NY 10237"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Windvault",
     "type": "gas station",
     "lat": 40.661501,
     "lng": -73.998385,
     "address": "4504 Main St, Staten Island, NY 10083"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Hollowrun",
     "type": "store",
     "lat": 40.686854,
     "lng": -73.993549,
     "address": "9275 Pine St, Brooklyn, NY 10810"
   },
   {
-    "name": "Maple Market",
+    "name": "Foxridge",
     "type": "store",
     "lat": 40.672258,
     "lng": -74.08814,
     "address": "7561 Lake St, Manhattan, NY 11221"
   },
   {
-    "name": "Peterson Market",
+    "name": "Sablefield",
     "type": "atm",
     "lat": 40.621956,
     "lng": -73.998913,
     "address": "2131 Cedar St, Queens, NY 10291"
   },
   {
-    "name": "Maple Station",
+    "name": "Goldcenter",
     "type": "gas station",
     "lat": 40.8089,
     "lng": -73.934961,
     "address": "1226 Lake St, Staten Island, NY 11270"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Cloudstone",
     "type": "clinic",
     "lat": 40.772136,
     "lng": -74.076616,
     "address": "4639 Sunset St, Queens, NY 10641"
   },
   {
-    "name": "Maple Point",
+    "name": "Frostwick",
     "type": "atm",
     "lat": 40.694161,
     "lng": -74.050823,
     "address": "880 Pine St, Bronx, NY 11687"
   },
   {
-    "name": "Maple Health",
+    "name": "Pineoutlet",
     "type": "store",
     "lat": 40.691203,
     "lng": -74.074834,
     "address": "7390 Cedar St, Brooklyn, NY 10599"
   },
   {
-    "name": "Sunset Station",
+    "name": "Misthollow",
     "type": "atm",
     "lat": 40.762928,
     "lng": -73.923909,
     "address": "6105 Maple St, Manhattan, NY 11038"
   },
   {
-    "name": "Maple Station",
+    "name": "Froststone",
     "type": "atm",
     "lat": 40.729586,
     "lng": -74.087988,
     "address": "7804 Pine St, Staten Island, NY 10189"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Pinerun",
     "type": "gas station",
     "lat": 40.656022,
     "lng": -74.043232,
     "address": "7209 Cedar St, Staten Island, NY 10019"
   },
   {
-    "name": "Brighton Plaza",
+    "name": "Ravenmere",
     "type": "atm",
     "lat": 40.661638,
     "lng": -74.031417,
     "address": "4403 Oak St, Bronx, NY 11522"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Foxmere",
     "type": "store",
     "lat": 40.757331,
     "lng": -73.945139,
     "address": "5829 Washington St, Brooklyn, NY 11762"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Ravenwick",
     "type": "gas station",
     "lat": 40.692522,
     "lng": -73.96747,
     "address": "1570 Sunset St, Staten Island, NY 11706"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Silverbank",
     "type": "eatery",
     "lat": 40.676552,
     "lng": -73.977424,
     "address": "105 Sunset St, Manhattan, NY 11474"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Hearthwatch",
     "type": "atm",
     "lat": 40.668365,
     "lng": -74.060811,
     "address": "8953 Oak St, Bronx, NY 11618"
   },
   {
-    "name": "Sunset Station",
+    "name": "Driftwick",
     "type": "store",
     "lat": 40.762134,
     "lng": -74.09488,
     "address": "397 Pine St, Queens, NY 10804"
   },
   {
-    "name": "Peterson Center",
+    "name": "Starwill",
     "type": "clinic",
     "lat": 40.624907,
     "lng": -74.074289,
     "address": "4203 Oak St, Brooklyn, NY 10880"
   },
   {
-    "name": "Riverside Center",
+    "name": "Frosthollow",
     "type": "eatery",
     "lat": 40.737573,
     "lng": -74.098944,
     "address": "7890 Sunset St, Queens, NY 10050"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Cloudhill",
     "type": "eatery",
     "lat": 40.679997,
     "lng": -74.040095,
     "address": "4591 Cedar St, Queens, NY 10563"
   },
   {
-    "name": "Lakeside Center",
+    "name": "Oakplaza",
     "type": "gas station",
     "lat": 40.76397,
     "lng": -73.939191,
     "address": "1612 Hill St, Staten Island, NY 11499"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Ironpine",
     "type": "store",
     "lat": 40.671451,
     "lng": -73.937988,
     "address": "8390 Pine St, Bronx, NY 10235"
   },
   {
-    "name": "Lakeside Station",
+    "name": "Ashfield",
     "type": "store",
     "lat": 40.636493,
     "lng": -73.991206,
     "address": "106 Pine St, Queens, NY 10120"
   },
   {
-    "name": "Peterson Group",
+    "name": "Frostpoint",
     "type": "clinic",
     "lat": 40.753982,
     "lng": -73.912481,
     "address": "6331 Hill St, Brooklyn, NY 11154"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Elmvault",
     "type": "atm",
     "lat": 40.685913,
     "lng": -74.047082,
     "address": "9649 Pine St, Bronx, NY 10579"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Silverwatch",
     "type": "clinic",
     "lat": 40.69718,
     "lng": -74.034533,
     "address": "6705 Lake St, Brooklyn, NY 10117"
   },
   {
-    "name": "Maple Health",
+    "name": "Silverreach",
     "type": "eatery",
     "lat": 40.812663,
     "lng": -73.959449,
     "address": "3537 Sunset St, Queens, NY 10792"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Stonefield",
     "type": "store",
     "lat": 40.716545,
     "lng": -74.0614,
     "address": "6761 Lake St, Staten Island, NY 11708"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Sablestead",
     "type": "clinic",
     "lat": 40.761028,
     "lng": -74.015169,
     "address": "5699 Hill St, Bronx, NY 11141"
   },
   {
-    "name": "Hilltop Station",
+    "name": "Hollowpine",
     "type": "clinic",
     "lat": 40.736308,
     "lng": -74.091846,
     "address": "1645 Main St, Bronx, NY 11643"
   },
   {
-    "name": "Brighton Health",
+    "name": "Glimmermere",
     "type": "eatery",
     "lat": 40.73551,
     "lng": -73.945509,
     "address": "5981 Sunset St, Bronx, NY 10483"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Cloudpine",
     "type": "store",
     "lat": 40.664768,
     "lng": -73.909609,
     "address": "2659 Lake St, Brooklyn, NY 10366"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Thornmere",
     "type": "atm",
     "lat": 40.6977,
     "lng": -74.010034,
     "address": "9957 Oak St, Queens, NY 11455"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Starvault",
     "type": "eatery",
     "lat": 40.718933,
     "lng": -73.998752,
     "address": "4685 Sunset St, Staten Island, NY 11293"
   },
   {
-    "name": "Hilltop Point",
+    "name": "Nighthollow",
     "type": "atm",
     "lat": 40.699965,
     "lng": -74.030674,
     "address": "7669 Hill St, Queens, NY 11037"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Silverstone",
     "type": "eatery",
     "lat": 40.736573,
     "lng": -73.969511,
     "address": "7723 Lake St, Manhattan, NY 11884"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Elmoutlet",
     "type": "store",
     "lat": 40.746126,
     "lng": -74.037393,
     "address": "5339 Hill St, Brooklyn, NY 10984"
   },
   {
-    "name": "Maple Plaza",
+    "name": "Moonstone",
     "type": "clinic",
     "lat": 40.763157,
     "lng": -74.09179,
     "address": "9527 Washington St, Brooklyn, NY 10215"
   },
   {
-    "name": "Lakeside Group",
+    "name": "Driftbarrow",
     "type": "clinic",
     "lat": 40.745924,
     "lng": -73.943397,
     "address": "4366 Sunset St, Staten Island, NY 10743"
   },
   {
-    "name": "Sunset Station",
+    "name": "Elmstead",
     "type": "store",
     "lat": 40.788867,
     "lng": -74.102895,
     "address": "6715 Main St, Bronx, NY 11613"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Ashbridge",
     "type": "gas station",
     "lat": 40.680792,
     "lng": -74.015747,
     "address": "5203 Maple St, Staten Island, NY 11296"
   },
   {
-    "name": "Brighton Health",
+    "name": "Hollowoutlet",
     "type": "clinic",
     "lat": 40.784966,
     "lng": -73.964651,
     "address": "687 Sunset St, Manhattan, NY 10937"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Foxplaza",
     "type": "clinic",
     "lat": 40.631553,
     "lng": -74.017933,
     "address": "6144 Cedar St, Queens, NY 11559"
   },
   {
-    "name": "Peterson Outlet",
+    "name": "Moonpine",
     "type": "clinic",
     "lat": 40.760061,
     "lng": -73.97664,
     "address": "6654 Sunset St, Queens, NY 11833"
   },
   {
-    "name": "Hilltop Plaza",
+    "name": "Driftmarket",
     "type": "atm",
     "lat": 40.8071,
     "lng": -73.943534,
     "address": "5930 Main St, Brooklyn, NY 11176"
   },
   {
-    "name": "Peterson Market",
+    "name": "Goldfen",
     "type": "store",
     "lat": 40.716935,
     "lng": -73.909855,
     "address": "135 Maple St, Bronx, NY 10479"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Ravenreach",
     "type": "gas station",
     "lat": 40.675776,
     "lng": -74.011239,
     "address": "174 Hill St, Manhattan, NY 10724"
   },
   {
-    "name": "Peterson Station",
+    "name": "Glimmerpine",
     "type": "gas station",
     "lat": 40.71137,
     "lng": -74.079561,
     "address": "8468 Lake St, Staten Island, NY 10741"
   },
   {
-    "name": "Riverside Health",
+    "name": "Thorngrove",
     "type": "atm",
     "lat": 40.757725,
     "lng": -74.057787,
     "address": "1448 Hill St, Staten Island, NY 11786"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Sablecenter",
     "type": "atm",
     "lat": 40.650899,
     "lng": -73.977481,
     "address": "4902 Hill St, Queens, NY 10963"
   },
   {
-    "name": "Hilltop Market",
+    "name": "Mistbridge",
     "type": "eatery",
     "lat": 40.648804,
     "lng": -74.068402,
     "address": "8478 Washington St, Bronx, NY 10690"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Driftpine",
     "type": "clinic",
     "lat": 40.792219,
     "lng": -74.054278,
     "address": "2498 Lake St, Queens, NY 11421"
   },
   {
-    "name": "Brighton Health",
+    "name": "Brightbridge",
     "type": "clinic",
     "lat": 40.786086,
     "lng": -74.077228,
     "address": "780 Hill St, Staten Island, NY 10087"
   },
   {
-    "name": "Sunset Market",
+    "name": "Ravenfield",
     "type": "clinic",
     "lat": 40.636732,
     "lng": -74.034327,
     "address": "1515 Lake St, Staten Island, NY 10117"
   },
   {
-    "name": "Peterson Plaza",
+    "name": "Ravenstone",
     "type": "store",
     "lat": 40.72729,
     "lng": -74.101592,
     "address": "7584 Pine St, Manhattan, NY 10692"
   },
   {
-    "name": "Greenwood Point",
+    "name": "Hollowreach",
     "type": "clinic",
     "lat": 40.688432,
     "lng": -74.090871,
     "address": "3275 Sunset St, Bronx, NY 11520"
   },
   {
-    "name": "Greenwood Market",
+    "name": "Brighthill",
     "type": "atm",
     "lat": 40.650762,
     "lng": -73.946351,
     "address": "6438 Lake St, Brooklyn, NY 11406"
   },
   {
-    "name": "Hilltop Group",
+    "name": "Suncenter",
     "type": "eatery",
     "lat": 40.753843,
     "lng": -74.05923,
     "address": "375 Hill St, Bronx, NY 10264"
   },
   {
-    "name": "Brighton Group",
+    "name": "Thornbank",
     "type": "clinic",
     "lat": 40.671252,
     "lng": -73.909525,
     "address": "3950 Maple St, Manhattan, NY 10255"
   },
   {
-    "name": "Lakeside Outlet",
+    "name": "Pinegrove",
     "type": "gas station",
     "lat": 40.652186,
     "lng": -74.057814,
     "address": "5148 Sunset St, Staten Island, NY 10581"
   },
   {
-    "name": "Greenwood Group",
+    "name": "Ashgrove",
     "type": "atm",
     "lat": 40.650363,
     "lng": -73.98686,
     "address": "8994 Washington St, Manhattan, NY 10166"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Windpoint",
     "type": "gas station",
     "lat": 40.698722,
     "lng": -74.009934,
     "address": "4857 Main St, Queens, NY 11471"
   },
   {
-    "name": "Peterson Health",
+    "name": "Ravenbarrow",
     "type": "gas station",
     "lat": 40.663163,
     "lng": -74.013228,
     "address": "3884 Main St, Staten Island, NY 11406"
   },
   {
-    "name": "Riverside Station",
+    "name": "Cloudwick",
     "type": "atm",
     "lat": 40.656998,
     "lng": -74.073,
     "address": "7391 Washington St, Queens, NY 11885"
   },
   {
-    "name": "Riverside Outlet",
+    "name": "Cinderpine",
     "type": "atm",
     "lat": 40.647736,
     "lng": -73.938127,
     "address": "692 Pine St, Manhattan, NY 11654"
   },
   {
-    "name": "Greenwood Plaza",
+    "name": "Elmwill",
     "type": "clinic",
     "lat": 40.73078,
     "lng": -74.057959,
     "address": "563 Main St, Manhattan, NY 10418"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Hearthmere",
     "type": "atm",
     "lat": 40.760595,
     "lng": -74.025893,
     "address": "3534 Lake St, Brooklyn, NY 11451"
   },
   {
-    "name": "Lakeside Health",
+    "name": "Mistvault",
     "type": "store",
     "lat": 40.642519,
     "lng": -73.996067,
     "address": "4399 Oak St, Bronx, NY 11966"
   },
   {
-    "name": "Peterson Group",
+    "name": "Sunhollow",
     "type": "clinic",
     "lat": 40.667773,
     "lng": -74.057655,
     "address": "6637 Oak St, Manhattan, NY 10996"
   },
   {
-    "name": "Riverside Plaza",
+    "name": "Sablemarket",
     "type": "gas station",
     "lat": 40.769918,
     "lng": -73.964044,
     "address": "9385 Oak St, Staten Island, NY 11335"
   },
   {
-    "name": "Sunset Station",
+    "name": "Ravenvault",
     "type": "gas station",
     "lat": 40.739449,
     "lng": -74.005749,
     "address": "1785 Oak St, Brooklyn, NY 10819"
   },
   {
-    "name": "Peterson Market",
+    "name": "Ashstation",
     "type": "atm",
     "lat": 40.70928,
     "lng": -73.981634,
     "address": "6912 Main St, Manhattan, NY 11908"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Thornvault",
     "type": "atm",
     "lat": 40.718568,
     "lng": -74.054021,
     "address": "4276 Oak St, Brooklyn, NY 10571"
   },
   {
-    "name": "Sunset Point",
+    "name": "Brightvault",
     "type": "atm",
     "lat": 40.673662,
     "lng": -74.097183,
     "address": "2321 Sunset St, Brooklyn, NY 11439"
   },
   {
-    "name": "Riverside Point",
+    "name": "Ravenrun",
     "type": "atm",
     "lat": 40.631814,
     "lng": -73.92364,
     "address": "9491 Hill St, Brooklyn, NY 11018"
   },
   {
-    "name": "Brighton Center",
+    "name": "Brookbarrow",
     "type": "eatery",
     "lat": 40.643443,
     "lng": -73.915057,
     "address": "1210 Washington St, Staten Island, NY 10486"
   },
   {
-    "name": "Peterson Station",
+    "name": "Ironbridge",
     "type": "eatery",
     "lat": 40.662765,
     "lng": -74.070947,
     "address": "3023 Cedar St, Brooklyn, NY 10291"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Mistwick",
     "type": "store",
     "lat": 40.721967,
     "lng": -74.103907,
     "address": "2808 Elm St, Manhattan, NY 11347"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Starpoint",
     "type": "store",
     "lat": 40.750247,
     "lng": -73.962903,
     "address": "8469 Cedar St, Brooklyn, NY 10182"
   },
   {
-    "name": "Greenwood Outlet",
+    "name": "Hearthoutlet",
     "type": "gas station",
     "lat": 40.808062,
     "lng": -73.975426,
     "address": "2727 Hill St, Bronx, NY 11121"
   },
   {
-    "name": "Maple Center",
+    "name": "Cinderplaza",
     "type": "atm",
     "lat": 40.724213,
     "lng": -74.037937,
     "address": "9477 Hill St, Brooklyn, NY 10512"
   },
   {
-    "name": "Sunset Center",
+    "name": "Hearthwick",
     "type": "atm",
     "lat": 40.642851,
     "lng": -74.009822,
     "address": "5515 Oak St, Manhattan, NY 11581"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Windfield",
     "type": "gas station",
     "lat": 40.62598,
     "lng": -74.094067,
     "address": "6342 Cedar St, Staten Island, NY 11707"
   },
   {
-    "name": "Lakeside Point",
+    "name": "Nightwill",
     "type": "store",
     "lat": 40.789434,
     "lng": -74.09685,
     "address": "9032 Main St, Bronx, NY 10134"
   },
   {
-    "name": "Sunset Station",
+    "name": "Goldvault",
     "type": "eatery",
     "lat": 40.777207,
     "lng": -73.915631,
     "address": "7252 Main St, Staten Island, NY 10457"
   },
   {
-    "name": "Greenwood Station",
+    "name": "Starwick",
     "type": "clinic",
     "lat": 40.636401,
     "lng": -73.984195,
     "address": "7060 Hill St, Staten Island, NY 11932"
   },
   {
-    "name": "Peterson Point",
+    "name": "Sunhaven",
     "type": "eatery",
     "lat": 40.628963,
     "lng": -73.969401,
     "address": "5095 Sunset St, Bronx, NY 11571"
   },
   {
-    "name": "Hilltop Health",
+    "name": "Foxhill",
     "type": "gas station",
     "lat": 40.70596,
     "lng": -73.96816,
     "address": "5228 Oak St, Bronx, NY 11130"
   },
   {
-    "name": "Sunset Outlet",
+    "name": "Silverrun",
     "type": "store",
     "lat": 40.717028,
     "lng": -74.025254,
     "address": "3787 Washington St, Manhattan, NY 10247"
   },
   {
-    "name": "Sunset Center",
+    "name": "Glimmerpoint",
     "type": "clinic",
     "lat": 40.757788,
     "lng": -74.015724,
     "address": "3316 Sunset St, Bronx, NY 10612"
   },
   {
-    "name": "Hilltop Center",
+    "name": "Windmere",
     "type": "atm",
     "lat": 40.619354,
     "lng": -74.098675,
     "address": "1034 Maple St, Manhattan, NY 10935"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Nighthaven",
     "type": "gas station",
     "lat": 40.685177,
     "lng": -74.069727,
     "address": "3140 Sunset St, Staten Island, NY 10329"
   },
   {
-    "name": "Maple Outlet",
+    "name": "Stonestation",
     "type": "gas station",
     "lat": 40.76703,
     "lng": -73.980887,
     "address": "2653 Elm St, Manhattan, NY 10261"
   },
   {
-    "name": "Maple Group",
+    "name": "Cinderwatch",
     "type": "store",
     "lat": 40.748426,
     "lng": -73.990219,
     "address": "7157 Main St, Bronx, NY 11789"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Foxgroup",
     "type": "store",
     "lat": 40.630913,
     "lng": -74.055952,
     "address": "8213 Maple St, Queens, NY 11973"
   },
   {
-    "name": "Riverside Center",
+    "name": "Moonhill",
     "type": "clinic",
     "lat": 40.648964,
     "lng": -74.090676,
     "address": "1502 Washington St, Bronx, NY 11994"
   },
   {
-    "name": "Riverside Point",
+    "name": "Mireplaza",
     "type": "gas station",
     "lat": 40.707498,
     "lng": -74.07618,
     "address": "2501 Lake St, Bronx, NY 11606"
   },
   {
-    "name": "Riverside Station",
+    "name": "Brasswatch",
     "type": "store",
     "lat": 40.77509,
     "lng": -73.953401,
     "address": "963 Lake St, Queens, NY 10004"
   },
   {
-    "name": "Sunset Market",
+    "name": "Ashrun",
     "type": "gas station",
     "lat": 40.752268,
     "lng": -73.986466,
     "address": "9412 Washington St, Manhattan, NY 10948"
   },
   {
-    "name": "Brighton Market",
+    "name": "Brassridge",
     "type": "clinic",
     "lat": 40.680559,
     "lng": -74.073849,
     "address": "9055 Elm St, Queens, NY 11396"
   },
   {
-    "name": "Riverside Center",
+    "name": "Cinderrun",
     "type": "eatery",
     "lat": 40.628489,
     "lng": -74.015767,
     "address": "1378 Lake St, Queens, NY 11683"
   },
   {
-    "name": "Brighton Center",
+    "name": "Brookpoint",
     "type": "eatery",
     "lat": 40.766552,
     "lng": -74.033022,
     "address": "3402 Pine St, Bronx, NY 11886"
   },
   {
-    "name": "Brighton Outlet",
+    "name": "Silverfen",
     "type": "atm",
     "lat": 40.800154,
     "lng": -74.059764,
     "address": "8485 Oak St, Manhattan, NY 10502"
   },
   {
-    "name": "Greenwood Health",
+    "name": "Miregroup",
     "type": "eatery",
     "lat": 40.726324,
     "lng": -74.067015,
     "address": "1616 Hill St, Queens, NY 11668"
   },
   {
-    "name": "Maple Market",
+    "name": "Glimmerreach",
     "type": "store",
     "lat": 40.621287,
     "lng": -73.979907,
     "address": "9733 Hill St, Brooklyn, NY 11493"
   },
   {
-    "name": "Lakeside Market",
+    "name": "Stonebridge",
     "type": "clinic",
     "lat": 40.778808,
     "lng": -74.093203,
     "address": "6768 Hill St, Staten Island, NY 10356"
   },
   {
-    "name": "Maple Center",
+    "name": "Shadowmere",
     "type": "atm",
     "lat": 40.723132,
     "lng": -73.99426,
