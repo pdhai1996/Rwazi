@@ -2,6 +2,27 @@
 
 A location-based search service that helps users find places by coordinates, radius, service types, and keywords with spatial querying capabilities.
 
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started with Docker Compose](#getting-started-with-docker-compose)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Running the Application](#running-the-application)
+  - [Accessing the Application](#accessing-the-application)
+  - [Stopping the Application](#stopping-the-application)
+- [API Reference](#api-reference)
+  - [Authentication](#authentication)
+  - [Places](#places)
+  - [Services](#services)
+  - [Favorites](#favorites)
+- [Testing Guide](#testing-guide)
+  - [Initial Credentials](#initial-credentials)
+  - [Testing Approaches](#testing-approaches)
+  - [Common Testing Scenarios](#common-testing-scenarios)
+  - [Seeding Test Data](#seeding-test-data)
+
 ## Features
 
 - Search for places by geographical location (latitude/longitude)
@@ -54,7 +75,11 @@ npm install -D dotenv-cli
 
 The application uses environment variables for configuration. Sample configuration files are provided in the `config` directory:
 
-1. The enviroment files is on the config folder
+1. Copy the sample environment file for your environment:
+   ```bash
+   cp config/.env.example config/.env.[environment]
+   ```
+   Where `[environment]` is one of: `development`, `test`, or `production`
 
 2. Edit the file with your specific settings if needed.
 
@@ -149,10 +174,15 @@ All API endpoints are documented with Swagger UI, accessible at http://localhost
 ### Initial Credentials
 
 When the application is first set up, a default admin user is created with the following credentials:
-Run npm run db:seed:dev on development environment to init user.
 
 - **Username**: `admin`
 - **Password**: `admin123`
+
+To initialize this user in a development environment:
+
+```bash
+npm run db:seed:dev
+```
 
 You can use these credentials to authenticate with the `/api/auth/login` endpoint to obtain access tokens for testing protected endpoints.
 
@@ -194,16 +224,22 @@ This project includes several test suites:
 
 ### Common Testing Scenarios
 
-- **Authentication Flow**: Login → Get resources with token → Refresh token → Access with new token
-- **Location Search**: Test different radius values and filter combinations
-  The seed data is init in NYC
-  You can try data
-    latitude: 40.7128,
-    longitude: -74.0060,
-    radius: 5
-  To start testing
-  All the place information is Fakes and use for testing only
-- **Favorites Management**: Add places to favorites → List favorites → Remove from favorites
+- **Authentication Flow**: 
+  - Login → Get resources with token → Refresh token → Access with new token
+
+- **Location Search**: 
+  - Test different radius values and filter combinations
+  - The seed data is initialized in New York City
+  - Recommended test coordinates:
+    ```
+    latitude: 40.7128
+    longitude: -74.0060
+    radius: 5 (km)
+    ```
+  - Note: All place information is fake and used for testing purposes only
+
+- **Favorites Management**: 
+  - Add places to favorites → List favorites → Remove from favorites
 
 ### Seeding Test Data
 
@@ -227,4 +263,20 @@ If you need to create additional users for testing:
 
 1. You can modify the seed script in `prisma/seed.ts` to include additional users with custom credentials
 2. Alternatively, you can use the API to create users (if your application includes user registration endpoints)
+
+#### Resetting the Database
+
+To reset the database to its initial state with seed data:
+
+```bash
+# In development mode (local)
+npx prisma migrate reset --force
+
+# In Docker environment
+docker-compose exec api npx prisma migrate reset --force
+```
+
+This will drop all tables, run migrations, and execute the seed script to recreate the initial data including the default admin user.
+
+> **Note**: The seed script is automatically run when you start the application in production or development mode using the Docker Compose setup.
 
