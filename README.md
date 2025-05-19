@@ -202,6 +202,7 @@ This project includes several test suites:
     longitude: -74.0060,
     radius: 5
   To start testing
+  All the place information is Fakes and use for testing only
 - **Favorites Management**: Add places to favorites → List favorites → Remove from favorites
 
 ### Seeding Test Data
