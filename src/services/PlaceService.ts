@@ -101,6 +101,8 @@ class PlaceService {
             p.id,
             p.name,
             p.service_id,
+            ST_X(p.location) as longitude,
+            ST_Y(p.location) as latitude,
             ST_Distance_Sphere(p.location, POINT(?, ?)) as distance,
             s.name as serviceName
             FROM Place p

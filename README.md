@@ -131,6 +131,39 @@ docker-compose -f docker-compose.dev.yaml up -d
 
 This starts just the MySQL databases (development and test) without the API, allowing you to run the app locally using your Node.js installation.
 
+Once the database is running, you can:
+
+1. Run database migrations:
+```bash
+npm run migrate:dev
+```
+
+2. Seed the database with initial data:
+```bash
+npm run db:seed:dev
+```
+
+3. Start the application in development mode:
+```bash
+npm run dev
+```
+
+4. For hot-reloading during development:
+```bash
+npm run dev:hot
+```
+
+5. Run tests:
+```bash
+# Run all unit tests
+npm run test
+
+# Run integration tests
+npm run test:integration
+```
+
+These commands use environment configurations from the `config/.env.development` and `config/.env.test` files respectively.
+
 
 
 ## Accessing the Application
