@@ -11,4 +11,11 @@ export const authValidator = {
       .isString().withMessage('Password must be a string')
       .trim().notEmpty().withMessage('Password cannot be empty'),
   ],
+  
+  refresh: [
+    body('refreshToken')
+      .exists().withMessage('Refresh token is required')
+      .isString().withMessage('Refresh token must be a string')
+      .trim().notEmpty().withMessage('Refresh token cannot be empty'),
+  ],
 };

@@ -7,4 +7,7 @@ const authRouter = Router();
 // eslint-disable-next-line @typescript-eslint/unbound-method
 authRouter.post('/login', authValidator.login, authController.login);
 
+// eslint-disable-next-line @typescript-eslint/unbound-method
+authRouter.post('/refresh', authValidator.refresh, authController.refreshToken);
+
 export { authRouter };

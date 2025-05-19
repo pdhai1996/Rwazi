@@ -5,11 +5,11 @@ A location-based search service that helps users find places by coordinates, rad
 ## Features
 
 - Search for places by geographical location (latitude/longitude)
-- Filter by distance radius (meters)
+- Filter by distance radius (kilometer)
 - Filter by service type
 - Search by keywords
 - Paginated results with distance calculations
-- Spatial indexing for fast geo-queries
+- Spatial indexing for fast geo-queries and scaling
 
 
 ## Getting Started with Docker Compose
@@ -117,7 +117,8 @@ The LocationSearch API provides the following endpoints:
 
 ### Authentication
 
-- **POST /api/login**: Authenticate users and receive an access token
+- **POST /api/auth/login**: Authenticate users and receive an access token
+- **POST /api/auth/refresh**: Get a new access token using a refresh token
 
 ### Places
 
