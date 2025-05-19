@@ -140,3 +140,56 @@ The LocationSearch API provides the following endpoints:
 - **GET /api/favorites/check/:placeId**: Check if a place is in the user's favorites
 
 All API endpoints are documented with Swagger UI, accessible at http://localhost:8081/api/docs when the application is running.
+
+## Testing Guide
+
+### Initial Credentials
+
+When the application is first set up, a default admin user is created with the following credentials:
+
+- **Username**: `admin`
+- **Password**: `admin123`
+
+You can use these credentials to authenticate with the `/api/auth/login` endpoint to obtain access tokens for testing protected endpoints.
+
+### Testing Approaches
+
+#### Manual Testing with Swagger UI
+
+The easiest way to test the API is through the Swagger UI interface:
+
+1. Start the application using one of the methods described above
+2. Navigate to http://localhost:8081/api/docs in your browser
+3. Use the Swagger interface to:
+   - Login with the admin credentials
+   - Copy the returned JWT token
+   - Authorize using the lock icon at the top of the page
+   - Test any endpoint by clicking on it, filling required parameters, and clicking "Execute"
+
+#### API Testing with Postman or Similar Tools
+
+1. Import the collection (if available in the project repository)
+2. Set up an environment with a variable for the base URL (http://localhost:8081/api)
+3. Make a POST request to `/auth/login` with the admin credentials
+4. Save the returned token to use in subsequent requests
+5. Add the token to the Authorization header as `Bearer {token}` for protected endpoints
+
+#### Automated Tests
+
+This project includes several test suites:
+
+- **Unit Tests**: Test individual components in isolation
+  ```bash
+  npm run test
+  ```
+
+- **Integration Tests**: Test API endpoints with a test database
+  ```bash
+  npm run test:integration
+  ```
+
+### Common Testing Scenarios
+
+- **Authentication Flow**: Login → Get resources with token → Refresh token → Access with new token
+- **Location Search**: Test different radius values and filter combinations
+- **Favorites Management**: Add places to favorites → List favorites → Remove from favorites
