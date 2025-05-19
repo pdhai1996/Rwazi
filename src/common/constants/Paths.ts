@@ -12,6 +12,10 @@ export default {
     Base: '/places',
     Search: '/search',
   },
+  Services: {
+    Base: '/services',
+    GetAll: '',
+  },
   Favorites: {
     Base: '/favorites',
     Add: '',

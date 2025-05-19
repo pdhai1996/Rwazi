@@ -126,10 +126,16 @@ The LocationSearch API provides the following endpoints:
   - Optional parameters: `serviceId`, `keyword`, `page`, `pageSize`
   - Returns places with distance calculation from search point and pagination
 
+### Services
+
+- **GET /api/services**: Get all available service categories
+  - Returns a list of all service categories with id, name, and slug
+
 ### Favorites
 
 - **POST /api/favorites**: Add a place to user's favorites
 - **GET /api/favorites**: Get user's favorited places with pagination
 - **DELETE /api/favorites/:favoriteId**: Remove a place from favorites
+- **GET /api/favorites/check/:placeId**: Check if a place is in the user's favorites
 
 All API endpoints are documented with Swagger UI, accessible at http://localhost:8081/api/docs when the application is running.

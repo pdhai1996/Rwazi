@@ -5,6 +5,7 @@ import UserRoutes from './UserRoutes';
 // import { UserController } from '@src/controllers/UserController';
 import { authRouter } from './AuthRoutes';
 import { placeRouter } from './PlaceRoutes';
+import { serviceRouter } from './ServiceRoutes';
 import { favoriteRouter } from './FavoriteRoutes';
 import { swaggerRouter } from './SwaggerRoutes';
 
@@ -35,7 +36,8 @@ apiRouter.use('/auth', authRouter);
 // Add PlaceRouter
 apiRouter.use(Paths.Places.Base, placeRouter);
 
-// Import FavoriteRouter
+// Add ServiceRouter
+apiRouter.use(Paths.Services.Base, serviceRouter);
 
 // Add FavoriteRouter
 apiRouter.use(Paths.Favorites.Base, favoriteRouter);
