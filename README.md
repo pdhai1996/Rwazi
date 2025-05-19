@@ -5,13 +5,16 @@ A location-based search service that helps users find places by coordinates, rad
 ## Table of Contents
 
 - [Features](#features)
-- [Getting Started with Docker Compose](#getting-started-with-docker-compose)
+- [Quick Start with Docker](#quick-start-with-docker)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [Running the Application in Production Mode](#running-the-application-in-production-mode)
+- [Detailed Setup Instructions](#detailed-setup-instructions)
+  - [Prerequisites for Development](#prerequisites-for-development)
+  - [Installation for Development](#installation-for-development)
   - [Configuration](#configuration)
-  - [Running the Application](#running-the-application)
-  - [Accessing the Application](#accessing-the-application)
-  - [Stopping the Application](#stopping-the-application)
+  - [Running in Development Mode](#running-in-development-mode)
+- [Accessing the Application](#accessing-the-application)
+- [Stopping the Application](#stopping-the-application)
 - [API Reference](#api-reference)
   - [Authentication](#authentication)
   - [Places](#places)
@@ -33,20 +36,48 @@ A location-based search service that helps users find places by coordinates, rad
 - Spatial indexing for fast geo-queries and scaling
 
 
-## Getting Started with Docker Compose
+## Quick Start with Docker
 
 The simplest way to run this application is using Docker Compose, which will set up the entire environment including the database, migrations, and API server.
 
 ### Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
-
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+
+### Running the Application in Production Mode
+
+To start the application in production mode:
+
+```bash
+docker-compose up -d
+```
+
+This command:
+1. Builds the API image
+2. Starts a MySQL database container
+3. Runs database migrations and seeds initial data
+4. Starts the API server on port 8081
+
+After starting, you can access:
+- API Endpoints: http://localhost:8081/api
+- Swagger Documentation: http://localhost:8081/api/docs
+
+To stop the application:
+```bash
+docker-compose down
+```
+
+## Detailed Setup Instructions
+
+### Prerequisites for Development
+
+If you plan to develop or customize the application, you'll also need:
 - Node.js version 20
 - npx and dotenv (for development and test modes)
 
-### Installation
+### Installation for Development
 
 To install the application and its dependencies:
 
@@ -90,23 +121,7 @@ The application uses environment variables for configuration. Sample configurati
 > 3. Add `.env` and similar files to your `.gitignore`
 > 4. Consider using a secure secrets management solution for production deployments
 
-### Running the Application
-
-#### Production Mode
-
-To start the application in production mode:
-
-```bash
-docker-compose up -d
-```
-
-This command:
-1. Builds the API image
-2. Starts a MySQL database container
-3. Runs database migrations and seeds initial data
-4. Starts the API server on port 8081
-
-#### Development Mode
+### Running in Development Mode
 
 For development with a separate database:
 
@@ -118,14 +133,14 @@ This starts just the MySQL databases (development and test) without the API, all
 
 
 
-### Accessing the Application
+## Accessing the Application
 
 After starting the containers:
 
 - API Endpoints: http://localhost:8081/api
 - Swagger Documentation: http://localhost:8081/api/docs
 
-### Stopping the Application
+## Stopping the Application
 
 To stop all running containers:
 
