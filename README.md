@@ -54,13 +54,16 @@ npm install -D dotenv-cli
 
 The application uses environment variables for configuration. Sample configuration files are provided in the `config` directory:
 
-1. Copy the sample environment file for production:
-
-```bash
-cp config/.env.example config/.env.production
-```
+1. The enviroment files is on the config folder
 
 2. Edit the file with your specific settings if needed.
+
+> **Important Security Note**: The sample environment files in the `config` directory contain default configurations for development, testing and production. For a production deployment, you should:
+> 
+> 1. Create your own environment files with secure credentials
+> 2. Never commit environment files containing sensitive information to version control
+> 3. Add `.env` and similar files to your `.gitignore`
+> 4. Consider using a secure secrets management solution for production deployments
 
 ### Running the Application
 
