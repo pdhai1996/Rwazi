@@ -51,38 +51,29 @@ class PlaceService {
     const size = pageSize && pageSize > 0 ? pageSize : 20;
     const offset = (currentPage - 1) * size;
         
-    // Create the base WHERE clause parameters - these will be used for both queries
-    const whereParams: any[] = [
-      location.lng,
-      location.lat,
-      radius,
-    ];
-
-    // Start building the WHERE clause
-    const whereClauses = ['ST_Distance_Sphere(p.location, POINT(?, ?)) <= ?'];
-        
-    // Add service filter if provided
-    if (serviceId !== undefined) {
-      whereClauses.push('p.service_id = ?');
-      whereParams.push(serviceId);
-    }
-        
-    // Add keyword search if provided
-    if (keyword && keyword.trim().length > 0) {
-      whereClauses.push('p.name LIKE ?');
-      whereParams.push(`%${keyword.trim()}%`);
-    }
-        
-    // Combine WHERE clauses
-    const whereClause = whereClauses.join(' AND ');
 
     // First, get the total count for pagination info
+    // Using the spatial index for more efficient counting
+    const countParams = [
+      location.lng,    // Parameters for MBRContains with ST_Buffer
+      location.lat,
+      radius/111000,   // Convert radius from meters to approximate degrees (1 degree ≈ 111km)
+      location.lng,    // Parameters for ST_Distance_Sphere
+      location.lat,
+      radius,          // Radius in meters for final distance filter
+      ...(serviceId !== undefined ? [serviceId] : []), // Add service filter if provided
+      ...(keyword && keyword.trim().length > 0 ? [`%${keyword.trim()}%`] : []), // Add keyword filter if provided
+    ];
+    
     const countResult = await prisma.$queryRawUnsafe<{total: bigint}[]>(`
             SELECT COUNT(*) as total
             FROM Place p
             JOIN Service s ON p.service_id = s.id
-            WHERE ${whereClause}
-        `, ...whereParams);
+            WHERE MBRContains(ST_Buffer(POINT(?, ?), ?), p.location) 
+            AND ST_Distance_Sphere(p.location, POINT(?, ?)) <= ?
+            ${serviceId !== undefined ? 'AND p.service_id = ?' : ''}
+            ${keyword && keyword.trim().length > 0 ? 'AND p.name LIKE ?' : ''}
+        `, ...countParams);
         
     const totalRecords = Number(countResult[0].total);
     const totalPages = Math.ceil(totalRecords / size);
@@ -91,12 +82,20 @@ class PlaceService {
     const selectParams = [
       location.lng,    // Add coordinates again for the distance calculation
       location.lat,
-      ...whereParams, // Add the WHERE clause parameters
+      location.lng,    // Parameters for MBRContains with ST_Buffer
+      location.lat,
+      radius/111000,   // Convert radius from meters to approximate degrees (1 degree ≈ 111km)
+      location.lng,    // Parameters for ST_Distance_Sphere
+      location.lat,
+      radius,          // Radius in meters for final distance filter
+      ...(serviceId !== undefined ? [serviceId] : []), // Add service filter if provided
+      ...(keyword && keyword.trim().length > 0 ? [`%${keyword.trim()}%`] : []), // Add keyword filter if provided
       size,            // Add pagination parameters
       offset,
     ];
 
     // Then get the actual results for the current page
+    // Using a modified query that takes advantage of the spatial index with MBRContains and ST_Buffer
     const results = await prisma.$queryRawUnsafe<SearchPlacesResult[]>(`
             SELECT 
             p.id,
@@ -106,11 +105,14 @@ class PlaceService {
             s.name as serviceName
             FROM Place p
             JOIN Service s ON p.service_id = s.id
-            WHERE ${whereClause}
+            WHERE MBRContains(ST_Buffer(POINT(?, ?), ?), p.location) 
+            AND ST_Distance_Sphere(p.location, POINT(?, ?)) <= ?
+            ${serviceId !== undefined ? 'AND p.service_id = ?' : ''}
+            ${keyword && keyword.trim().length > 0 ? 'AND p.name LIKE ?' : ''}
             ORDER BY distance ASC
             LIMIT ? OFFSET ?
         `, ...selectParams);
-        
+
     // Return paginated result with metadata
     return {
       data: results,
